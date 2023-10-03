@@ -7,65 +7,62 @@
     <link rel="stylesheet" href="styles/Menu/menu.css">
 </head>
 <body>
-    <header>
-        <div>
+   <header>
+        <div id="containerTop">
            <div id="logo">
-                <a href="#"><img src="" alt=""></a>
+                <a href="#"><img src="Imagem/Logo/logo.svg" alt="Logo Mubak"></a>
            </div>
-           <div id="FlexInvert">
-                <div id="pesquisa">
+           <nav id="navegation">
+                <div class="MQueryPC pesquisa">
                     <input type="text">
-                    <span><img src="" alt=""></span>
+                    <span><img src="" alt="Lupa"></span>
                 </div>
-                <nav>
-                    <div id="campUser">
-                        <span><a href="$"><img src="" alt=""></a></span>
-                        <p></p>
-                    </div>
-                    <div id="campIcon">
-                        <div class="icon" id="MQueryPC">
-                            <span><img src="" alt=""></span>
-                        </div>
-                        <div class="icon">
-                            <span><img src="" alt=""></span>
-                        </div>
-                        <div class="icon Zindex">
-                            <span><img src="" alt=""></span>
-                        </div>
-                    </div>
-                </nav>
-           </div>
+                <div class="MQueryPC" id="campUserPC">
+                    <span><img src="" alt="Usuário"></span>
+                    <p></p>
+                </div>
+                <div id="campIcones">
+                    <span class="MQueryPC icon"><img src="" alt="Coração"></span>
+                    <span class="icon"><img src="Imagem/Icones/shopping_cart.svg" alt="Carrinho de compras"></span>
+                    <span class="icon Zindex"><img src="Imagem/Icones/bars-solid.svg" alt="Menu"></span>
+                </div>
+           </nav>
+        </div>
+        <div class="pesquisa">
+            <div>
+                <input type="text" placeholder="Pesquisa">
+            </div>
+            <span><img src="Imagem/Icones/lupa.svg" alt="Lupa"></span>
         </div>
         <div id="menuMobile">
-            <div #campUserMobile>
-                <span><img src="" alt=""></span>
-                <p></p>
+            <div id="campUser">
+                <span><img src="Imagem/Icones/circle-user-solid.svg" alt="Usuário"></span>
+                <div>
+                    <p>Entre ou Cadastre-se</p>
+                    <p class="txtMenor">A melhor experiência em um so lugar</p>
+                </div>
             </div>
             <nav>
                 <ul>
-                    <li class="itens">
-                        <span class="iconMobile"></span>
-                        <p></p>
+                    <li class="listMenu">
+                        <span><img src="Imagem/Icones/house-user-solid.svg" alt="Minha conta"></span>
+                        <p>Minha Conta</p>
                     </li>
-                    <li class="itens">
-                        <span class="iconMobile"></span>
-                        <p></p>
+                    <li class="listMenu">
+                        <span><img src="Imagem/Icones/basket-shopping-solid.svg" alt="Meus Pedidos"></span>
+                        <p>Meus Pedidos</p>
                     </li>
-                    <li class="itens">
-                        <span class="iconMobile"></span>
-                        <p></p>
+                    <li class="listMenu">
+                        <span><img src="Imagem/Icones/CoracaoVazio.svg" alt="Favoritos"></span>
+                        <p>Favoritos</p>
                     </li>
-                    <li class="itens">
-                        <span class="iconMobile"></span>
-                        <p></p>
+                    <li class="listMenu">
+                        <span><img src="Imagem/Icones/headset-solid.svg" alt="Contato"></span>
+                        <p>Contate-nos</p>
                     </li>
                 </ul>
             </nav>
-            <div id="ButtonLogin">
-                <button type="button">Login</button>
-                <button type="button">Cadastro</button>
-            </div>
         </div>
-    </header>
+   </header>
 </body>
 </html>

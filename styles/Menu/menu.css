@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Maronpe";
+    src: url(../../fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+:root{
+    /* Fontes */
+    --fontMain: 'Maronpe';
+
+    /* Cores */
+    --colorBlue: #175073;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +25,181 @@ body{
 }
 
 header{
+    display: grid;
+    justify-items: center;
     width: 100%;
+    min-width: 280px;
     height: 140px;
-    padding: 15px 12px;
+    padding: 12px 15px;
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 10%);
+}
+header > div#containerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+div#logo, div#logo > a, div#logo > a > img{
+    display: block;
+    width: 166px;
+    height: 100%;
+}
+
+nav#navegation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+div#campIcones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    height: 100%;
+}
+div#campIcones > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+div#campIcones > span > img{
+    width: 35px;
+    height: 35px;
+}
+span.Zindex{
+    z-index: 10;
+}
+
+div.pesquisa{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    height: 35px;
+}
+div.pesquisa > div{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+}
+div.pesquisa > div > input{
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 1em;
+    background-color: #C1BABA;
+}
+div.pesquisa > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+div.pesquisa > span > img{
+    width: 85%;
+    height: 85%;
+}
+
+div#menuMobile{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-width: 280px;
+    height: 100vh;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+}
+div#campUser{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 70px;
+    margin-top: 50px;
+}
+div#campUser > span{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+}
+div#campUser > span > img{
+    width: 40px;
+    height: 40px;
+}
+
+div#campUser > div{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-left: 5px;
+}
+div#campUser > div > p{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    font-family: var(--fontMain);
+    font-size: 19px;
+    font-weight: bolder;
+    color: var(--colorBlue);
+}
+div#campUser > div > .txtMenor{
+    font-size: 10px;
+    color: black;
+}
+
+div#menuMobile > nav{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+div#menuMobile > nav > ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+li.listMenu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #175073;
+    cursor: pointer;
+}
+li.listMenu > span{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+li.listMenu > p{
+    font-family: var(--fontMain);
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3d3d3d;
+}
+
+
+
+.MQueryPC{
+    display: none !important;
 }
