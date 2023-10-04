@@ -116,12 +116,14 @@ div.pesquisa > span > img{
 }
 
 div#menuMobile{
+    visibility: hidden;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100vw;
     min-width: 280px;
     height: 100vh;
+    min-height: 611px;
     padding: 10px;
     position: relative;
     position: absolute;
