@@ -266,3 +266,7 @@ button.button2{
 .MQueryPC{
     display: none !important;
 }
+
+@media screen and (min-width: 410px) and (max-width: 768px){
+    
+}

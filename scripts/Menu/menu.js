@@ -7,7 +7,6 @@ function Menu(event){
     campIcones.classList.toggle('ativo')
 
     const chaveMenu = campMobile.classList.contains('ativo')
-
     if(chaveMenu === true){
         campMobile.style.visibility = 'visible'
     }else{
