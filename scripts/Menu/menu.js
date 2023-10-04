@@ -2,9 +2,12 @@ const menuBurgue = document.querySelector('#menuBurgue')
 function Menu(event){
     event.preventDefault()
     const campMobile = document.querySelector('#menuMobile')
+    const campIcones = document.querySelector('#campIcones')
     campMobile.classList.toggle('ativo')
-    console.log(event)
+    campIcones.classList.toggle('ativo')
+
     const chaveMenu = campMobile.classList.contains('ativo')
+
     if(chaveMenu === true){
         campMobile.style.visibility = 'visible'
     }else{
