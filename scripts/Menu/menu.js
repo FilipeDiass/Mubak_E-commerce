@@ -4,7 +4,7 @@ function Menu(event){
     const campMobile = document.querySelector('#menuMobile')
     const campIcones = document.querySelector('#campIcones')
     campMobile.classList.toggle('ativo')
-    campIcones.classList.toggle('ativo')
+    campIcones.classList.toggle('anima')
 
     const chaveMenu = campMobile.classList.contains('ativo')
     if(chaveMenu === true){

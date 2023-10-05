@@ -87,7 +87,7 @@ span.Zindex > span{
     border-radius: 5px;
     background: var(--colorBlue);
 }
-div.ativo > .Zindex > span{
+div.anima > .Zindex > span{
     visibility: hidden;
     margin: 0px;
 }
@@ -100,11 +100,11 @@ span.Zindex::after, span.Zindex::before{
     background: var(--colorBlue);
     transition: 0.3s;
 }
-div.ativo > .Zindex::after{
+div.anima > .Zindex::after{
     position: absolute;
     transform: rotate(45deg);
 }
-div.ativo > .Zindex::before{
+div.anima > .Zindex::before{
     position: absolute;
     transform: rotate(135deg);
 }
@@ -151,21 +151,29 @@ div#menuMobile{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    min-width: 280px;
+    width: 0vw;
+    min-width: 0px;
     height: 100vh;
-    padding: 10px;
     position: absolute;
     top: 0;
+    left: 0;
     overflow: hidden;
+    transition: .3s;
     background-color: #ffffff;
+}
+div.ativo{
+    width: 100vw !important;
+    min-width: 280px !important;
+    right: 0 !important;
 }
 div#campUser{
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 500px;
+    min-width: 280px;
     height: 70px;
+    padding: 10px;
     margin-top: 50px;
 }
 div#campUser > span{
@@ -203,7 +211,9 @@ div#campUser > div > .txtMenor{
 div#menuMobile > nav{
     width: 100%;
     max-width: 500px;
+    min-width: 280px;
     height: calc(100vh - 285px);
+    padding: 10px;
     margin: 10px 0px 30px 0px;
     overflow-y: auto;
 }
@@ -241,10 +251,9 @@ div#loginCad{
     flex-direction: column;
     width: 100%;
     max-width: 500px;
+    min-width: 280px;
     height: 120px;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
+    padding: 10px;   
 }
 div#loginCad > button{
     width: 100%;
