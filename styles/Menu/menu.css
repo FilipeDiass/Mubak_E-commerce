@@ -271,6 +271,13 @@ button.button2{
     background-color: rgb(255, 145, 0) !important;
 }
 
+div#containerFavo{
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 0;
+    background-color: white;
+}
 
 .MQueryPC{
     display: none !important;
