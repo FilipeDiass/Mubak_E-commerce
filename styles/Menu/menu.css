@@ -77,7 +77,7 @@ div#campIcones > span > img{
 span.Zindex{
     flex-direction: column;
     position: relative;
-    z-index: 10;
+    /* z-index: 10; */
 }
 span.Zindex > span{
     display: block;
@@ -278,6 +278,205 @@ div#containerFavo{
     top: 0;
     background-color: white;
 }
+div.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-bottom: 2px solid #3d3d3d;
+}
+div.titulo > h2{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #3d3d3d;
+    font-family: var(--fontMain);
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+div.titulo > span{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 60px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+div.carrinhoConteudo{
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-color: white;
+}
+div#carrinhoVazio{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;  
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.225);
+}
+div#carrinhoVazio > p{
+    font-family: var(--fontMain);
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+div#carrinhoVazio > button{
+    width: 70%;
+    height: 40px;
+    font-family: var(--fontMain);
+    color: white;
+    font-weight: 500;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--colorBlue);
+    cursor: pointer;
+}
+
+div#carrinhoCheio{
+    width: 100%;
+    height: 100%;
+    background-color: #C1BABA;
+}
+div#carrinhoCheio > ul{
+    width: 100%;
+    height: calc(100% - 100px);
+    overflow-y: auto;
+}
+div#carrinhoCheio > ul > li{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+div.card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+div.img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #C1BABA;
+}
+
+div.tituloQuantidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+    height: 100%;
+    margin-left: 5px;
+}
+div.tituloQuantidade > p{
+    width: 100%;
+    height: 50px;
+    font-family: var(--fontMain);
+    font-size: 1em;
+    font-weight: 600;
+    color: #3d3d3d;
+}
+div.tituloQuantidade > div{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 40px;
+}
+div.tituloQuantidade > div > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 30px;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    background-color: var(--colorBlue);
+    cursor: pointer;
+}
+.buttonMais{
+    border-radius: 0px 3px 3px 0px !important;
+}
+div.tituloQuantidade > div > button > img{
+    width: 20px;
+    height: 20px;
+}
+div.tituloQuantidade > div > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 30px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: var(--fontMain);
+    background-color: #123C56;
+}
+
+span.iconFechar{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+span.iconFechar > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.card > p{
+    height: 30px;
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-family: var(--fontMain);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+div.finalizarCompra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    border-top: 2px solid #3d3d3d;
+    background-color: white;
+}
+div.finalizarCompra > button{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--fontMain);
+    border: none;
+    border-radius: 5px;
+    background-color: var(--colorBlue);
+}
+div.finalizarCompra > p {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: var(--fontMain);
+}
+
 
 .MQueryPC{
     display: none !important;
