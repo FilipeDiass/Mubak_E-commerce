@@ -23,6 +23,9 @@
 body{
     background-color: #DFDFDF;
 }
+span{
+    user-select: none;
+}
 
 header{
     display: grid;
@@ -285,7 +288,7 @@ button.button2{
     overflow: hidden;
     background-color: #123C56;
 }
-div#containerCart{
+div.containerCartFavo{
     visibility: hidden;
     width: 0vw;
     min-width: 0px;
@@ -340,7 +343,7 @@ div.carrinhoConteudo{
     height: calc(100vh - 75px);
     background-color: white;
 }
-div#carrinhoVazio{
+div.carrinhoVazio{
     display: none;
     align-items: center;
     justify-content: center;
@@ -350,14 +353,15 @@ div#carrinhoVazio{
     height: 100%;
     background-color: rgba(255, 255, 255, 0.225);
 }
-div#carrinhoVazio > p{
+div.carrinhoVazio > p{
     font-family: var(--fontMain);
     font-size: 1.4em;
     font-weight: bold;
     margin-bottom: 10px;
 }
-div#carrinhoVazio > button{
+div.carrinhoVazio > button{
     width: 70%;
+    max-width: 240px;
     height: 40px;
     font-family: var(--fontMain);
     color: white;
@@ -369,18 +373,20 @@ div#carrinhoVazio > button{
     cursor: pointer;
 }
 
-div#carrinhoCheio{
+div.carrinhoCheio{
+    /*display: block;*/
+    display: block;
     width: 100%;
     height: 100%;
     overflow: hidden;
     background-color: #C1BABA;
 }
-div#carrinhoCheio > ul{
+div.carrinhoCheio > ul{
     width: 100%;
     height: calc(100% - 100px);
     overflow-y: auto;
 }
-div#carrinhoCheio > ul > li{
+div.carrinhoCheio > ul > li{
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
@@ -531,7 +537,52 @@ div.finalizarCompra > p {
     font-family: var(--fontMain);
 }
 
-
+div#containerFavo{
+    visibility: hidden;
+    width: 0vw;
+    min-width: 0px;
+}
+div#vazioFavo{
+    display: flex;
+}
+div#cheioFavo{
+    display: none;
+}
+div#cheioFavo{
+    height: calc(100vh + 25px);
+}
+div#QuantFavo > div > button{
+    width: 85%;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+div#QuantFavo > div > button > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+div#QuantFavo > div > button > span > img{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 360px){
+    div#QuantFavo > div > button{
+        width: 60%;
+        font-size: 0.9em;
+    }
+    div#QuantFavo > div > button > span {
+        width: 15px;
+        height: 15px;
+    }
+    div#QuantFavo > div > button > span > img{
+        width: 15px;
+        height: 15px;
+    }
+}
 
 .MQueryPC{
     display: none !important;

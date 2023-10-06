@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mubak E-ccomerce</title>
     <link rel="stylesheet" href="styles/Menu/menu.css">
-    <script defer src="scripts/Menu/menu.js"></script>
+    <script defer type="module" src="main.js"></script>
 </head>
 <body>
    <header>
@@ -49,11 +49,11 @@
                         <span><img src="Imagem/Icones/house-user-solid.svg" alt="Minha conta"></span>
                         <p>Minha Conta</p>
                     </li>
-                    <li class="listMenu">
+                    <li class="listMenu" id="meusPedidos">
                         <span><img src="Imagem/Icones/basket-shopping-solid.svg" alt="Meus Pedidos"></span>
                         <p>Meus Pedidos</p>
                     </li>
-                    <li class="listMenu">
+                    <li class="listMenu" id="meusFavoritos">
                         <span><img src="Imagem/Icones/CoracaoVazio.svg" alt="Favoritos"></span>
                         <p>Favoritos</p>
                     </li>
@@ -69,17 +69,17 @@
             </div>
         </div>
         <div class="container">
-            <div id="containerCart">
+            <div class="containerCartFavo" id="containerCart">
                 <div class="titulo">
                     <h2>CARRINHO</h2>
                     <span id="fecharCart"><img src="Imagem/Icones/circle-xmark-regular.svg" alt="Fechar"></span>
                 </div>
                 <div class="carrinhoConteudo">
-                    <div id="carrinhoVazio">
+                    <div class="carrinhoVazio">
                         <p>O seu carrinho está vazio.</p>
-                        <button>Voltar à loja</button>
+                        <button id="voltaLoja">Voltar à loja</button>
                     </div>
-                    <div id="carrinhoCheio">
+                    <div class="carrinhoCheio">
                         <ul>
                             <li>
                                 <div class="card">
@@ -103,6 +103,39 @@
                             <button>Finalizar a compra - R$<span>3.000</span></button>
                             <p>Continue compra</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="containerCartFavo" id="containerFavo">
+                <div class="titulo">
+                    <h2>FAVORITOS</h2>
+                    <span id="fecharFavo"><img src="Imagem/Icones/circle-xmark-regular.svg" alt="Fechar"></span>
+                </div>
+                <div class="carrinhoConteudo">
+                    <div class="carrinhoVazio" id="vazioFavo">
+                        <p>A sua lista está vazia.</p>
+                        <button id="voltaLojaFavo">Voltar à loja</button>
+                    </div>
+                    <div class="carrinhoCheio" id="cheioFavo">
+                        <ul>
+                            <li>
+                                <div class="card">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="tituloQuantidade" id="QuantFavo">
+                                        <p>Processador Intel Core I5-12400F</p>
+                                        <div>
+                                            <button><span><img src="Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg" alt="Carrinho adcionar"></span>Adcionar</button>
+                                        </div>
+                                    </div>
+                                    <p>R$ 1.500</p>
+                                    <span class="iconFechar"><img src="Imagem/Icones/close_FILL0_wght400_GRAD0_opsz24.svg" alt="Remove"></span>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
