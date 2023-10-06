@@ -23,6 +23,9 @@
 body{
     background-color: #DFDFDF;
 }
+span{
+    user-select: none;
+}
 
 header{
     display: grid;
@@ -271,28 +274,43 @@ button.button2{
     background-color: rgb(255, 145, 0) !important;
 }
 
+.container{
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    min-width: 280px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
 div#containerCart{
     visibility: hidden;
     width: 0vw;
+    min-width: 0px;
     height: 100vw;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     transition: .3s;
     background-color: white;
 }
 div.active{
-    width: 100vw !important;
+    width: 500px !important;
+    min-width: 280px !important;
     right: 0px !important;
 }
 div.titulo{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100%; 
+    min-width: 280px;   
     height: 60px;
     margin-top: 15px;
-    padding-left: 10px;
+    padding: 0px 0px 15px 10px ;
     overflow: hidden;
     border-bottom: 2px solid #3d3d3d;
 }
@@ -374,10 +392,10 @@ div.card{
     display: flex;
     align-items: center;
     width: 100%;
+    min-width: 280px;
     height: 100%;
     padding: 10px;
     position: relative;
-    overflow: hidden;
 }
 div.img{
     min-width: 80px;
@@ -466,6 +484,23 @@ div.card > p{
     bottom: 10px;
     overflow: hidden;
 }
+@media screen and (max-width: 310px){
+    div.tituloQuantidade{
+        width: 150px;
+    }
+    div.tituloQuantidade > div > button{
+        width: 28px;
+        height: 30px;
+    }
+    div.tituloQuantidade > div > span{
+        width: 35px;
+        height: 30px;
+    }
+    div.card > p{
+        font-size: 1.2em;
+        bottom: 8px;
+    }
+}
 
 div.finalizarCompra{
     display: flex;
@@ -473,10 +508,10 @@ div.finalizarCompra{
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    min-width: 280px;
     height: 100px;
     border-top: 2px solid #3d3d3d;
     background-color: white;
-    overflow: hidden;
 }
 div.finalizarCompra > button{
     width: 90%;
