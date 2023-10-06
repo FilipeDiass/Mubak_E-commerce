@@ -23,9 +23,6 @@
 body{
     background-color: #DFDFDF;
 }
-span{
-    user-select: none;
-}
 
 header{
     display: grid;
@@ -279,12 +276,14 @@ button.button2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 100vw;
+    max-width: 500px;
     min-width: 280px;
     height: 100vh;
     position: absolute;
     top: 0;
     overflow: hidden;
+    background-color: #123C56;
 }
 div#containerCart{
     visibility: hidden;
@@ -298,7 +297,7 @@ div#containerCart{
     background-color: white;
 }
 div.active{
-    width: 500px !important;
+    width: 100% !important;
     min-width: 280px !important;
     right: 0px !important;
 }
