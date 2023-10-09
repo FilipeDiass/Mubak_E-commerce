@@ -163,6 +163,7 @@ div#menuMobile{
     overflow: hidden;
     transition: .3s;
     background-color: #ffffff;
+    z-index: 1;
 }
 div.ativo{
     width: 100vw !important;
@@ -287,6 +288,7 @@ button.button2{
     top: 0;
     overflow: hidden;
     background-color: #123C56;
+    z-index: 1;
 }
 div.containerCartFavo{
     visibility: hidden;
