@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Maronpe";
+    src: url(../../fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+:root{
+    /* Fontes */
+    --fontMain: 'Maronpe';
+
+    /* Cores */
+    --colorBlue: #175073;
+    --colorOrange: #F29F05;
+}
+
+section.containerCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+div.campCards{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 290px;
+    padding: 0px 10px;
+    overflow-x: auto;
+}
+div.campCards::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+    height: 5px; /* Altura da barra de rolagem */
+}
+div.campCards::-webkit-scrollbar-track {
+    background-color: #C1BABA; /* Cor do fundo da barra de rolagem */
+  }
+div.campCards::-webkit-scrollbar-thumb {
+    background-color: var(--colorBlue); /* Cor do polegar da barra de rolagem */
+}
+
+div.campCards > div{
+    flex: 0 0 auto;
+    width: 120px;
+    height: 215px;
+    margin-right: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 5px rgb(0, 0, 0, 30%);
+}
+#lastCard{
+    margin-right: 0px;
+}
+div.screen{
+    width: 100%;
+    height: 45%;
+    position: relative;
+    background-color: gray;
+}
+div.screen > img{
+    width: 100%;
+    height: 100%;
+}
+div.screen > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+div.screen >div > span, div.screen > div > span > img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+div.tituloCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: var(--fontMain);
+    overflow: hidden;
+}
+
+div.avaliar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    padding: 3px;
+    margin:10px 0px ;
+}
+div.avaliar > p{
+    font-size: 0.5em;
+    font-weight: bold;
+    font-family: var(--fontMain);
+    color: #727272;
+}
+
+div.preco{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    padding: 3px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: var(--fontMain);
+}
+div.preco > span{
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+
+
+
+
+
