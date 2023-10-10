@@ -50,8 +50,8 @@ div.campCards::-webkit-scrollbar-thumb {
 
 div.campCards > div{
     flex: 0 0 auto;
-    width: 165px;
-    height: 310px;
+    width: 150px;
+    height: 290px;
     margin-right: 15px;
     border-radius: 5px;
     overflow: hidden;
@@ -64,25 +64,26 @@ div.screen{
     width: 100%;
     height: 45%;
     position: relative;
-    background-color: gray;
+    background-color: rgb(127, 125, 125);
 }
 div.screen > img{
     width: 100%;
     height: 100%;
+    
 }
 div.screen > div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60px;
+    width: 50px;
     height: 20px;
     position: absolute;
     top: 10px;
     right: 10px;
 }
 div.screen >div > span, div.screen > div > span > img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
 
@@ -91,9 +92,9 @@ div.tituloCard{
     align-items: flex-start;
     justify-content: center;
     width: 100%;
-    height: 60px;
+    height: 50px;
     padding: 5px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     font-family: var(--fontMain);
     overflow: hidden;
@@ -103,17 +104,18 @@ div.avaliar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
-    height: 40px;
+    height: 45px;
     padding: 5px;
     margin:10px 0px ;
 }
 div.avaliar > img{
-    width: 65px;
-    height: 40px;
+    width: 80px;
+    height: 20px;
 }
 div.avaliar > p{
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: bold;
     font-family: var(--fontMain);
     color: #727272;
@@ -125,7 +127,7 @@ div.preco{
     width: 100%;
     height: 38px;
     padding: 3px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bolder;
     font-family: var(--fontMain);
 }

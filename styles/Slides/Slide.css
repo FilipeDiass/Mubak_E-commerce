@@ -83,6 +83,9 @@ section#containerSlide > #localSlide{
     border: 2px solid white;
     /* background-color: white; */
 }
+#pointer1{
+    background-color: white;
+}
 
 section#categoria{
     width: 95%;
