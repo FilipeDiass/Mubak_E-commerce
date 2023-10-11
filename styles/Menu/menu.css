@@ -23,6 +23,15 @@
 body{
     background-color: #DFDFDF;
 }
+body::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #C1BABA; /* Cor do fundo da barra de rolagem */
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: var(--colorBlue); /* Cor do polegar da barra de rolagem */
+}
 span{
     user-select: none;
 }

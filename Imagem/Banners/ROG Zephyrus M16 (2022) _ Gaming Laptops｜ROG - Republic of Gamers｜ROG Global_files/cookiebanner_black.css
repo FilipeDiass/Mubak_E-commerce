@@ -1,0 +1,925 @@
+#rogProduct #cookie-policy-info[data-lang="fr"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="bt"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="pl"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="pt"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="ro"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="fi"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="bt"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="bt"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="ie"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="de"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="it"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="hu"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="cz"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="sk"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="gr"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="bg"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="nl"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="be-fr"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="be-nl"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="dk"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="se"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="es"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="uk"] .btn-setting,
+#rogProduct #cookie-policy-info[data-lang="global"] .btn-setting {
+    background: #e30017;
+    color: white;
+}
+
+#rogProduct #cookie-policy-info[data-lang="fr"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="bt"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="pl"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="pt"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="ro"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="fi"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="bt"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="bt"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="ie"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="de"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="it"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="hu"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="cz"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="sk"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="gr"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="bg"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="nl"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="be-fr"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="be-nl"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="dk"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="se"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="es"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="uk"] .btn-setting:hover,
+#rogProduct #cookie-policy-info[data-lang="global"] .btn-setting:hover {
+    background: #e30017;
+    border: 1px solid #e30017;
+    color: white;
+}
+
+#cookie-policy-info div:focus,
+#cookie-policy-info div:focus-visible,
+#cookie-policy-info a:focus,
+#cookie-policy-info a:focus-visible,
+#cookie-policy-lightbox-wrapper div:focus,
+#cookie-policy-lightbox-wrapper div:focus-visible,
+#cookie-policy-lightbox-wrapper a:focus,
+#cookie-policy-lightbox-wrapper a:focus-visible #cookie-policy-lightbox-wrapper li:focus,
+#cookie-policy-lightbox-wrapper li:focus-visible,
+#cookie-policy-lightbox-wrapper input:focus,
+#cookie-policy-lightbox-wrapper input:focus-visible {
+    outline-color: #e30017;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+#cookie-policy-info,
+#cookie-policy-info .close,
+body.show-cookie-policy-info {
+    transition: all .2s ease-in-out;
+}
+
+#rogProduct #cookie-policy-info-bg {
+    display: none;
+}
+
+#cookie-policy-info .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    background: transparent;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#cookie-policy-info .close svg {
+    width: 20px;
+    height: 20px;
+}
+
+#cookie-policy-info .close svg path {
+    fill: #878787;
+}
+
+body.show-cookie-policy-info {
+    position: relative;
+    top: initial !important;
+}
+
+#cookie-policy-info {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    position: relative;
+    width: 100%;
+    background-color: #424242;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4em;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    right: 0;
+    transform: translate(0%, 0%);
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#cookie-policy-info p {
+    margin-bottom: 0px !important;
+}
+
+#cookie-policy-info p+p {
+    margin-top: 10px !important;
+}
+
+#cookie-policy-info .cookie-policy-wrap {
+    width: 80%;
+    max-width: 1600px;
+    margin: 30px auto;
+    overflow: inherit;
+    flex-direction: row;
+}
+
+#cookie-policy-info .cookie-text-wrap {
+    position: relative;
+    float: left;
+    width: calc(100% - 410px);
+    margin: auto;
+}
+
+#cookie-policy-info .cookie-btn-box {
+    position: relative;
+    float: left;
+    margin-top: 6px;
+    margin-left: 40px;
+}
+
+#cookie-policy-info .btn-ok,
+#cookie-policy-info .btn-setting {
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    min-height: 32px;
+    line-height: 18px;
+    padding: 6px 30px;
+    color: #0094f2;
+    border: 1px solid #0094f2;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 14px;
+    transition: 0.2s;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#cookie-policy-info .btn-ok {
+    background: #0094f2;
+    color: white;
+}
+
+#cookie-policy-info .btn-setting:hover {
+    background: #0094f2;
+    color: white;
+}
+
+#cookie-policy-info .btn-ok:hover {
+    background: #0074d7;
+    border: 1px solid #0074d7;
+    color: white;
+}
+
+#cookie-policy-info .btn-ok {
+    margin-left: 10px;
+}
+
+#cookie-policy-info[data-lang="fr"] .btn-setting {
+    background: #0094f2;
+    color: white;
+}
+
+#cookie-policy-info[data-lang="fr"] .btn-setting:hover {
+    background: #0074d7;
+    border: 1px solid #0074d7;
+    color: white;
+}
+
+.show-cookie-policy-info #cookie-policy-info {
+    min-height: 90px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* lightboxbox */
+html.fixed,
+html.fixed body {
+    overflow: hidden;
+}
+
+.cookie-policy-lightbox-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    display: none;
+}
+
+.cookie-policy-lightbox-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+    margin: auto;
+    width: 900px;
+    height: 550px;
+    background: #ffffff;
+}
+
+.cookie-policy-lightbox-menu {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 447px;
+    background: #eeeeee;
+}
+
+.cookie-policy-lightbox-logo {
+    display: block;
+    width: 107px;
+    height: 23px;
+    margin: 30px 0 30px 30px;
+    padding: 0;
+    background: url(//www.asus.com/media/img/2017/images/n-logo-asus.svg) 0 0 no-repeat;
+}
+
+.cookie-policy-lightbox-logo a {
+    width: 107;
+    height: 23px;
+    display: block;
+}
+
+.cookie-policy-lightbox-list {
+    position: relative;
+    width: 240px;
+}
+
+.cookie-policy-lightbox-list li {
+    position: relative;
+    padding: 20px 0 20px 30px;
+    font-size: 15px;
+    width: 240px;
+    min-height: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #313131;
+}
+
+.cookie-policy-lightbox-list li.active {
+    color: #0094f2;
+    background: #ffffff;
+}
+
+.cookie-policy-lightbox-content {
+    position: relative;
+    float: left;
+    width: calc(100% - 240px);
+    height: 447px;
+    overflow-y: auto;
+    background: #ffffff;
+}
+
+.cookie-policy-lightbox-section {
+    position: relative;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cookie-policy-lightbox-section.isHidden {
+    display: none;
+}
+
+.cookie-policy-lightbox-active {
+    position: relative;
+    height: 28px;
+    width: 100%;
+    display: table;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.cookie-policy-lightbox-active .cookie-policy-lightbox-label {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.cookie-policy-lightbox-active .check_box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cookie-policy-lightbox-active .switch-btn {
+    position: relative;
+    width: 56px;
+    height: 28px;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 8px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cookie-policy-lightbox-active .switch-btn .switch-check {
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+
+.cookie-policy-lightbox-active .switch-btn input {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    opacity: 0;
+    z-index: 99;
+    margin: 0px;
+}
+
+.cookie-policy-lightbox-active .switch-btn input [type=checkbox] {
+    position: absolute;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-opacity: 0;
+    opacity: 0;
+    margin: 0px;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.cookie-policy-lightbox-active .switch-btn .check_box {
+    border-radius: 20px;
+    background-color: #ddd;
+    height: 28px;
+    display: block;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.cookie-policy-lightbox-active .switch-btn .check_box .switch-check {
+    position: absolute;
+    left: -2px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition-duration: .2s;
+    padding-bottom: 0;
+    z-index: 1;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px #949494;
+    border: 1px solid white;
+    top: 1px;
+}
+
+.cookie-policy-lightbox-active .switch-btn .check_box .switch-check .icon-switch-check {
+    display: none;
+    margin: 6px;
+    width: 13px;
+    height: 13px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaBJREFUeNqslU0oRFEUx998KAsLhQ0bKxt2LBTKxsrHihQboUlRImUx2cxCDWVhISMLSxY2mmRHVtggxcKQWBKhCOPjd+u8Oo15ZsbcW7/OPac753/uuffd8QVWb518RrK79FcsuHYXwwxALOhYHiTvwoTEHfJbTl6CWVChTb/lDcyD27NnGPZbrL4d06NCk5zPtd9S8mLMogrtuL6tHcxCucxfzSFT/bcVAapvwQyqUJjk566Tr0ARLCl/Xw7asSUwDZUyf4d+qv+0JdAEI8qPkPw0ddF/BQphGXziH0M03UIjUA9z0JCDQASqZG5a0kf1SS+BOIzBLkxlsas6GFd+lORHXotNshc1N5VtQZnH+gJYgYD4Z/Ib5y+BVkiomLnXh9CYZn0YqmX+JbfmLZPAiWx7XcUr5HOfUAdZIwL6YdvLdFhuvx+hE0bhQ2IBeQI2pGWmNe7/RyJFLKOArsq05krF2uASalUspM4uJwEzDiRZPOVJcId5Jbezvc9eV/IeOsybLvfcHTcSc/IVMMM8tzPQDBfwAL3wlIvAjwADAKloXaRIOAF5AAAAAElFTkSuQmCC") no-repeat;
+    background-size: 100%;
+}
+
+.cookie-policy-lightbox-active .switch-btn.on .check_box {
+    background-color: #00a8ff;
+    background: -webkit-linear-gradient(left, #33d3fe, #33a8e2);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #33d3fe, #33a8e2);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #33d3fe, #33a8e2);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #33d3fe, #33a8e2);
+    /* Standard syntax */
+}
+
+.cookie-policy-lightbox-active .switch-btn.on .check_box .switch-check {
+    border: 1px solid #00a8ff;
+    transform: translateX(23px);
+}
+
+.cookie-policy-lightbox-active .switch-btn.on .check_box .switch-check .icon-switch-check {
+    display: block;
+}
+
+.cookie-policy-lightbox-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.cookie-policy-lightbox-subtitle {
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 1.38;
+    color: #000000;
+}
+
+.cookie-policy-lightbox-text {
+    font-size: 16px;
+    line-height: 1.63;
+    color: #434343;
+    margin-top: 30px;
+}
+
+.cookie-policy-lightbox-bottom {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 102px;
+    background: #ffffff;
+    padding: 30px 40px;
+    text-align: right;
+    border-top: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cookie-policy-lightbox-bottom .btn-allow-all,
+.cookie-policy-lightbox-bottom .btn-save {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 130px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #0094f2;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    vertical-align: bottom;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cookie-policy-lightbox-bottom .btn-save {
+    margin-left: 10px;
+}
+
+.cookie-policy-lightbox-bottom .btn-allow-all:hover,
+.cookie-policy-lightbox-bottom .btn-save:hover {
+    background: #0074d7;
+}
+
+@media only screen and (max-width: 1366px) {
+    #cookie-policy-info .cookie-policy-wrap {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #cookie-policy-info {
+        top: auto;
+    }
+    
+    #cookie-policy-info .cookie-btn-box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    #cookie-policy-info {
+        z-index: 998;
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+    }
+
+    #cookie-policy-info .cookie-policy-wrap {
+        width: calc(100% - 40px);
+        margin: 30px auto;
+        overflow: initial;
+    }
+
+    #cookie-policy-info .cookie-text-wrap {
+        width: 100%;
+        float: none;
+    }
+
+    #cookie-policy-info .cookie-btn-box {
+        width: 100%;
+        float: none;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+
+    #cookie-policy-info .btn-ok,
+    #cookie-policy-info .btn-setting {
+        width: calc(50% - 5px);
+    }
+
+    /*lightbox*/
+    .cookie-policy-lightbox-wrapper {
+        height: auto;
+        width: 100%;
+    }
+
+    .cookie-policy-lightbox-header {
+        overflow-y: auto;
+        box-sizing: border;
+        position: relative;
+        padding-bottom: 80px;
+        height: calc(100vh - 74px);
+        -webkit-box-sizing: border;
+    }
+
+    .cookie-policy-lightbox-content {
+        overflow: hidden;
+    }
+
+    .cookie-policy-lightbox-menu {
+        padding-top: 0.1px;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .cookie-policy-lightbox-logo {
+        margin: 20px 0 20px 20px;
+    }
+
+    .cookie-policy-lightbox-list {
+        width: 100%;
+    }
+
+    .cookie-policy-lightbox-list li {
+        width: 100%;
+        padding: 10px 0 10px 20px;
+        font-size: 14px;
+        border-top: 1px solid #dcdcdc;
+        min-height: auto;
+    }
+
+    .cookie-policy-lightbox-list li:last-child {
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+    .cookie-policy-lightbox-content {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .cookie-policy-lightbox-section {
+        padding: 28px 20px;
+    }
+
+    .cookie-policy-lightbox-section[data-content='3'] .cookie-policy-lightbox-active {
+        margin-bottom: 20px;
+    }
+
+    .cookie-policy-lightbox-bottom {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        padding: 15px 20px;
+        height: auto;
+    }
+
+    .cookie-policy-lightbox-bottom .btn-allow-all,
+    .cookie-policy-lightbox-bottom .btn-save {
+        width: calc(50% - 5px);
+        max-width: 155px;
+    }
+
+    #cookie-policy-info .btn-ok,
+    #cookie-policy-info .btn-setting {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.cookie-policy-lightbox-logo {
+    width: auto;
+    background: url(//www.asus.com/media/img/2017/images/logo-rog.svg) 0 0 no-repeat;
+}
+
+.cookie-text-wrap {
+    background-color: #202020 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.cookie-text-wrap p {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: "roboto", Microsoft JhengHei, sans-serif !important;
+}
+
+.cookie-policy-lightbox-active .switch-btn .check_box .switch-check .icon-switch-check {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMZJREFUeNpi+P//PwNRmEGzCYhfMoI4BAGjlgmQPAHEewhrYNRiBZJngFgRiHVYCBvPUA3EekCcw/D/2iNC7tYB4p9AfACIwa7B7SRGLWaou7WBWB9o+m2QMBNQYisQlwAxI5qWIiAGebYWphgMgFYdAmKgPZqbgVgI6hRVIP4BxCeAmBnZmUxAPc5A3AfEPkB8DmiTBZCeB3IUECcDTf+LYi+SBwOB+D3UNhCuwRYQqJ5m1FICkqvALmVgsAKa/hs9LAACDADvgZ+zNTHkqwAAAABJRU5ErkJggg==") no-repeat;
+    background-size: 100%;
+}
+
+.cookie-policy-lightbox-text {
+    color: #434343;
+    padding: 0;
+}
+
+.cookie-policy-lightbox-label {
+    color: #000000;
+}
+
+#cookie-policy-info {
+    background-color: #202020;
+    z-index: 999;
+    /* border-bottom: 1px solid #424242; */
+}
+
+#cookie-policy-info a,
+.cookie-policy-lightbox-section a {
+    color: #ff3535;
+}
+
+
+#cookie-policy-info a:hover,
+.cookie-policy-lightbox-section a:hover {
+    color: #c20013;
+}
+
+#cookie-policy-info .btn-ok,
+#cookie-policy-info .btn-setting {
+    border-radius: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    min-width: 212px;
+    font-family: "roboto", Microsoft JhengHei, sans-serif;
+}
+
+#cookie-policy-info .btn-ok {
+    background: #e30017;
+    color: #ffffff;
+    border: 1px solid #e30017;
+}
+
+#cookie-policy-info .btn-setting {
+    border: 1px solid #ff3535 !important;
+    color: #ff3535 !important
+}
+
+#cookie-policy-info .btn-setting:hover {
+    background: #c20013 !important;
+    border: 1px solid #c20013 !important;
+    color: #ffffff !important;
+}
+
+#cookie-policy-info.newStyle .btn-setting {
+    background: #e30017 !important;
+    border: 1px solid #e30017 !important;
+    color: #ffffff !important;
+}
+
+#cookie-policy-info.newStyle .btn-setting:hover {
+    background: #c20013 !important;
+    border: 1px solid #c20013 !important;
+    color: #ffffff !important;
+}
+
+#cookie-policy-info .btn-ok:hover {
+    background: #c20013;
+    border: 1px solid #c20013;
+    color: #ffffff;
+}
+
+#rogProduct #cookie-policy-info .btn-ok:hover {
+    background: #c20013;
+    border: 1px solid #c20013;
+    color: #ffffff;
+}
+
+.cookie-policy-lightbox-list li.active {
+    color: #FF0029;
+}
+
+.cookie-policy-lightbox-active .switch-btn .check_box {
+    width: 48px;
+}
+
+.cookie-policy-lightbox-active .switch-btn.on .check_box {
+    background-color: #ff0029;
+    background: -webkit-linear-gradient(left, #ff4800, #ff0029);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #ff4800, #ff0029);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #ff4800, #ff0029);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #ff4800, #ff0029);
+    /* Standard syntax */
+}
+
+.cookie-policy-lightbox-active .switch-btn.on .check_box .switch-check {
+    border: 1px solid #ff0029;
+}
+
+.cookie-policy-lightbox-bottom .btn-allow-all,
+.cookie-policy-lightbox-bottom .btn-save {
+    background: #ff0029;
+    border-radius: 0px;
+}
+
+.cookie-policy-lightbox-bottom .btn-allow-all:hover,
+.cookie-policy-lightbox-bottom .btn-save:hover {
+    background: #b9001d;
+}
+
+#rogProduct #cookie-policy-info[data-lang="fr"] .btn-setting {
+    background: #ff3535;
+    border: 0 solid #ff3535;
+    color: white;
+}
+
+#rogProduct #cookie-policy-info[data-lang="fr"] .btn-setting:hover {
+    background: #c20013;
+    border: 1px solid #c20013;
+    color: white;
+}
+
+
+#cookie-policy-info[data-lang="fr"] .btn-setting {
+    background: #ff3535;
+    border: 0 solid #ff3535;
+    color: white;
+}
+
+#cookie-policy-info[data-lang="fr"] .btn-setting:hover {
+    background: #c20013;
+    border: 1px solid #c20013;
+    color: white;
+}
+
+#rogProduct #cookie-policy-info .cookie-policy-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    overflow: unset;
+}
+
+#cookie-policy-info .cookie-policy-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#rogProduct #cookie-policy-info .cookie-btn-box {
+    display: flex;
+    align-items: center;
+    float: none;
+    margin: 30px auto 0;
+}
+
+#cookie-policy-info .cookie-btn-box {
+    display: flex;
+    align-items: center;
+    float: none;
+    margin: 30px auto 0;
+}
+
+.show-cookie-policy-info #cookie-policy-info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 648px;
+    background-color: #202020;
+    padding: 55px 40px 40px 40px;
+}
+
+#cookie-policy-info .close {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 13px;
+    right: 13px;
+}
+
+
+@media (max-width: 1366px) {
+    #rogProduct #cookie-policy-info .cookie-policy-wrap {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    #cookie-policy-info {
+        width: 100vw !important;
+    }
+
+    #rogProduct #cookie-policy-info {
+        position: fixed;
+        bottom: 0;
+        background: #202020;
+        padding: 20px;
+        height: 164px;
+        max-width: 100%;
+        border: 0;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    #rogProduct #cookie-policy-info .cookie-policy-wrap {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #cookie-policy-info .cookie-text-wrap {
+        height: 82px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin: 0 !important;
+    }
+
+    #cookie-policy-info .cookie-text-wrap::before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 39px;
+        background: linear-gradient(to bottom, rgba(32, 32, 32, 0.36), #202020 100%, #202020);
+    }
+
+    #rogProduct #cookie-policy-info .cookie-btn-box {
+        margin: 10px 0 0 0;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+    #cookie-policy-info .cookie-btn-box {
+        margin: 10px 0 0 0;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+
+    #cookie-policy-info .btn-ok,
+    #cookie-policy-info .btn-setting {
+        flex: 1 1 0%;
+        min-width: initial;
+    }
+
+    #cookie-policy-info.newStyle .btn-ok,
+    #cookie-policy-info.newStyle .btn-setting {
+        max-width: 150px !important;
+    }
+}
