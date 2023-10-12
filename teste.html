@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Swiper.js Scroll Suave</title>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-color: #ff6b6b;"><h1>Slide 1</h1></div>
+            <div class="swiper-slide" style="background-color: #74c0fc;"><h1>Slide 2</h1></div>
+            <div class="swiper-slide" style="background-color: #67f4cf;"><h1>Slide 3</h1></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // Direção do slide (horizontal por padrão)
+            loop: true, // Loop infinito
+            speed: 500, // Velocidade da rolagem (em milissegundos)
+            slidesPerView: 'auto', // Quantidade de slides visíveis
+            centeredSlides: true, // Centralizar o slide ativo
+            grabCursor: true, // Mostrar o cursor de agarrar ao passar o mouse
+            effect: 'slide', // Efeito de rolagem
+        });
+    </script>
+</body>
+</html>

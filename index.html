@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mubak E-ccomerce</title>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/Menu/menu.css">
     <link rel="stylesheet" href="styles/Slides/Slide.css">
     <link rel="stylesheet" href="styles/Cards/card.css">
@@ -145,22 +146,20 @@
    </header>
    <main>
         <section id="containerSlide">
-            <div id="passaSlide">
-                <span>
-                    <img src="Imagem/Icones/circle-chevron-left-solid.svg" alt="Left">
-                </span>
-                <span>
-                    <img src="Imagem/Icones/circle-chevron-right-solid.svg" alt="Right">
-                </span>
-            </div>
-            <div id="imgSlide">
-                <img src="Imagem/Banners/BannerAcessorios.jpg" alt="">
-                <img id="marginSlide" src="Imagem/Banners/Banner PlacaVideo.svg" alt="">
-            </div>
-            <div id="localSlide">
-                <span class="pointer" id="pointer1"></span>
-                <span class="pointer" id="pointer2"></span>
-            </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img class="imgSlide" src="Imagem/Banners/BannerAcessorios.jpg" alt=""></div>
+                  <div class="swiper-slide"><img class="imgSlide" src="Imagem/Banners/Banner PlacaVideo.svg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination" id="replaceSlide"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>   
+              </div>
         </section>    
         <section id="categoria">
             <div class="campTitulo">
@@ -354,6 +353,7 @@
                 </div>
             </div>
         </section>
-   </main>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 </html>

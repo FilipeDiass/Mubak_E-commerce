@@ -6,3 +6,7 @@ iniciarMenu();
 
 //Habilita as funções do slideBanner
 iniciaSlideBanner()
+
+
+
+
