@@ -1,0 +1,48 @@
+section.prodEstoque{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+div.conatinerFiltro{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+   
+}
+div.campFiltro{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+div.campFiltro > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    margin: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: var(--fontMain);
+    border: 3px solid #959595;
+    background-color: transparent;
+    cursor: pointer;
+}
+div.cardEstoque{
+    height: 320px;
+}
+
+@media screen and (max-width: 285px) {
+    .mainTituloEstoque > p{
+        font-size: 1.2em !important
+    }
+}

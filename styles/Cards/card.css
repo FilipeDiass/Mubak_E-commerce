@@ -1,19 +1,3 @@
-@charset "UTF-8";
-
-@font-face {
-    font-family: "Maronpe";
-    src: url(../../fonts/Manrope/Manrope-VariableFont_wght.ttf);
-}
-
-:root{
-    /* Fontes */
-    --fontMain: 'Maronpe';
-
-    /* Cores */
-    --colorBlue: #175073;
-    --colorOrange: #F29F05;
-}
-
 section.containerCards{
     display: flex;
     align-items: center;
@@ -38,6 +22,7 @@ div.campCards{
     overflow-x: auto;
 }
 div.campCards::-webkit-scrollbar {
+    display: none;
     width: 10px; /* Largura da barra de rolagem */
     height: 5px; /* Altura da barra de rolagem */
 }
@@ -57,8 +42,8 @@ div.campCards > div{
     overflow: hidden;
     box-shadow: 0px 4px 5px rgb(0, 0, 0, 30%);
 }
-#lastCard{
-    margin-right: 0px;
+.lastCard{
+    margin-right: 0px !important;
 }
 div.screen{
     width: 100%;

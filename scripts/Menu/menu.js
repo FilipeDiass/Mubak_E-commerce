@@ -1,7 +1,7 @@
 // Abrir/Fechar Menu Burguer
 function Menu(event){
     event.preventDefault()
-
+    const body = document.querySelector('body')
     const campMobile = document.querySelector('#menuMobile')
     const campIcones = document.querySelector('#campIcones')
     campMobile.classList.toggle('ativo')
@@ -11,16 +11,18 @@ function Menu(event){
     if(chaveMenu === true){
         campMobile.style.visibility = 'visible'
         menuBurgue.style.zIndex = '10'
+        body.style.overflow = 'hidden'
     }else{
         campMobile.style.visibility = 'hidden'
         menuBurgue.style.zIndex = '0'
+        body.style.overflow = 'auto'
     }
 }
 
 // Abrir/Fechar Menu Carrrinho
 function menuCarrinho(event){
     event.preventDefault()
-
+    const body = document.querySelector('body')
     const containerCart = document.querySelector('#containerCart')
 
     containerCart.classList.toggle('active')
@@ -28,15 +30,17 @@ function menuCarrinho(event){
     const chaveMenu = containerCart.classList.contains('active')
     if(chaveMenu === true){
         containerCart.style.visibility = 'visible'
+        body.style.overflow = 'hidden'
     }else{
         containerCart.style.visibility = 'hidden'
+        body.style.overflow = 'auto'
     }
 }
 
 // Abrir/Fechar Menu Favorito
 function menuFavorito(event){
     event.preventDefault()
-
+    const body = document.querySelector('body')
     const containerFavo = document.querySelector('#containerFavo')
 
     containerFavo.classList.toggle('active')
@@ -44,8 +48,10 @@ function menuFavorito(event){
     const chaveMenu = containerFavo.classList.contains('active')
     if(chaveMenu === true){
         containerFavo.style.visibility = 'visible'
+        body.style.overflow = 'hidden'
     }else{
         containerFavo.style.visibility = 'hidden'
+        body.style.overflow = 'auto'
     }
 }
 
