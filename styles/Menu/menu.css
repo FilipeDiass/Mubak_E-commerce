@@ -560,10 +560,93 @@ div#QuantFavo > div > button > span > img{
     }
 }
 
-.MQueryPC{
+.MQueryPC,  .pesquisaPC{
     display: none !important;
 }
 
-@media screen and (min-width: 410px) and (max-width: 768px){
-    
+@media screen and (min-width: 701px){
+    header{
+        height: 80px;
+        padding: 0px 15px;
+    }
+    #containerTop{
+        justify-content: initial !important;
+        max-width: 1200px !important;
+        height: 100% !important;
+        margin: initial !important;
+        gap: 30px;
+    }
+    #navegation{
+        justify-content: initial !important;
+        width: calc(100% - 30px) !important;
+        gap: 0px 30px;
+    }
+    .pesquisaPC{
+        display: flex !important;
+        align-items: center;
+        width: calc(100% - 30px) !important;
+        height: 100%;
+        max-width: initial !important;
+    }
+    .pesquisaPC > input{
+        width: 90%;
+        height: 35px;
+        padding-left: 10px;
+        font-size: 1em;
+        border: none;
+        border-radius: 10px 0px 0px 10px;
+        background-color: #C1BABA;
+    }
+    .pesquisaPC > span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        height: 35px;
+        border-radius: 0px 10px 10px 0px;
+        background-color: lightgray;
+        cursor: pointer;
+    }
+    .pesquisaPC > span > img{
+        width: 30px;
+    }
+    #campUserPC{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 100%;
+        gap: 0px 5px;
+        cursor: pointer;
+    }
+    #campUserPC > span{
+        width: 40px;
+        height: 40px;
+    }
+    #campUserPC > p {
+        width: 110px;
+        height: 40px;
+        margin-bottom: 4px;
+        color: var(--colorBlue);
+        font-weight: bolder;
+        font-size: 1em;
+        font-family: var(--fontMain);
+    }
+
+    #campIcones{
+        width: 130px !important;
+    }
+
+    .Zindex{
+        display: none !important;
+    }
+    .mobilePesquisa{
+        display: none !important;
+    }
+    .MQueryPC{
+        display: flex !important;
+    }
+    div.logo{
+        width: 3000px;
+    }
 }
