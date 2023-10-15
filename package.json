@@ -1,0 +1,15 @@
+{
+  "name": "mubak_e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Filipe Dias",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^10.3.1"
+  }
+}
