@@ -1,0 +1,35 @@
+{
+    "itensDestaque": [
+        {
+            "id": 1,
+            "nome": "",
+            "preco": 1500.00,
+            "descricao": "",
+            "imagem": "",
+            "especificacoesTecnicas": {
+            "Marca": "",
+            "Modelo": "",
+            "Memória VRAM": "",
+            "Núcleos CUDA": 8704,
+            "Clock Base": "",
+            "Clock Boost": ""
+            }
+        }
+    ],
+    "itensEstoque": [
+        {
+            "id": 23,
+            "nome": "",
+            "preco": 300.00,
+            "descricao": "",
+            "imagem": "",
+            "especificacoesTecnicas": {
+            "Marca": "",
+            "Modelo": "",
+            "Armazenamento Interno": "",
+            "Unidade Óptica": ""
+            }
+        }
+    ]
+  }
+  

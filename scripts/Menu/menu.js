@@ -19,39 +19,32 @@ function Menu(event){
     }
 }
 
-// Abrir/Fechar Menu Carrrinho
-function menuCarrinho(event){
+function menuOption(event){
     event.preventDefault()
     const body = document.querySelector('body')
     const containerCart = document.querySelector('#containerCart')
-
-    containerCart.classList.toggle('active')
-    
-    const chaveMenu = containerCart.classList.contains('active')
-    if(chaveMenu === true){
-        containerCart.style.visibility = 'visible'
-        body.style.overflow = 'hidden'
-    }else{
-        containerCart.style.visibility = 'hidden'
-        body.style.overflow = 'auto'
-    }
-}
-
-// Abrir/Fechar Menu Favorito
-function menuFavorito(event){
-    event.preventDefault()
-    const body = document.querySelector('body')
     const containerFavo = document.querySelector('#containerFavo')
 
-    containerFavo.classList.toggle('active')
-    
-    const chaveMenu = containerFavo.classList.contains('active')
-    if(chaveMenu === true){
-        containerFavo.style.visibility = 'visible'
-        body.style.overflow = 'hidden'
+    if(event.currentTarget.classList.contains('cart')){
+        containerCart.classList.toggle('active')
+        const chaveMenu = containerCart.classList.contains('active')
+        if(chaveMenu === true){
+            containerCart.style.visibility = 'visible'
+            body.style.overflow = 'hidden'
+        }else{
+            containerCart.style.visibility = 'hidden'
+            body.style.overflow = 'auto'
+        }
     }else{
-        containerFavo.style.visibility = 'hidden'
-        body.style.overflow = 'auto'
+        containerFavo.classList.toggle('active')
+        const chaveMenu = containerFavo.classList.contains('active')
+        if(chaveMenu === true){
+            containerFavo.style.visibility = 'visible'
+            body.style.overflow = 'hidden'
+        }else{
+            containerFavo.style.visibility = 'hidden'
+            body.style.overflow = 'auto'
+        }
     }
 }
 
@@ -63,35 +56,39 @@ export function iniciarMenu(){
 
     // Inicializar Abrir Menu Cart
     const abrirCart = document.querySelector('#abrirCart')
-    abrirCart.addEventListener('click', menuCarrinho)
-    abrirCart.addEventListener('touchstart', menuCarrinho)
+    abrirCart.addEventListener('click', menuOption)
+    abrirCart.addEventListener('touchstart', menuOption)
 
     // Inicializar Fechar Menu Cart
     const fecharCart = document.querySelector('#fecharCart')
     const voltaLoja = document.querySelector('#voltaLoja')
-    fecharCart.addEventListener('click', menuCarrinho)
-    fecharCart.addEventListener('touchstart', menuCarrinho)
-    voltaLoja.addEventListener('click', menuCarrinho)
-    voltaLoja.addEventListener('touchstart', menuCarrinho)
+    fecharCart.addEventListener('click', menuOption)
+    fecharCart.addEventListener('touchstart', menuOption)
+    voltaLoja.addEventListener('click', menuOption)
+    voltaLoja.addEventListener('touchstart', menuOption)
 
+    // Inicializar Abrir Menu Favo
+    const abrirFavo = document.querySelector('#abrirFavo')
+    abrirFavo   .addEventListener('click', menuOption)
+    abrirFavo.addEventListener('touchstart', menuOption)
     // Inicializar Fechar Menu Favo
     const fecharFavo = document.querySelector('#fecharFavo')
     const voltaLojaFavo = document.querySelector('#voltaLojaFavo')
-    fecharFavo.addEventListener('click', menuFavorito)
-    fecharFavo.addEventListener('touchstart', menuFavorito)
-    voltaLojaFavo.addEventListener('click', menuFavorito)
-    voltaLojaFavo.addEventListener('touchstart', menuFavorito)
+    fecharFavo.addEventListener('click', menuOption)
+    fecharFavo.addEventListener('touchstart', menuOption)
+    voltaLojaFavo.addEventListener('click', menuOption)
+    voltaLojaFavo.addEventListener('touchstart', menuOption)
 
     // Inicializar Opção Menu Burguer
     const meusPedidos = document.querySelector('#meusPedidos')
     meusPedidos.addEventListener('click', Menu)
     meusPedidos.addEventListener('touchstart', Menu)
-    meusPedidos.addEventListener('click', menuCarrinho)
-    meusPedidos.addEventListener('touchstart', menuCarrinho)
+    meusPedidos.addEventListener('click', menuOption)
+    meusPedidos.addEventListener('touchstart', menuOption)
 
     const meusFavoritos = document.querySelector('#meusFavoritos')
     meusFavoritos.addEventListener('click', Menu)
     meusFavoritos.addEventListener('touchstart', Menu)
-    meusFavoritos.addEventListener('click', menuFavorito)
-    meusFavoritos.addEventListener('touchstart', menuFavorito)
+    meusFavoritos.addEventListener('click', menuOption)
+    meusFavoritos.addEventListener('touchstart', menuOption)
 }

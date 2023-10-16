@@ -51,3 +51,22 @@ div.cardEstoque{
         font-size: 1.2em !important
     }
 }
+
+@media screen and (min-width:701px){
+    section.prodEstoque{
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    div.conatinerFiltro{
+        width: 100%;
+        height: 100%;
+        margin: 10px 0px;
+    }
+    div.cardEstoque{
+        height: 390px;
+    }
+}

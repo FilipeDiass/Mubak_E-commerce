@@ -19,6 +19,7 @@ div.campCards{
     width: 100%;
     height: 380px;
     padding: 0px 10px;
+    gap: 15px;
     overflow-x: auto;
 }
 div.campCards::-webkit-scrollbar {
@@ -37,13 +38,9 @@ div.campCards > div{
     flex: 0 0 auto;
     width: 150px;
     height: 290px;
-    margin-right: 15px;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0px 4px 5px rgb(0, 0, 0, 30%);
-}
-.lastCard{
-    margin-right: 0px !important;
 }
 div.screen{
     width: 100%;
@@ -120,6 +117,58 @@ div.preco > span{
     display: flex;
     align-items: center;
     padding-left: 3px;
+}
+@media screen and (min-width: 701px){
+    section.containerCards{
+        justify-content: initial;
+        height: 500px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    div.campCards{
+        width: 95%;
+        height: 400px;
+        padding: 0px 15px;
+    }
+    div.campCards > div{
+        width: 180px;
+        height: 340px;
+        box-shadow: 0px 4px 10px rgb(0, 0, 0, 30%);
+    }
+    div.screen > div{
+        width: 60px;
+        height: 25px;
+    }
+    div.screen >div > span, div.screen > div > span > img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    div.tituloCard{
+        width: 100%;
+        height: 60px;
+        font-size: 1.1em;
+    }
+    
+    div.avaliar{
+        height: 60px;
+        padding: 5px;
+        margin:10px 0px ;
+    }
+    div.avaliar > img{
+        width: 100px;
+        height: 20px;
+    }
+    div.avaliar > p{
+        font-size: 1em;
+    }
+    
+    div.preco{
+        height: 40px;
+        padding: 5px;
+        font-size: 1.7em;
+    }
 }
 
 

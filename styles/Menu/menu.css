@@ -602,6 +602,7 @@ div#QuantFavo > div > button > span > img{
         align-items: center;
         justify-content: center;
         width: 10%;
+        min-width: 50px;
         height: 35px;
         border-radius: 0px 10px 10px 0px;
         background-color: lightgray;
@@ -648,5 +649,41 @@ div#QuantFavo > div > button > span > img{
     }
     div.logo{
         width: 3000px;
+    }
+    div.containerCartFavo{
+        width: 100%;
+        align-items: end;
+        transition: .0s;
+        background-color: rgb(0, 0, 0, 50%);
+    }
+    div.active{
+        width: 100% !important;
+        min-width: 280px !important;
+        right: 0px !important;
+    }
+    div.titulo{
+        width: 0%;
+        max-width: initial;
+        height: 70px;
+        margin-top: 0px;
+        padding: 0px 0px 0px 10px ;
+        transition: .3s;
+        background-color: white;
+    }
+    .active > .titulo{
+        width: 450px;
+    }
+    div.titulo > span{
+        height: 70px;
+    }
+    div.carrinhoConteudo{
+        width: 0%;
+        max-width: initial;
+        height: 100vh;
+        transition: 0.3s;
+        background-color: white;
+    }
+    .active > .carrinhoConteudo{
+        width: 450px;
     }
 }
