@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibição de Imagem</title>
+</head>
+<body>
+    <h1>Imagem do Produto</h1>
+    <img id="productImage" src="" alt="Imagem do Produto">
+    <script>
+        // Use o método fetch para carregar o arquivo JSON
+        fetch('scripts/Cards/estoque.json')
+        .then(response => response.json())
+        .then(data => {
+            const productImage = document.getElementById("productImage");
+
+            const imagePath = data.itensDestaque[9].imagem;
+            console.log(imagePath)
+
+            productImage.src = imagePath;
+        })
+        .catch(error => {
+            console.error('Ocorreu um erro ao carregar o arquivo JSON:', error);
+        });
+
+    </script>
+</body>
+</html>

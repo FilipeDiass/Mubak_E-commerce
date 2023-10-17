@@ -2,24 +2,330 @@
     "itensDestaque": [
         {
             "id": 1,
-            "nome": "",
-            "preco": 1500.00,
-            "descricao": "",
-            "imagem": "",
+            "nome": "Placa de Vídeo RTX 3080TI",
+            "carogoria": "Hardware",
+            "preco": 3.700,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/Hadware/Processador_I5_10GEN.png",
             "especificacoesTecnicas": {
-            "Marca": "",
-            "Modelo": "",
-            "Memória VRAM": "",
+            "Marca": "NVIDIA",
+            "Modelo": "RTX 3080TI",
+            "Memória VRAM": "12 GB",
             "Núcleos CUDA": 8704,
-            "Clock Base": "",
-            "Clock Boost": ""
+            "Clock Base": "1350 MHz",
+            "Clock Boost": "1665 MHz"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Monitor Asus TUF Gaming",
+            "carogoria": "Monitor",
+            "preco": 1.300,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/Monitor/Monitor.png",
+            "especificacoesTecnicas": {
+            "Marca": "ASUS",
+            "Modelo": "VG279Q1A",
+            "Tamanho da Tela": "27 polegadas",
+            "Resolução": "1920 x 1080 pixels",
+            "Taxa de Atualização": "165 Hz",
+            "Tecnologia de Painel": "IPS"
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Mouse Logitech G703 LIGHTSPEED",
+            "carogoria": "Periferico",
+            "preco": 120.00,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/Periferico/Periferico.png",
+            "especificacoesTecnicas": {
+            "Marca": "Logitech",
+            "Modelo": "G703 LIGHTSPEED",
+            "Resolução Máxima": "25.000 DPI",
+            "Número de Botões Programáveis": 6,
+            "Compatibilidade": "Windows, macOS",
+            "Sensor": "HERO 25K"
+            }
+        },
+        {
+            "id": 4,
+            "nome": "Teclado Redragon Kumara",
+            "carogoria": "Periferico",
+            "preco": 89.99,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/Periferico/Periferico.png",
+            "especificacoesTecnicas": {
+            "Marca": "Redragon",
+            "Modelo": "Kumara",
+            "Layout": "ABNT2",
+            "Tipo de Teclado": "Mecânico",
+            "Switches": "Outemu Blue",
+            "Conexão": "Com fio (USB)"
+            }
+        },
+        {
+            "id": 5,
+            "nome": "Monitor Samsung Odyssey G5",
+            "carogoria": "Monitor",
+            "preco": 3.200,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/Monitor/Monitor.png",
+            "especificacoesTecnicas": {
+            "Marca": "Samsung",
+            "Modelo": "Odyssey G5",
+            "Tamanho da Tela": "27 polegadas",
+            "Resolução": "2560 x 1440 pixels",
+            "Taxa de Atualização": "144Hz",
+            "Tecnologia de Painel": "IPS LCD"
+            }
+        },
+        {
+            "id": 6,
+            "nome": "PlayStation 5",
+            "carogoria": "VideoGame",
+            "preco": 4.100,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/VideoGame/VideoGame.png",
+            "especificacoesTecnicas": {
+            "Marca": "Sony",
+            "Modelo": "PlayStation 5",
+            "Armazenamento Interno": "825GB SSD",
+            "Unidade Óptica": "Blu-ray Ultra HD",
+            "Saída de Vídeo": "Suporte a TVs de 120Hz 4K, TVs 8K, VRR",
+            "Tipo": "Mídia Física"
+            }
+        },
+        {
+            "id": 7,
+            "nome": "PC GAMER RYZEN 7 5700G",
+            "carogoria": "Computador",
+            "preco": 2.300,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/Computador/PCGamer.png",
+            "especificacoesTecnicas": {
+            "Marca": "AMD",
+            "Modelo": "Ryzen 7 5700G",
+            "Memória/Tipo": "16GB DDR4",
+            "Socket": "Socket AM4",
+            "Processador": "Ryzen 7",
+            "Velocidade do Processador": "3,8 GHz"
+            }
+        },
+        {
+            "id": 8,
+            "nome": "Controle Xbox Series",
+            "carogoria": "VideoGame",
+            "preco": 350.00,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/VideoGame/VideoGame.png",
+            "especificacoesTecnicas": {
+            "Marca": "Microsoft",
+            "Modelo": "Xbox Series",
+            "Número do modelo": "QAT-00007",
+            "Pilha(s) ou bateria(s)": "2 AA baterias necessárias. (inclusas)",
+            "Certificação ": "ANATEL: 08294-20-01569",
+            "Dimensões do produto": "17,7 x 17,81 x 7,19 cm; 400 g"
+            }
+        },
+        {
+            "id": 9,
+            "nome": "Headset Razer Blackshark V2",
+            "carogoria": "Periferico",
+            "preco": 600.00,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/Periferico/Periferico.png",
+            "especificacoesTecnicas": {
+            "Marca": "Razer",
+            "Modelo": "RZ.AU.BK.04.RT",
+            "Características especiais": "Microfone incluso",
+            "Componentes incluídos": "BlackShark V2",
+            "Controle de ruídos": "Isolamento de som",
+            "forma dos fones": "Sobre a orelha"
+            }
+        },
+        {
+            "id": 10,
+            "nome": "Placa Mãe Gigabyte B550M AORUS Elite",
+            "carogoria": "Hardware",
+            "preco": 870.00,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/Hadware/Hardware.png",
+            "especificacoesTecnicas": {
+            "Marca": "GIGABYTE",
+            "Modelo": "B550M",
+            "Soquete": "Soquete AM4",
+            "Tipo de Memória": "DDR4 SDRAM",
+            "portas USB 2.0": 4,
+            "Interface da placa de vídeo": "PCI Express"
+            }
+        },
+        {
+            "id": 11,
+            "nome": "Notebook Acer Nitro 5",
+            "carogoria": "Computador",
+            "preco": 4.380,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/Computador/PCGamer.png",
+            "especificacoesTecnicas": {
+            "Marca": "Acer",
+            "Modelo": "AN515-57-520Y",
+            "Processador": "Intel Core i5-11400",
+            "Velocidade do processador": "4,5 GHz",
+            "Memória/Tipo": "8GB DDR4",
+            "SSD": "512GB"
+            }
+        },
+        {
+            "id": 12,
+            "nome": "PC ITX Gamer FPS Headshot",
+            "carogoria": "Computador",
+            "preco": 7.099,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "ITX Gamer",
+            "Modelo": "IT-FPS134F36",
+            "Processador": "Intel Core i5",
+            "Velocidade do processador": "2,5 GHz",
+            "Memória/Tipo": "8GB DDR4",
+            "SSD": "500GB"
+            }
+        },
+        {
+            "id": 13,
+            "nome": "Processador Intel Core I5-12400F",
+            "carogoria": "Hardware",
+            "preco": 1.100,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Intel",
+            "Modelo": "BX8071512400F",
+            "Velocidade do processador": "2,5 GHz",
+            "Soquete": "LGA 1700",
+            "Número de processadores": 6,
+            "Potência em watts": "65 watts"
+            }
+        },
+        {
+            "id": 14,
+            "nome": "Placa de Video RTX 4060",
+            "carogoria": "Hardware",
+            "preco": 2.335,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "MSI",
+            "Modelo": "V516-004R",
+            "Memória/Tipo": "8GB GDDR6",
+            "Interface da placa de vídeo": "PCI Express",
+            "Potência em watts": "115 watts",
+            "Velocidade do relógio de memória": "2565 MHz"
+            }
+        },
+        {
+            "id": 15,
+            "nome": "Teclado Logitech K380",
+            "carogoria": "Periferico",
+            "preco": 189.90,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Logitech",
+            "Modelo": "503020540100",
+            "Certificação": "ANATEL: 23091503229",
+            "Tecnologia de conexão": "Bluetooth",
+            "Pilha(s) ou bateria(s):": "2 AAA baterias necessárias. (inclusas)",
+            "Padrão de conexão sem fio": "802.11a"
+            }
+        },
+        {
+            "id": 16,
+            "nome": "Mouse Redragon TITANOBOA2",
+            "carogoria": "Periferico",
+            "preco": 237.00,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Redragon",
+            "Modelo": "6950376705419",
+            "Quantidade de botões": 10,
+            "Tecnologia de conexão": "Com fio",
+            "Pilhas ou baterias inclusas": "Não",
+            "Material": "ABS, Plástico"
+            }
+        },
+        {
+            "id": 17,
+            "nome": "Controle DualSense",
+            "carogoria": "VideoGame",
+            "preco": 439.00,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Sony",
+            "Modelo": "DualSense",
+            "Pilha(s) ou bateria(s)": "2 Íon de lítio baterias necessárias. (inclusas)",
+            "Dimensões do produto": "13,4 x 17 x 1,6 cm; 440 g",
+            "Voltagem": "3.65 V",
+            "Requisitos de Alimentação": "5 V = 1500 mA"
+            }
+        },
+        {
+            "id": 18,
+            "nome": "Headset Logitech G733",
+            "carogoria": "Periferico",
+            "preco": 799.00,
+            "cor": "sim",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Logitech",
+            "Modelo": "981-000863",
+            "Certificação": "ANATEL: 82381803229",
+            "Forma dos fones": "Sobre a orelha",
+            "Conector": "USB",
+            "Características especiais": "Função de microfone"
+            }
+        },
+        {
+            "id": 19,
+            "nome": "Processador AMD Ryzen 7 5700G",
+            "carogoria": "Hardware",
+            "preco": 1.180,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "AMD",
+            "Modelo": "5700G",
+            "Soquete": "Socket AM4",
+            "Velocidade do processador": "3.8GHz",
+            "Número de processadores": 8,
+            "Potência em watts": "65 watts"
+            }
+        },
+        {
+            "id": 20,
+            "nome": "Placa Mãe Gigabyte B660M AORUS PRO",
+            "carogoria": "Hardware",
+            "preco": 1.179,
+            "cor": "não",
+            "imagem": "/Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "GIGABYTE",
+            "Modelo": "B660M",
+            "Soquete": "Soquete AM3",
+            "Tecnologia da memória": "DDR4",
+            "Interface da placa de vídeo": "PCI Express",
+            "Entradas para memória": 1
             }
         }
     ],
     "itensEstoque": [
         {
-            "id": 23,
+            "id": 21,
             "nome": "",
+            "carogoria": "",
             "preco": 300.00,
             "descricao": "",
             "imagem": "",
