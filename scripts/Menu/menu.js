@@ -48,7 +48,7 @@ function menuOption(event){
     }
 }
 
-export function iniciarMenu(){
+export default function iniciarMenu(){
     // Inicializar Abrir/Fechar Menu Burguer
     const menuBurgue = document.querySelector('#menuBurgue')
     menuBurgue.addEventListener('click', Menu)

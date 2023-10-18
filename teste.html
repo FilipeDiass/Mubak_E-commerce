@@ -7,23 +7,32 @@
 </head>
 <body>
     <h1>Imagem do Produto</h1>
-    <img id="productImage" src="" alt="Imagem do Produto">
+    <div id="productImage" src="" alt="Imagem do Produto">
+    </div>
     <script>
-        // Use o método fetch para carregar o arquivo JSON
-        fetch('scripts/Cards/estoque.json')
-        .then(response => response.json())
-        .then(data => {
-            const productImage = document.getElementById("productImage");
+        fetch('scripts/Cards/itens.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Falha na solicitação');
+                }
+                console.log(response)
+                return response.json(); // Analisa a resposta como JSON
+            })
+            .then(data => {
+                const productImage = document.getElementById("productImage");
 
-            const imagePath = data.itensDestaque[9].imagem;
-            console.log(imagePath)
+                const imagePath = data.itensDestaque;
+                console.log(imagePath)
+                imagePath.map(el=>{
+                    console.log(el.nome)
+                    productImage.innerHTML += el.nome;
+                })
 
-            productImage.src = imagePath;
-        })
-        .catch(error => {
-            console.error('Ocorreu um erro ao carregar o arquivo JSON:', error);
-        });
-
+                
+            })
+            .catch(error => {
+                console.error('Ocorreu um erro ao carregar o arquivo JSON:', error);
+            });
     </script>
 </body>
 </html>
