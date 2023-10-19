@@ -4,9 +4,9 @@
             "id": 1,
             "nome": "Placa de Vídeo RTX 3080TI",
             "categoria": "Hardware",
-            "preco": 3.700,
+            "preco": 3000.700,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID1_RTX 3080TI.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID1_RTX 3080TI.png",
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
             "Modelo": "RTX 3080TI",
@@ -22,7 +22,7 @@
             "categoria": "Monitor",
             "preco": 1.300,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID2_TUF Gaming.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID2_TUF Gaming.png",
             "especificacoesTecnicas": {
             "Marca": "ASUS",
             "Modelo": "VG279Q1A",
@@ -34,11 +34,11 @@
         },
         {
             "id": 3,
-            "nome": "Mouse Logitech G703 LIGHTSPEED",
+            "nome": "Mouse Logitech G703 Lightspeed",
             "categoria": "Periferico",
             "preco": 120.00,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID3_G703 LIGHTSPEED.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID3_G703 LIGHTSPEED.png",
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "G703 LIGHTSPEED",
@@ -54,7 +54,7 @@
             "categoria": "Periferico",
             "preco": 89.99,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.webp",
             "especificacoesTecnicas": {
             "Marca": "Redragon",
             "Modelo": "Kumara",
@@ -70,7 +70,7 @@
             "categoria": "Monitor",
             "preco": 3.200,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID5_Odyssey G5.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID5_Odyssey G5.png",
             "especificacoesTecnicas": {
             "Marca": "Samsung",
             "Modelo": "Odyssey G5",
@@ -86,7 +86,7 @@
             "categoria": "VideoGame",
             "preco": 4.100,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID6_PS5.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID6_PS5.webp",
             "especificacoesTecnicas": {
             "Marca": "Sony",
             "Modelo": "PlayStation 5",
@@ -98,11 +98,11 @@
         },
         {
             "id": 7,
-            "nome": "PC GAMER RYZEN 7 5700G",
+            "nome": "PC Gamer Ryzen 7 5700G",
             "categoria": "Computador",
             "preco": 2.300,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID7_PC GAMER RYZEN 7.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID7_PC GAMER RYZEN 7.webp",
             "especificacoesTecnicas": {
             "Marca": "AMD",
             "Modelo": "Ryzen 7 5700G",
@@ -118,7 +118,7 @@
             "categoria": "VideoGame",
             "preco": 350.00,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID8_Controle Xbox.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID8_Controle Xbox.png",
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
             "Modelo": "Xbox Series",
@@ -134,7 +134,7 @@
             "categoria": "Periferico",
             "preco": 600.00,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID9_Blackshark V2.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID9_Blackshark V2.png",
             "especificacoesTecnicas": {
             "Marca": "Razer",
             "Modelo": "RZ.AU.BK.04.RT",
@@ -146,11 +146,11 @@
         },
         {
             "id": 10,
-            "nome": "Placa Mãe Gigabyte B550M AORUS Elite",
+            "nome": "Placa Mãe Gigabyte B550M Aorus Elite",
             "categoria": "Hardware",
             "preco": 870.00,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID10_B550M AORUS Elite.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID10_B550M AORUS Elite.png",
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
             "Modelo": "B550M",
@@ -166,7 +166,7 @@
             "categoria": "Computador",
             "preco": 4.380,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID11_Acer Nitro 5.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID11_Acer Nitro 5.png",
             "especificacoesTecnicas": {
             "Marca": "Acer",
             "Modelo": "AN515-57-520Y",
@@ -182,7 +182,7 @@
             "categoria": "Computador",
             "preco": 7.099,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID12_PC FPS Headshot.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID12_PC FPS Headshot.png",
             "especificacoesTecnicas": {
             "Marca": "ITX Gamer",
             "Modelo": "IT-FPS134F36",
@@ -198,7 +198,7 @@
             "categoria": "Hardware",
             "preco": 1.100,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID13_Intel Core I5-12400F.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID13_Intel Core I5-12400F.png",
             "especificacoesTecnicas": {
             "Marca": "Intel",
             "Modelo": "BX8071512400F",
@@ -214,7 +214,7 @@
             "categoria": "Hardware",
             "preco": 2.335,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID14_RTX 4060.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID14_RTX 4060.webp",
             "especificacoesTecnicas": {
             "Marca": "MSI",
             "Modelo": "V516-004R",
@@ -230,7 +230,7 @@
             "categoria": "Periferico",
             "preco": 189.90,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID15_Logitech K380.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID15_Logitech K380.webp",
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "503020540100",
@@ -242,11 +242,11 @@
         },
         {
             "id": 16,
-            "nome": "Mouse Redragon TITANOBOA2",
+            "nome": "Mouse Redragon Titanoboa2",
             "categoria": "Periferico",
             "preco": 237.00,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID16_Redragon TITANOBOA2.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID16_Redragon TITANOBOA2.png",
             "especificacoesTecnicas": {
             "Marca": "Redragon",
             "Modelo": "6950376705419",
@@ -262,7 +262,7 @@
             "categoria": "VideoGame",
             "preco": 439.00,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID17_DualSense.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID17_DualSense.webp",
             "especificacoesTecnicas": {
             "Marca": "Sony",
             "Modelo": "DualSense",
@@ -278,7 +278,7 @@
             "categoria": "Periferico",
             "preco": 799.00,
             "cor": "sim",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID18_Logitech G733.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID18_Logitech G733.png",
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "981-000863",
@@ -294,7 +294,7 @@
             "categoria": "Hardware",
             "preco": 1.180,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID19_Ryzen 7 5700G.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID19_Ryzen 7 5700G.png",
             "especificacoesTecnicas": {
             "Marca": "AMD",
             "Modelo": "5700G",
@@ -306,11 +306,11 @@
         },
         {
             "id": 20,
-            "nome": "Placa Mãe Gigabyte B660M AORUS PRO",
+            "nome": "Placa Mãe Gigabyte B660M Aorus PRO",
             "categoria": "Hardware",
             "preco": 1.179,
             "cor": "não",
-            "imagem": "/Imagem/Produtos/itensDestaque/ID20_B660M AORUS PRO.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID20_B660M AORUS PRO.webp",
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
             "Modelo": "B660M",
