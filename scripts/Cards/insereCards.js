@@ -1,18 +1,21 @@
 import pegaDados from "./produto.js";
+import criaCorpoCard from "./card.js";
 
 export async function criaCardsDestaque() { 
     const data = await pegaDados();
     const produto = data.itensDestaque
     
-    console.log(produto[0].categoria)
     //Adiciona Cards na aba Destaques
     const containerCard = document.querySelector('.cardDestaque')
-    console.log(containerCard)
+    produto.forEach((prod)=>{
+        const cards = criaCorpoCard(prod)
+        console.log(cards)
+        containerCard.appendChild(cards)  
+    })
 }
 
 export async function criaCardsEstoque(){
-    const data = await pegaDados();
-    const produto = data.itensEstoque
+    // const data = await pegaDados();
+    // const produto = data.itensEstoque
     // console.log(produto)
 }
-

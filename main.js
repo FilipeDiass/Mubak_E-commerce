@@ -1,6 +1,6 @@
 import iniciarMenu from './scripts/Menu/menu.js';
 import iniciaSlideBanner from './scripts/Slide/slideBanner.js';
-import { criaCardsDestaque, criaCardsEstoque } from './scripts/Cards/cards.js';
+import { criaCardsDestaque, criaCardsEstoque } from './scripts/Cards/insereCards.js';
 
 //Habilita as funções do Menu/Header
 iniciarMenu();

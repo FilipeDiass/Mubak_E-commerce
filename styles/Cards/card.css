@@ -19,7 +19,7 @@ div.campCards{
     width: 100%;
     height: 380px;
     padding: 0px 10px;
-    gap: 15px;
+    gap: 20px;
     overflow-x: auto;
 }
 div.campCards::-webkit-scrollbar {
@@ -40,18 +40,19 @@ div.campCards > div{
     height: 290px;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0px 4px 5px rgb(0, 0, 0, 30%);
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 20%);
 }
 div.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
     width: 100%;
     height: 45%;
     position: relative;
-    background-color: rgb(127, 125, 125);
+    background-color: #4760ff;
 }
 div.screen > img{
-    width: 100%;
-    height: 100%;
-    
+    width: 70%;
 }
 div.screen > div{
     display: flex;
@@ -72,7 +73,6 @@ div.screen >div > span, div.screen > div > span > img{
 div.tituloCard{
     display: flex;
     align-items: flex-start;
-    justify-content: center;
     width: 100%;
     height: 50px;
     padding: 5px;
@@ -134,7 +134,6 @@ div.preco > span{
     div.campCards > div{
         width: 180px;
         height: 340px;
-        box-shadow: 0px 4px 10px rgb(0, 0, 0, 30%);
     }
     div.screen > div{
         width: 60px;
