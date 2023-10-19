@@ -9,7 +9,6 @@ export async function criaCardsDestaque() {
     const containerCard = document.querySelector('.cardDestaque')
     produto.forEach((prod)=>{
         const cards = criaCorpoCard(prod)
-        console.log(cards)
         containerCard.appendChild(cards)  
     })
 }
