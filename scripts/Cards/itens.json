@@ -4,7 +4,7 @@
             "id": 1,
             "nome": "Placa de Vídeo RTX 3080TI",
             "categoria": "Hardware",
-            "preco": 3000.700,
+            "preco": 3.700,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID1_RTX 3080TI.png",
             "especificacoesTecnicas": {

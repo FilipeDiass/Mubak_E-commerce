@@ -52,6 +52,7 @@ export default function criaCorpoCard(prod){
     if(precoTxt[1] === '.'){
        precoTxt = prod.preco.toFixed(3);
     }
+
     // Adicionando Contuudo do produto
     img.src = prod.imagem
     titulo.innerText = prod.nome
