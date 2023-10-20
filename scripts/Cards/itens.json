@@ -2,14 +2,14 @@
     "itensDestaque": [
         {
             "id": 1,
-            "nome": "Placa de Vídeo RTX 3080TI",
+            "nome": "Placa de Vídeo RTX 3060TI",
             "categoria": "Hardware",
             "preco": 3.700,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID1_RTX 3080TI.png",
             "especificacoesTecnicas": {
-            "Marca": "GIGABYTE",
-            "Modelo": "RTX 3080TI",
+            "Marca": "COLORFUL",
+            "Modelo": "RTX 3060TI",
             "Memória VRAM": "12 GB",
             "Núcleos CUDA": 8704,
             "Clock Base": "1350 MHz",
@@ -178,15 +178,15 @@
         },
         {
             "id": 12,
-            "nome": "PC ITX Gamer FPS Headshot",
+            "nome": "PC Gamer Intel Core I9 10900f",
             "categoria": "Computador",
             "preco": 7.099,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID12_PC FPS Headshot.png",
             "especificacoesTecnicas": {
-            "Marca": "ITX Gamer",
+            "Marca": "Intel",
             "Modelo": "IT-FPS134F36",
-            "Processador": "Intel Core i5",
+            "Processador": "Intel Core i9",
             "Velocidade do processador": "2,5 GHz",
             "Memória/Tipo": "8GB DDR4",
             "SSD": "500GB"
