@@ -6,7 +6,7 @@
             "categoria": "Hardware",
             "preco": 3.700,
             "cor": "não",
-            "imagem": "Imagem/Produtos/itensDestaque/ID1_RTX 3080TI.png",
+            "imagem": "Imagem/Produtos/itensDestaque/ID1_RTX 3060TI.png",
             "especificacoesTecnicas": {
             "Marca": "COLORFUL",
             "Modelo": "RTX 3060TI",
@@ -54,7 +54,7 @@
             "categoria": "Periferico",
             "preco": 89.99,
             "cor": "sim",
-            "imagem": "Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.png",
             "especificacoesTecnicas": {
             "Marca": "Redragon",
             "Modelo": "Kumara",
@@ -86,7 +86,7 @@
             "categoria": "VideoGame",
             "preco": 4.100,
             "cor": "não",
-            "imagem": "Imagem/Produtos/itensDestaque/ID6_PS5.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID6_PS5.png",
             "especificacoesTecnicas": {
             "Marca": "Sony",
             "Modelo": "PlayStation 5",
@@ -102,7 +102,7 @@
             "categoria": "Computador",
             "preco": 2.300,
             "cor": "não",
-            "imagem": "Imagem/Produtos/itensDestaque/ID7_PC GAMER RYZEN 7.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID7_PC GAMER RYZEN 7.png",
             "especificacoesTecnicas": {
             "Marca": "AMD",
             "Modelo": "Ryzen 7 5700G",
@@ -214,7 +214,7 @@
             "categoria": "Hardware",
             "preco": 2.335,
             "cor": "não",
-            "imagem": "Imagem/Produtos/itensDestaque/ID14_RTX 4060.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID14_RTX 4060.png",
             "especificacoesTecnicas": {
             "Marca": "MSI",
             "Modelo": "V516-004R",
@@ -230,7 +230,7 @@
             "categoria": "Periferico",
             "preco": 189.90,
             "cor": "sim",
-            "imagem": "Imagem/Produtos/itensDestaque/ID15_Logitech K380.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID15_Logitech K380.png",
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "503020540100",
@@ -262,7 +262,7 @@
             "categoria": "VideoGame",
             "preco": 439.00,
             "cor": "sim",
-            "imagem": "Imagem/Produtos/itensDestaque/ID17_DualSense.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID17_DualSense.png",
             "especificacoesTecnicas": {
             "Marca": "Sony",
             "Modelo": "DualSense",
@@ -310,7 +310,7 @@
             "categoria": "Hardware",
             "preco": 1.179,
             "cor": "não",
-            "imagem": "Imagem/Produtos/itensDestaque/ID20_B660M AORUS PRO.webp",
+            "imagem": "Imagem/Produtos/itensDestaque/ID20_B660M AORUS PRO.png",
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
             "Modelo": "B660M",
