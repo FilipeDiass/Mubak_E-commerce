@@ -40,7 +40,14 @@ div.campCards > div{
     height: 290px;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0px 4px 10px rgb(0, 0, 0, 20%);
+    border: 0.5px solid rgba(0, 0, 0, 0.110);
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 10%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+div.campCards > div:hover{
+    /* box-shadow: 0px 4px 15px  rgb(0, 0, 0, 30%); */
+    margin-bottom: 20px;
 }
 div.screen{
     display: flex;
@@ -48,9 +55,8 @@ div.screen{
     justify-content: center ;
     width: 100%;
     height: 45%;
-    padding-top: 20px;
     position: relative;
-    background-color: #fff347;
+    background-color: #f0efef;
 }
 div.screen > img{
     width: 70%;
