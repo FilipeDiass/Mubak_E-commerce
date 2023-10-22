@@ -1,5 +1,6 @@
 import pegaDados from "./pegaDados.js";
 import criaCorpoCard from "./card.js";
+import scrollCard from "./scroolCard.js";
 
 export async function criaCardsDestaque() { 
     const data = await pegaDados();
@@ -13,7 +14,7 @@ export async function criaCardsDestaque() {
         cards.id = prod.id
         containerCard.appendChild(cards)  
     })
-    console.log(containerCard)
+    scrollCard()
 }
 
 export async function criaCardsEstoque(){

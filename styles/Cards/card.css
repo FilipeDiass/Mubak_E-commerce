@@ -11,6 +11,9 @@ section.containerCards{
     border-radius: 5px;
     background-color: white;
 }
+section.containerCards > span{
+    visibility: hidden;
+}
 
 div.campCards{
     display: flex;
@@ -131,6 +134,29 @@ div.preco > span{
         height: 500px;
         margin-top: 20px;
         padding: 10px;
+        position: relative;
+    }
+    section.containerCards > span{
+        visibility: visible;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        transition: 0.3s;
+        opacity: 10%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    section.containerCards:hover > span{
+        width: 40px;
+        height: 40px;
+        opacity: 100%;
+    }
+    .circleLeft{
+        left: 10px;
+    }
+    .circleRigth{
+        right: 10px;
     }
     
     div.campCards{
@@ -176,7 +202,6 @@ div.preco > span{
         font-size: 1.7em;
     }
 }
-
 
 
 
