@@ -12,7 +12,7 @@ section.containerCards{
     background-color: white;
 }
 section.containerCards > span{
-    visibility: hidden;
+    display: none;
 }
 
 div.campCards{
@@ -23,6 +23,7 @@ div.campCards{
     height: 380px;
     padding: 0px 10px;
     gap: 20px;
+    scroll-behavior: smooth;
     overflow-x: auto;
 }
 div.campCards::-webkit-scrollbar {
@@ -137,7 +138,7 @@ div.preco > span{
         position: relative;
     }
     section.containerCards > span{
-        visibility: visible;
+        display: block;
         width: 20px;
         height: 20px;
         position: absolute;
