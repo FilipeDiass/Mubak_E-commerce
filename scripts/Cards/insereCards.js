@@ -3,18 +3,21 @@ import criaCorpoCard from "./card.js";
 import scrollCard from "./scroolCard.js";
 
 export async function criaCardsDestaque() { 
-    const data = await pegaDados();
-    const produto = data.itensDestaque
+    return new Promise(async(resolve)=>{
+        const data = await pegaDados();
+        const produto = data.itensDestaque
 
-    embaralhaArray(produto)
-    //Adiciona Cards na aba Destaques
-    const containerCard = document.querySelector('.cardDestaque')
-    produto.forEach((prod)=>{
-        const cards = criaCorpoCard(prod)
-        cards.id = prod.id
-        containerCard.appendChild(cards)  
-    })
-    scrollCard()
+        embaralhaArray(produto)
+        //Adiciona Cards na aba Destaques
+        const containerCard = document.querySelector('.cardDestaque')
+        produto.forEach((prod)=>{
+            const cards = criaCorpoCard(prod)
+            cards.id = prod.id
+            containerCard.appendChild(cards)  
+        })
+        scrollCard()
+        resolve()
+    })    
 }
 
 export async function criaCardsEstoque(){

@@ -1,6 +1,7 @@
 import iniciarMenu from './scripts/Menu/menu.js';
 import iniciaSlideBanner from './scripts/Slide/slideBanner.js';
 import { criaCardsDestaque, criaCardsEstoque } from './scripts/Cards/insereCards.js';
+import iniciaFavorito from './scripts/Favorito/favorito.js';
 
 //Habilita as funções do Menu/Header
 iniciarMenu();
@@ -8,6 +9,12 @@ iniciarMenu();
 //Habilita as funções do slideBanner
 iniciaSlideBanner()
 
-//Habilitas a Função para Criar os Cards
-criaCardsDestaque()
-criaCardsEstoque()
+async function mainCard(){
+    //Habilitas a Função para Criar os Cards
+    await criaCardsDestaque()
+    await criaCardsEstoque()
+
+    //Habilita a Função de favoritos e Carrinho
+    iniciaFavorito()
+}
+mainCard()

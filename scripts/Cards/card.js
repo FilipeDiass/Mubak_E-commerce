@@ -23,8 +23,8 @@ export default function criaCorpoCard(prod){
     tela.appendChild(campCartCora)
     campCartCora.appendChild(spanCora)
     campCartCora.appendChild(spanCart)
-    spanCart.appendChild(cora)
-    spanCora.appendChild(cart)
+    spanCart.appendChild(cart)
+    spanCora.appendChild(cora)
     
 
     // Titulo
@@ -46,6 +46,8 @@ export default function criaCorpoCard(prod){
     titulo.classList.add('tituloCard')
     campAvaliar.classList.add('avaliar')
     campPreco.classList.add('preco')
+    spanCart.classList.add('iconCart')
+    spanCora.classList.add('iconCoracao')
 
     // formatando o preco para txt
     let precoTxt = prod.preco.toFixed(2)
@@ -53,7 +55,7 @@ export default function criaCorpoCard(prod){
        precoTxt = prod.preco.toFixed(3);
     }
 
-    // Adicionando Contuudo do produto
+    // Adicionando Conteudo do produto
     img.src = prod.imagem
     titulo.innerText = prod.nome
     moeda.innerText = 'R$'
@@ -62,6 +64,6 @@ export default function criaCorpoCard(prod){
     cora.src = "Imagem/Icones/CoracaoVazio.svg"
     estrelas.src = "Imagem/Icones/FiveStars.svg"
     quantAvalia.innerText = "Sem Avaliações"
-
+  
     return corpoCard
 }
