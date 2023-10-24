@@ -379,10 +379,18 @@ div.card{
     position: relative;
 }
 div.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 80px;
     height: 80px;
     border-radius: 5px;
-    background-color: #C1BABA;
+    background-color: #f0efef;
+}
+div.img > img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
 }
 
 div.tituloQuantidade{
@@ -465,6 +473,9 @@ div.card > p{
     bottom: 10px;
     overflow: hidden;
 }
+div.card > p > span{
+    padding-right: 2px;
+}
 @media screen and (max-width: 310px){
     div.tituloQuantidade{
         width: 150px;
@@ -524,15 +535,13 @@ div#vazioFavo{
 div#cheioFavo{
     display: none;
 }
-div#cheioFavo{
-    height: calc(100vh + 25px);
-}
-div#QuantFavo > div > button{
+
+div.QuantFavo > div > button{
     width: 85%;
     font-size: 1.1em;
     border-radius: 5px;
 }
-div#QuantFavo > div > button > span {
+div.QuantFavo > div > button > span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -541,20 +550,20 @@ div#QuantFavo > div > button > span {
     margin-right: 5px;
     cursor: pointer;
 }
-div#QuantFavo > div > button > span > img{
+div.QuantFavo > div > button > span > img{
     width: 20px;
     height: 20px;
 }
 @media screen and (max-width: 360px){
-    div#QuantFavo > div > button{
+    div.QuantFavo > div > button{
         width: 60%;
         font-size: 0.9em;
     }
-    div#QuantFavo > div > button > span {
+    div.QuantFavo > div > button > span {
         width: 15px;
         height: 15px;
     }
-    div#QuantFavo > div > button > span > img{
+    div.QuantFavo > div > button > span > img{
         width: 15px;
         height: 15px;
     }

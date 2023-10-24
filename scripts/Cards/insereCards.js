@@ -12,7 +12,6 @@ export async function criaCardsDestaque() {
         const containerCard = document.querySelector('.cardDestaque')
         produto.forEach((prod)=>{
             const cards = criaCorpoCard(prod)
-            cards.id = prod.id
             containerCard.appendChild(cards)  
         })
         scrollCard()
