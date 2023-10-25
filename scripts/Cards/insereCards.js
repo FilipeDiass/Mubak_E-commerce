@@ -4,8 +4,8 @@ import scrollCard from "./scroolCard.js";
 
 export async function criaCardsDestaque() { 
     return new Promise(async(resolve)=>{
-        const data = await pegaDados();
-        const produto = data.itensDestaque
+        const dados = await pegaDados();
+        const produto = dados.itensDestaque
 
         embaralhaArray(produto)
         //Adiciona Cards na aba Destaques

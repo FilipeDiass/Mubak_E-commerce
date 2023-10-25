@@ -10,3 +10,4 @@ export default async function pegaDados(){
         console.error('Ocorreu um erro ao carregar o arquivo JSON:', error);
     }
 } 
+
