@@ -60,7 +60,7 @@ export default function criaCorpoCard(prod){
     titulo.innerText = prod.nome
     moeda.innerText = 'R$'
     preco.innerHTML = precoTxt
-    cart.src = "Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24 - Azul.svg"
+    cart.src = "Imagem/Icones/add_shopping_cart.svg"
     cora.src = "Imagem/Icones/CoracaoVazio.svg"
     estrelas.src = "Imagem/Icones/FiveStars.svg"
     quantAvalia.innerText = "Sem Avaliações"

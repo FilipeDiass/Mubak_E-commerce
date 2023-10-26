@@ -6,7 +6,6 @@ export async function criaCardsDestaque() {
     return new Promise(async(resolve)=>{
         const dados = await pegaDados();
         const produto = dados.itensDestaque
-
         embaralhaArray(produto)
         //Adiciona Cards na aba Destaques
         const containerCard = document.querySelector('.cardDestaque')

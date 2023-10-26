@@ -7,7 +7,7 @@ function favorito(event){
     event.preventDefault()
 
     // Adiciona e Verifica se o card está Favoritado
-    const listaFavo = document.querySelector('.listaFavo')
+    const listaFavo = document.querySelector('#listaFavo')
     const card = event.currentTarget.closest('.corpoCard')
     const cardFavo = criaListaFavo(card)
 
@@ -15,8 +15,8 @@ function favorito(event){
         arrayCard.push(card)
     }
     
-    card.classList.toggle('Adcionado')
-    const verifica = card.classList.contains('Adcionado')
+    card.classList.toggle('AdcionadoFavo')
+    const verifica = card.classList.contains('AdcionadoFavo')
     if(verifica){
         listaFavo.appendChild(cardFavo)
         event.currentTarget.querySelector('img').src = 'Imagem/Icones/CoracaoCheio.svg'
@@ -39,7 +39,7 @@ function favorito(event){
     }
 
     //Chama a função que remove os itens na aba favoritos
-    const iconFechar = document.querySelectorAll('.iconFechar')
+    const iconFechar = document.querySelectorAll('.iconFecharFavo')
     iconFechar.forEach((el)=>{
         el.addEventListener('click', removeItemFavo)
         el.addEventListener('touchend', removeItemFavo)
@@ -47,14 +47,13 @@ function favorito(event){
 }
 
 function removeItemFavo(event){
-    const listaFavo = document.querySelector('.listaFavo')
+    const listaFavo = document.querySelector('#listaFavo')
     const cardFavo = event.currentTarget.closest('.containerCardFavo')
 
     //Remove item do array
     const indiceLista = [...listaFavo.children].indexOf(cardFavo)
-    const teste = arrayCard[indiceLista].querySelector('.screen > div > .iconCoracao > img').src = 'Imagem/Icones/CoracaoVazio.svg'
-    console.log(teste)
-    arrayCard[indiceLista].classList.remove('Adcionado')
+    arrayCard[indiceLista].querySelector('.screen > div > .iconCoracao > img').src = 'Imagem/Icones/CoracaoVazio.svg'
+    arrayCard[indiceLista].classList.remove('AdcionadoFavo')
     arrayCard = arrayCard.filter((el, i) => i !== indiceLista)
 
     //remove item da aba favorito
