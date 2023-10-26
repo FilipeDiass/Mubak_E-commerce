@@ -30,6 +30,7 @@ export default function criaListaFavo(card){
     spanIconFechar.appendChild(imgFechar)
 
     //Aplicando as classes/id
+    li.classList.add('containerCardFavo')
     divContainer.classList.add('card')
     divImg.classList.add('img')
     divQuanTitulo.classList.add('tituloQuantidade')

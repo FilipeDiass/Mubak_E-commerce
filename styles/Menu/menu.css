@@ -457,6 +457,7 @@ span.iconFechar{
     position: absolute;
     top: 5px;
     right: 5px;
+    cursor: pointer;
 }
 span.iconFechar > img{
     width: 100%;
@@ -643,7 +644,7 @@ div.QuantFavo > div > button > span > img{
         font-family: var(--fontMain);
     }
 
-    #campIcones{
+    #campfes{
         width: 130px !important;
     }
 
