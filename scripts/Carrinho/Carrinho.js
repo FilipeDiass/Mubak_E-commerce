@@ -10,7 +10,7 @@ function carrinho(event){
     const listaCart = document.querySelector('#listaCart')
     const card = event.currentTarget.closest('.corpoCard')
     const cardCart = criaListaCart(card)
-
+    
     if(!arrayCard.includes(card)){
         arrayCard.push(card)
     }
@@ -46,7 +46,7 @@ function carrinho(event){
     })
 
     //chama a função iniciaItemQuantidade
-    iniciaItemQuantidade()
+    iniciaItemQuantidade(card, cardCart)
 }
 
 function removeItemCart(event){

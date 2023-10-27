@@ -13,7 +13,6 @@ export default function criaCorpoCard(prod){
     const estrelas = document.createElement('img')
     const quantAvalia = document.createElement('p')
     const campPreco = document.createElement('div')
-    const moeda = document.createElement('p') 
     const preco = document.createElement('span')
 
     // Organizando elementos do cards
@@ -37,7 +36,6 @@ export default function criaCorpoCard(prod){
 
     // Preço
     corpoCard.appendChild(campPreco)
-    campPreco.appendChild(moeda)
     campPreco.appendChild(preco)
 
     // Estilizando os elementos
@@ -50,16 +48,21 @@ export default function criaCorpoCard(prod){
     spanCora.classList.add('iconCoracao')
 
     // formatando o preco para txt
-    let precoTxt = prod.preco.toFixed(2)
-    if(precoTxt[1] === '.'){
-       precoTxt = prod.preco.toFixed(3);
-    }
+    // let precoTxt = prod.preco.toFixed(2)
+    // if(precoTxt[1] === '.'){
+    //    precoTxt = prod.preco.toFixed(3);
+    // }
+    const resultadoFormatado = prod.preco.toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+    });
 
     // Adicionando Conteudo do produto
     img.src = prod.imagem
     titulo.innerText = prod.nome
-    moeda.innerText = 'R$'
-    preco.innerHTML = precoTxt
+    preco.innerHTML = resultadoFormatado
     cart.src = "Imagem/Icones/add_shopping_cart.svg"
     cora.src = "Imagem/Icones/CoracaoVazio.svg"
     estrelas.src = "Imagem/Icones/FiveStars.svg"

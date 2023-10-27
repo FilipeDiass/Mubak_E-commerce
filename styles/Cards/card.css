@@ -118,7 +118,7 @@ div.preco{
     width: 100%;
     height: 38px;
     padding: 3px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bolder;
     font-family: var(--fontMain);
 }
@@ -198,7 +198,7 @@ div.preco > span{
     div.preco{
         height: 40px;
         padding: 5px;
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 }
 

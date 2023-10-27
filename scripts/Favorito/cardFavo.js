@@ -43,8 +43,7 @@ export default function criaListaFavo(card){
     titulo.innerText = card.querySelector('.corpoCard > .tituloCard').innerText
     imgCart.src = 'Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg'
     buttonAdc.innerHTML += 'Adcionar'
-    preco.innerText = 'R$ '
-    preco.innerText += card.querySelector('.corpoCard > .preco > span').innerText
+    preco.innerText = card.querySelector('.corpoCard > .preco > span').innerText
     imgFechar.src += 'Imagem/Icones/close_FILL0_wght400_GRAD0_opsz24.svg'
 
     return li

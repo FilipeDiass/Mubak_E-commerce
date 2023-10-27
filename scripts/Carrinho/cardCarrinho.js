@@ -48,7 +48,7 @@ export default function criaListaCart(card){
     imgProduto.src = card.querySelector('.screen > img').src
     titulo.innerText = card.querySelector('.corpoCard > .tituloCard').innerText
     imgMenos.src = 'Imagem/Icones/minus-solid.svg'
-    spanNumber.innerText = '0'
+    spanNumber.innerText = 1
     imgMais.src = 'Imagem/Icones/plus-solid.svg'
     preco.innerText += card.querySelector('.corpoCard > .preco > span').innerText
     imgFechar.src += 'Imagem/Icones/close_FILL0_wght400_GRAD0_opsz24.svg'
