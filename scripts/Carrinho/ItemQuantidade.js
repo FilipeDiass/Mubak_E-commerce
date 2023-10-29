@@ -20,12 +20,16 @@ function ItemQuantidade(event){
     }
 
     const nomeProduto = document.querySelector('.tituloQuantidade > p')
-    preco.forEach((el, i) => {
-        console.log(el.nome)
-        if(el.nome === nomeProduto.innerText){
-            console.log(el.preco)
-        }
-    })
+
+    const teste = preco.findIndex(el => el.nome === nomeProduto.innerText)
+    console.log(teste)
+
+    // preco.forEach((el, i) => {
+    //     console.log(el.nome)
+    //     if(el.nome === nomeProduto.innerText){
+    //         console.log(el.preco)
+    //     }
+    // })
     // if(preco.nome)
 
 
