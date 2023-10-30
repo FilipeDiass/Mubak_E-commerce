@@ -46,7 +46,7 @@ function carrinho(event){
     })
 
     //chama a função iniciaItemQuantidade
-    iniciaItemQuantidade(card, cardCart)
+    iniciaItemQuantidade(cardCart)
 }
 
 function removeItemCart(event){
