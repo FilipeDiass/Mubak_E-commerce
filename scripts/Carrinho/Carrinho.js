@@ -1,11 +1,17 @@
 import criaListaCart from "./cardCarrinho.js"
 import iniciaItemQuantidade from "./ItemQuantidade.js"
+import { Produtos } from "../Cards/insereCards.js"
+import { totalProdutos } from "./ItemQuantidade.js"
 
 // Array que guarda os Cards
 let arrayCard = []
 
 function carrinho(event){
     event.preventDefault()
+
+    // Dados dos cards(json)
+    const produtoCard = Produtos()
+    const produto = produtoCard.itensDestaque
 
     const listaCart = document.querySelector('#listaCart')
     const card = event.currentTarget.closest('.corpoCard')
@@ -45,8 +51,11 @@ function carrinho(event){
         el.addEventListener('touchend', removeItemCart)
     })
 
+    // Valor total dos produtos
+    totalProdutos()
+
     //chama a função iniciaItemQuantidade
-    iniciaItemQuantidade(cardCart)
+    iniciaItemQuantidade()
 }
 
 function removeItemCart(event){
@@ -73,6 +82,9 @@ function removeItemCart(event){
         carrinhoVazio.style.display = 'flex'
         carrinhoCheio.style.display = 'none'
     }
+    
+    // Valor total dos produtos
+    totalProdutos()
 }
 
 export default function iniciaCarrinho(){
