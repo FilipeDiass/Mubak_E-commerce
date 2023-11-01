@@ -2,6 +2,7 @@ import criaListaCart from "./cardCarrinho.js"
 import iniciaItemQuantidade from "./ItemQuantidade.js"
 import { totalProdutos } from "./ItemQuantidade.js"
 import { Produtos } from "../Cards/insereCards.js"
+import { verificaItemCart } from "../Favorito/favorito.js"
 
 // Array que guarda os Cards
 let arrayCard = []
@@ -68,6 +69,8 @@ export function carrinho(event){
 
     //chama a função iniciaItemQuantidade
     iniciaItemQuantidade()
+
+    verificaItemCart()
 }
 
 function removeItemCart(event){
@@ -97,6 +100,8 @@ function removeItemCart(event){
     
     // Valor total dos produtos
     totalProdutos()
+
+    verificaItemCart()
 }
 
 export default function iniciaCarrinho(){

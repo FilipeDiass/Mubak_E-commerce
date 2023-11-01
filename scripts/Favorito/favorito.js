@@ -39,26 +39,8 @@ function favorito(event){
         cheioFavo.style.display = 'none'
     }
 
-    // Verifica se o item ja está no cart
-    const listaCart = document.querySelector('#listaCart')
-    if(listaCart.childElementCount > 0){
-        const textCart = [...document.querySelectorAll('.textCart')]
-        const textFavo = [...document.querySelectorAll('.textFavo')]
-        const igual = []
-        textFavo.forEach((el, ind) => {
-            for(let i = 0; i < textCart.length; i++){
-                if(el.innerHTML === textCart[i].innerHTML){
-                    listaFavo.children[ind].querySelector('.adiciona').innerHTML = '<span><img src="Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg"></span>Remover'
-                }else{
-                    listaFavo.children[ind].querySelector('.adiciona').innerHTML = 'Adciona'
-                }
-            }
-        })
-        
-        // console.log(textCart)
-        // console.log(textFavo)
-    }
-
+   
+    verificaItemCart()
 
     // Chama a função que adciona o produto da aba favo para aba cart
     const buttonAdc = document.querySelectorAll('.adiciona')
@@ -75,6 +57,28 @@ function favorito(event){
         el.addEventListener('touchend', removeItemFavo)
     })
 }  
+
+export function verificaItemCart(){
+     // Verifica se o item ja está no cart
+     const listaCart = document.querySelector('#listaCart')
+     if(listaCart.childElementCount > 0){
+         const textCart = [...document.querySelectorAll('.textCart')]
+         const textFavo = [...document.querySelectorAll('.textFavo')]
+        
+         textFavo.forEach((el, ind) => {
+             for(let i = 0; i < textCart.length; i++){
+                 if(el.innerHTML === textCart[i].innerHTML){
+                     listaFavo.children[ind].querySelector('.adiciona').innerHTML = '<span><img src="Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg"></span>Remover'
+                 }else{
+                     listaFavo.children[ind].querySelector('.adiciona').innerHTML = '<span><img src="Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg"></span>Adcionar'
+                 }
+             }
+         })
+         
+         // console.log(textCart)
+         // console.log(textFavo)
+     }
+}
 
 
 function deFavoParaCart(event){
