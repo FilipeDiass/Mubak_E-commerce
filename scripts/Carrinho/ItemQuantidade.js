@@ -72,11 +72,21 @@ export function totalProdutos(){
         })
         
         let spanNumber = [...document.querySelectorAll('.spanNumber')]
+        console.log(spanNumber)
         const total = indice.reduce((acumulador, el, i)=>{
+            console.log(el)
+            console.log(spanNumber[i])
             return acumulador + produto[el].preco * spanNumber[i].innerHTML
         },0)
 
-        valorTotal.innerHTML = total
+        const converteTotal = total.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        })
+
+        valorTotal.innerHTML = converteTotal
     }
 }
 

@@ -8,11 +8,7 @@ let arrayCard = []
 
 function carrinho(event){
     event.preventDefault()
-
-    // Dados dos cards(json)
-    const produtoCard = Produtos()
-    const produto = produtoCard.itensDestaque
-
+    // console.log(event.currentTarget)
     const listaCart = document.querySelector('#listaCart')
     const card = event.currentTarget.closest('.corpoCard')
     const cardCart = criaListaCart(card)
@@ -93,4 +89,10 @@ export default function iniciaCarrinho(){
         el.addEventListener('click', carrinho)
         el.addEventListener('touchend', carrinho)
     })
+
+    // const buttonAdc = document.querySelectorAll('.adiciona')
+    // buttonAdc.forEach(el=>{
+    //     el.addEventListener('click', carrinho)
+    //     el.addEventListener('touchend', carrinho)
+    // })
 }
