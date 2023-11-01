@@ -38,6 +38,7 @@ export default function criaListaFavo(card){
     spanIconFechar.classList.add('iconFechar')
     spanIconFechar.classList.add('iconFecharFavo')
     buttonAdc.classList.add('adiciona')
+    titulo.classList.add('textFavo')
 
     // Adicionando Conteúdo aos elementos
     imgProduto.src = card.querySelector('.screen > img').src

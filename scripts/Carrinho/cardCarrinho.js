@@ -43,6 +43,7 @@ export default function criaListaCart(card){
     buttonMais.classList.add('buttonMais')
     spanIconFechar.classList.add('iconFechar')
     spanIconFechar.classList.add('iconFecharCart')
+    titulo.classList.add('textCart')
     
     // Adicionando Conteúdo aos elementos
     imgProduto.src = card.querySelector('.screen > img').src

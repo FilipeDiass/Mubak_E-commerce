@@ -1,29 +1,45 @@
 import criaListaCart from "./cardCarrinho.js"
 import iniciaItemQuantidade from "./ItemQuantidade.js"
-import { Produtos } from "../Cards/insereCards.js"
 import { totalProdutos } from "./ItemQuantidade.js"
+import { Produtos } from "../Cards/insereCards.js"
 
 // Array que guarda os Cards
 let arrayCard = []
 
-function carrinho(event){
-    event.preventDefault()
-    // console.log(event.currentTarget)
+export function carrinho(event){
+    if(event.currentTarget){
+        event.preventDefault()
+    }
+
+    // Dados dos cards(json)
+    const produtoCard = Produtos()
+    const produto = produtoCard.itensDestaque
+    
     const listaCart = document.querySelector('#listaCart')
-    const card = event.currentTarget.closest('.corpoCard')
+    let card = undefined
+    if(event.currentTarget){
+        card = event.currentTarget.closest('.corpoCard')
+    }else{
+        card = event
+    }
+    
     const cardCart = criaListaCart(card)
     
     if(!arrayCard.includes(card)){
         arrayCard.push(card)
     }
+    
+    //Cria um array com os icones e descobre o indice deles
+    const iconCart = [...document.querySelectorAll('.iconCart')]
+    const indiceProduto = produto.findIndex(el => el.nome === card.querySelector('.tituloCard').innerHTML)
 
     card.classList.toggle('AdcionadoCart')
     const verifica = card.classList.contains('AdcionadoCart')
     if(verifica){
         listaCart.appendChild(cardCart)
-        event.currentTarget.querySelector('img').src = 'Imagem/Icones/remove_shopping_cart.svg'
+        iconCart[indiceProduto].querySelector('img').src = 'Imagem/Icones/remove_shopping_cart.svg'
     }else{
-        event.currentTarget.querySelector('img').src = 'Imagem/Icones/add_shopping_cart.svg'
+        iconCart[indiceProduto].querySelector('img').src = 'Imagem/Icones/add_shopping_cart.svg'
         listaCart.removeChild(listaCart.children[arrayCard.indexOf(card)])
         arrayCard = arrayCard.filter(el => el !== card)
     }
@@ -91,6 +107,7 @@ export default function iniciaCarrinho(){
     })
 
     // const buttonAdc = document.querySelectorAll('.adiciona')
+    // console.log(buttonAdc)
     // buttonAdc.forEach(el=>{
     //     el.addEventListener('click', carrinho)
     //     el.addEventListener('touchend', carrinho)

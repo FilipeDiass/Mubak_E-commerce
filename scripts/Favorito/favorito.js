@@ -1,4 +1,5 @@
 import criaListaFavo from "./cardFavo.js"
+import { carrinho } from "../Carrinho/Carrinho.js"
 
 // Array que guarda os Cards
 let arrayCard = []
@@ -38,15 +39,62 @@ function favorito(event){
         cheioFavo.style.display = 'none'
     }
 
-    //Chama a função que remove os itens na aba favoritos
+    // Verifica se o item ja está no cart
+    const listaCart = document.querySelector('#listaCart')
+    if(listaCart.childElementCount > 0){
+        const textCart = [...document.querySelectorAll('.textCart')]
+        const textFavo = [...document.querySelectorAll('.textFavo')]
+        const igual = []
+        textFavo.forEach((el, ind) => {
+            for(let i = 0; i < textCart.length; i++){
+                if(el.innerHTML === textCart[i].innerHTML){
+                    listaFavo.children[ind].querySelector('.adiciona').innerHTML = '<span><img src="Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg"></span>Remover'
+                }else{
+                    listaFavo.children[ind].querySelector('.adiciona').innerHTML = 'Adciona'
+                }
+            }
+        })
+        
+        // console.log(textCart)
+        // console.log(textFavo)
+    }
+
+
+    // Chama a função que adciona o produto da aba favo para aba cart
+    const buttonAdc = document.querySelectorAll('.adiciona')
+    buttonAdc.forEach((el)=>{
+        el.addEventListener('click', deFavoParaCart)
+        el.addEventListener('touchend', deFavoParaCart) 
+    })
+    
+
+    // Chama a função que remove os itens na aba favoritos
     const iconFechar = document.querySelectorAll('.iconFecharFavo')
     iconFechar.forEach((el)=>{
         el.addEventListener('click', removeItemFavo)
         el.addEventListener('touchend', removeItemFavo)
     })
+}  
+
+
+function deFavoParaCart(event){
+    event.preventDefault()
+
+    const cardsProdutos = arrayCard.filter(el => el.classList.contains('AdcionadoFavo'))
+    
+    // tive que buscar os mesmo elementos para saber onde foi o click
+    const cardFavo = event.currentTarget.closest('.containerCardFavo')
+    const indiceFavo = [...listaFavo.children].findIndex(el => el === cardFavo)
+
+    const cardProduto = cardsProdutos[indiceFavo]
+
+    carrinho(cardProduto)
 }
 
+
 function removeItemFavo(event){
+    event.preventDefault()
+
     const listaFavo = document.querySelector('#listaFavo')
     const cardFavo = event.currentTarget.closest('.containerCardFavo')
 

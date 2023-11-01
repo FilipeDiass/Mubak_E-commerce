@@ -64,7 +64,7 @@ export function totalProdutos(){
     const listaCart = document.querySelector('#listaCart')
 
     if(listaCart.childElementCount > 0){
-        const arrayNomes = [...document.querySelectorAll('.tituloQuantidade > p')] 
+        const arrayNomes = [...document.querySelectorAll('.QuantCart > p')] 
         const valorTotal = document.querySelector('#totalProduto')
         
         const indice = arrayNomes.map(prod => {
@@ -72,10 +72,7 @@ export function totalProdutos(){
         })
         
         let spanNumber = [...document.querySelectorAll('.spanNumber')]
-        console.log(spanNumber)
         const total = indice.reduce((acumulador, el, i)=>{
-            console.log(el)
-            console.log(spanNumber[i])
             return acumulador + produto[el].preco * spanNumber[i].innerHTML
         },0)
 
