@@ -63,30 +63,77 @@ export function verificaItemCart(){
     // Verifica se o item ja está no cart
     const listaCart = document.querySelector('#listaCart')
     
+    const iconCartAdd = 'Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg'
+    const iconCartRemove = 'Imagem/Icones/remove_shopping_cart-white.svg'
+
     const containerCardFavo = [...document.querySelectorAll('.containerCardFavo')]
     const containerCardCart = [...document.querySelectorAll('.containerCardCarrinho')]
 
-    const nomeProdutoFavo = [...document.querySelectorAll('.textFavo')]
-    const nomeProdutoCart = [...document.querySelectorAll('.textCart')]
+    if(!listaCart.childElementCount > 0){
+        containerCardFavo.forEach(el => {
+            //Limpando os Botões
+            el.querySelector('.adiciona').innerHTML = ''
 
-    const filtro = nomeProdutoFavo.map((favo)=>{
-        return nomeProdutoCart.filter((cart) => cart.innerHTML === favo.innerHTML)
-    })
+            // Recriando os elementos
+            const span = document.createElement('span')
+            const img = document.createElement('img')
+            el.querySelector('.adiciona').appendChild(span)
+            span.appendChild(img)
 
-    console.log(filtro)
-    // console.log()
+            img.src = iconCartAdd
+            el.querySelector('.adiciona').innerHTML += 'Adicionar'
+        })
+    }else if(listaCart.childElementCount > 0 && listaFavo.childElementCount > 0){
+        const nomeCart = containerCardCart.map(el => el.querySelector('.textCart').innerHTML)
+        const nomeFavo = containerCardFavo.map(el => el.querySelector('.textFavo').innerHTML)
+    
+        // Me da os nomes dos cards que estão na aba cart e favorito
+        const stringsIguais = []
+        for (let i = 0; i < nomeFavo.length; i++) {
+            for (let j = 0; j < nomeCart.length; j++) {
+                if (nomeFavo[i] === nomeCart[j]) {
+                    stringsIguais.push(nomeFavo[i])
+                    break
+                }
+            }
+        }
+      
+        // Verifica se os cards então adcionado no carrinho ou não
+        for(let i = 0; i < containerCardFavo.length; i++){
+            for(let j = 0; j < stringsIguais.length; j++){
+                if(containerCardFavo[i].querySelector('.textFavo').innerHTML === stringsIguais[j]){
+                    // Limpando os Botões
+                    containerCardFavo[i].querySelector('.adiciona').innerHTML = ''
 
-    if(listaCart.childElementCount > 0){
-         
-         
-        // console.log(textCart)
-        // console.log(textFavo)
+                    // Recriando os elementos
+                    const span = document.createElement('span')
+                    const img = document.createElement('img')
+                    containerCardFavo[i].querySelector('.adiciona').appendChild(span)
+                    span.appendChild(img)
+
+                    img.src = iconCartRemove
+                    containerCardFavo[i].querySelector('.adiciona').innerHTML += 'Remover'
+                    break;
+                }else{
+                    // Limpando os Botões
+                    containerCardFavo[i].querySelector('.adiciona').innerHTML = ''
+
+                    // Recriando os elementos
+                    const span = document.createElement('span')
+                    const img = document.createElement('img')
+                    containerCardFavo[i].querySelector('.adiciona').appendChild(span)
+                    span.appendChild(img)
+
+                    img.src = iconCartAdd
+                    containerCardFavo[i].querySelector('.adiciona').innerHTML += 'Adicionar'
+                }
+            }
+        }
     }
 }
 
 function deFavoParaCart(event){
     event.preventDefault()
-
     const cardsProdutos = arrayCard.filter(el => el.classList.contains('AdcionadoFavo'))
     
     // tive que buscar os mesmo elementos para saber onde foi o click
