@@ -134,6 +134,23 @@ export function verificaItemCart(){
 
 function deFavoParaCart(event){
     event.preventDefault()
+
+    const iconCartAdd = 'Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg'
+    event.currentTarget.classList.toggle('addRemove')
+    if(event.currentTarget.classList.contains('addRemove')){
+         // Limpando os Botões
+         event.currentTarget.innerHTML = ''
+
+         // Recriando os elementos
+         const span = document.createElement('span')
+         const img = document.createElement('img')
+         event.currentTarget.appendChild(span)
+         span.appendChild(img)
+
+         img.src = iconCartAdd
+         event.currentTarget.innerHTML += 'Adicionar'
+    }
+
     const cardsProdutos = arrayCard.filter(el => el.classList.contains('AdcionadoFavo'))
     
     // tive que buscar os mesmo elementos para saber onde foi o click
