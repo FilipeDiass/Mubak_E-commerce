@@ -39,7 +39,7 @@ function favorito(event){
         cheioFavo.style.display = 'none'
     }
 
-   
+   // Testes
     verificaItemCart()
 
     // Chama a função que adciona o produto da aba favo para aba cart
@@ -59,27 +59,30 @@ function favorito(event){
 }  
 
 export function verificaItemCart(){
-     // Verifica se o item ja está no cart
-     const listaCart = document.querySelector('#listaCart')
-     if(listaCart.childElementCount > 0){
-         const textCart = [...document.querySelectorAll('.textCart')]
-         const textFavo = [...document.querySelectorAll('.textFavo')]
-        
-         textFavo.forEach((el, ind) => {
-             for(let i = 0; i < textCart.length; i++){
-                 if(el.innerHTML === textCart[i].innerHTML){
-                     listaFavo.children[ind].querySelector('.adiciona').innerHTML = '<span><img src="Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg"></span>Remover'
-                 }else{
-                     listaFavo.children[ind].querySelector('.adiciona').innerHTML = '<span><img src="Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg"></span>Adcionar'
-                 }
-             }
-         })
-         
-         // console.log(textCart)
-         // console.log(textFavo)
-     }
-}
 
+    // Verifica se o item ja está no cart
+    const listaCart = document.querySelector('#listaCart')
+    
+    const containerCardFavo = [...document.querySelectorAll('.containerCardFavo')]
+    const containerCardCart = [...document.querySelectorAll('.containerCardCarrinho')]
+
+    const nomeProdutoFavo = [...document.querySelectorAll('.textFavo')]
+    const nomeProdutoCart = [...document.querySelectorAll('.textCart')]
+
+    const filtro = nomeProdutoFavo.map((favo)=>{
+        return nomeProdutoCart.filter((cart) => cart.innerHTML === favo.innerHTML)
+    })
+
+    console.log(filtro)
+    // console.log()
+
+    if(listaCart.childElementCount > 0){
+         
+         
+        // console.log(textCart)
+        // console.log(textFavo)
+    }
+}
 
 function deFavoParaCart(event){
     event.preventDefault()

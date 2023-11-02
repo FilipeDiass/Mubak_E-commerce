@@ -70,6 +70,7 @@ export function carrinho(event){
     //chama a função iniciaItemQuantidade
     iniciaItemQuantidade()
 
+    // Teste
     verificaItemCart()
 }
 
@@ -101,6 +102,7 @@ function removeItemCart(event){
     // Valor total dos produtos
     totalProdutos()
 
+    //Teste
     verificaItemCart()
 }
 
