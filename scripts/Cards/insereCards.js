@@ -20,9 +20,20 @@ export async function criaCardsDestaque() {
 }
 
 export async function criaCardsEstoque(){
-    // const data = await pegaDados();
-    // const produto = data.itensEstoque
-    // console.log(produto)
+    return new Promise(async(resolve)=>{
+        const temporario = await pegaDados();
+        const produto = temporario.itensEstoque
+        embaralhaArray(produto)
+        //Adiciona Cards na aba Destaques
+        const containerCard = document.querySelectorAll('.cardEstoque')
+        produto.forEach((prod, i)=>{
+            const cards = criaCorpoCard(prod)
+            const indice = i % 2 === 0? 0 : 1
+            containerCard[indice].appendChild(cards)  
+        })
+        scrollCard()
+        resolve()
+    })    
 }
 
 // Função para embaralhar um array

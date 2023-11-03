@@ -324,16 +324,802 @@
     "itensEstoque": [
         {
             "id": 1,
-            "nome": "",
-            "categoria": "",
-            "preco": 300.00,
-            "descricao": "",
-            "imagem": "",
+            "nome": "Placa de Vídeo RTX 3060TI",
+            "categoria": "Hardware",
+            "preco": 3700.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID1_RTX 3060TI.png",
             "especificacoesTecnicas": {
-            "Marca": "",
-            "Modelo": "",
-            "Armazenamento Interno": "",
-            "Unidade Óptica": ""
+            "Marca": "COLORFUL",
+            "Modelo": "RTX 3060TI",
+            "Memória VRAM": "12 GB",
+            "Núcleos CUDA": 8704,
+            "Clock Base": "1350 MHz",
+            "Clock Boost": "1665 MHz"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Monitor Asus TUF Gaming",
+            "categoria": "Monitor",
+            "preco": 1300.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID2_TUF Gaming.png",
+            "especificacoesTecnicas": {
+            "Marca": "ASUS",
+            "Modelo": "VG279Q1A",
+            "Tamanho da Tela": "27 polegadas",
+            "Resolução": "1920 x 1080 pixels",
+            "Taxa de Atualização": "165 Hz",
+            "Tecnologia de Painel": "IPS"
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Mouse Logitech G703 Lightspeed",
+            "categoria": "Periferico",
+            "preco": 120.00,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID3_G703 LIGHTSPEED.png",
+            "especificacoesTecnicas": {
+            "Marca": "Logitech",
+            "Modelo": "G703 LIGHTSPEED",
+            "Resolução Máxima": "25.000 DPI",
+            "Número de Botões Programáveis": 6,
+            "Compatibilidade": "Windows, macOS",
+            "Sensor": "HERO 25K"
+            }
+        },
+        {
+            "id": 4,
+            "nome": "Teclado Redragon Kumara",
+            "categoria": "Periferico",
+            "preco": 89.99,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.png",
+            "especificacoesTecnicas": {
+            "Marca": "Redragon",
+            "Modelo": "Kumara",
+            "Layout": "ABNT2",
+            "Tipo de Teclado": "Mecânico",
+            "Switches": "Outemu Blue",
+            "Conexão": "Com fio (USB)"
+            }
+        },
+        {
+            "id": 5,
+            "nome": "Monitor Samsung Odyssey G5",
+            "categoria": "Monitor",
+            "preco": 3200.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID5_Odyssey G5.png",
+            "especificacoesTecnicas": {
+            "Marca": "Samsung",
+            "Modelo": "Odyssey G5",
+            "Tamanho da Tela": "27 polegadas",
+            "Resolução": "2560 x 1440 pixels",
+            "Taxa de Atualização": "144Hz",
+            "Tecnologia de Painel": "IPS LCD"
+            }
+        },
+        {
+            "id": 6,
+            "nome": "PlayStation 5",
+            "categoria": "VideoGame",
+            "preco": 4100.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID6_PS5.png",
+            "especificacoesTecnicas": {
+            "Marca": "Sony",
+            "Modelo": "PlayStation 5",
+            "Armazenamento Interno": "825GB SSD",
+            "Unidade Óptica": "Blu-ray Ultra HD",
+            "Saída de Vídeo": "Suporte a TVs de 120Hz 4K, TVs 8K, VRR",
+            "Tipo": "Mídia Física"
+            }
+        },
+        {
+            "id": 7,
+            "nome": "PC Gamer Ryzen 7 5700G",
+            "categoria": "Computador",
+            "preco": 2300.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID7_PC GAMER RYZEN 7.png",
+            "especificacoesTecnicas": {
+            "Marca": "AMD",
+            "Modelo": "Ryzen 7 5700G",
+            "Memória/Tipo": "16GB DDR4",
+            "Socket": "Socket AM4",
+            "Processador": "Ryzen 7",
+            "Velocidade do Processador": "3,8 GHz"
+            }
+        },
+        {
+            "id": 8,
+            "nome": "Controle Xbox Series",
+            "categoria": "VideoGame",
+            "preco": 350.00,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID8_Controle Xbox.png",
+            "especificacoesTecnicas": {
+            "Marca": "Microsoft",
+            "Modelo": "Xbox Series",
+            "Número do modelo": "QAT-00007",
+            "Pilha(s) ou bateria(s)": "2 AA baterias necessárias. (inclusas)",
+            "Certificação ": "ANATEL: 08294-20-01569",
+            "Dimensões do produto": "17,7 x 17,81 x 7,19 cm; 400 g"
+            }
+        },
+        {
+            "id": 9,
+            "nome": "Headset Razer Blackshark V2",
+            "categoria": "Periferico",
+            "preco": 600.00,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID9_Blackshark V2.png",
+            "especificacoesTecnicas": {
+            "Marca": "Razer",
+            "Modelo": "RZ.AU.BK.04.RT",
+            "Características especiais": "Microfone incluso",
+            "Componentes incluídos": "BlackShark V2",
+            "Controle de ruídos": "Isolamento de som",
+            "forma dos fones": "Sobre a orelha"
+            }
+        },
+        {
+            "id": 10,
+            "nome": "Placa Mãe Gigabyte B550M Aorus Elite",
+            "categoria": "Hardware",
+            "preco": 870.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID10_B550M AORUS Elite.png",
+            "especificacoesTecnicas": {
+            "Marca": "GIGABYTE",
+            "Modelo": "B550M",
+            "Soquete": "Soquete AM4",
+            "Tipo de Memória": "DDR4 SDRAM",
+            "portas USB 2.0": 4,
+            "Interface da placa de vídeo": "PCI Express"
+            }
+        },
+        {
+            "id": 11,
+            "nome": "Notebook Acer Nitro 5",
+            "categoria": "Computador",
+            "preco": 4380.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID11_Acer Nitro 5.png",
+            "especificacoesTecnicas": {
+            "Marca": "Acer",
+            "Modelo": "AN515-57-520Y",
+            "Processador": "Intel Core i5-11400",
+            "Velocidade do processador": "4,5 GHz",
+            "Memória/Tipo": "8GB DDR4",
+            "SSD": "512GB"
+            }
+        },
+        {
+            "id": 12,
+            "nome": "PC Gamer Intel Core I9 10900f",
+            "categoria": "Computador",
+            "preco": 7099.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID12_PC FPS Headshot.png",
+            "especificacoesTecnicas": {
+            "Marca": "Intel",
+            "Modelo": "IT-FPS134F36",
+            "Processador": "Intel Core i9",
+            "Velocidade do processador": "2,5 GHz",
+            "Memória/Tipo": "8GB DDR4",
+            "SSD": "500GB"
+            }
+        },
+        {
+            "id": 13,
+            "nome": "Processador Intel Core I5-12400F",
+            "categoria": "Hardware",
+            "preco": 1100.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID13_Intel Core I5-12400F.png",
+            "especificacoesTecnicas": {
+            "Marca": "Intel",
+            "Modelo": "BX8071512400F",
+            "Velocidade do processador": "2,5 GHz",
+            "Soquete": "LGA 1700",
+            "Número de processadores": 6,
+            "Potência em watts": "65 watts"
+            }
+        },
+        {
+            "id": 14,
+            "nome": "Placa de Video RTX 4060",
+            "categoria": "Hardware",
+            "preco": 2335.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID14_RTX 4060.png",
+            "especificacoesTecnicas": {
+            "Marca": "MSI",
+            "Modelo": "V516-004R",
+            "Memória/Tipo": "8GB GDDR6",
+            "Interface da placa de vídeo": "PCI Express",
+            "Potência em watts": "115 watts",
+            "Velocidade do relógio de memória": "2565 MHz"
+            }
+        },
+        {
+            "id": 15,
+            "nome": "Teclado Logitech K380",
+            "categoria": "Periferico",
+            "preco": 189.90,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID15_Logitech K380.png",
+            "especificacoesTecnicas": {
+            "Marca": "Logitech",
+            "Modelo": "503020540100",
+            "Certificação": "ANATEL: 23091503229",
+            "Tecnologia de conexão": "Bluetooth",
+            "Pilha(s) ou bateria(s):": "2 AAA baterias necessárias. (inclusas)",
+            "Padrão de conexão sem fio": "802.11a"
+            }
+        },
+        {
+            "id": 16,
+            "nome": "Mouse Redragon Titanoboa2",
+            "categoria": "Periferico",
+            "preco": 237.00,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID16_Redragon TITANOBOA2.png",
+            "especificacoesTecnicas": {
+            "Marca": "Redragon",
+            "Modelo": "6950376705419",
+            "Quantidade de botões": 10,
+            "Tecnologia de conexão": "Com fio",
+            "Pilhas ou baterias inclusas": "Não",
+            "Material": "ABS, Plástico"
+            }
+        },
+        {
+            "id": 17,
+            "nome": "Controle DualSense",
+            "categoria": "VideoGame",
+            "preco": 439.00,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID17_DualSense.png",
+            "especificacoesTecnicas": {
+            "Marca": "Sony",
+            "Modelo": "DualSense",
+            "Pilha(s) ou bateria(s)": "2 Íon de lítio baterias necessárias. (inclusas)",
+            "Dimensões do produto": "13,4 x 17 x 1,6 cm; 440 g",
+            "Voltagem": "3.65 V",
+            "Requisitos de Alimentação": "5 V = 1500 mA"
+            }
+        },
+        {
+            "id": 18,
+            "nome": "Headset Logitech G733",
+            "categoria": "Periferico",
+            "preco": 799.00,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/itensDestaque/ID18_Logitech G733.png",
+            "especificacoesTecnicas": {
+            "Marca": "Logitech",
+            "Modelo": "981-000863",
+            "Certificação": "ANATEL: 82381803229",
+            "Forma dos fones": "Sobre a orelha",
+            "Conector": "USB",
+            "Características especiais": "Função de microfone"
+            }
+        },
+        {
+            "id": 19,
+            "nome": "Processador AMD Ryzen 7 5700G",
+            "categoria": "Hardware",
+            "preco": 1180.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID19_Ryzen 7 5700G.png",
+            "especificacoesTecnicas": {
+            "Marca": "AMD",
+            "Modelo": "5700G",
+            "Soquete": "Socket AM4",
+            "Velocidade do processador": "3.8GHz",
+            "Número de processadores": 8,
+            "Potência em watts": "65 watts"
+            }
+        },
+        {
+            "id": 20,
+            "nome": "Placa Mãe Gigabyte B660M Aorus PRO",
+            "categoria": "Hardware",
+            "preco": 1179.00,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/itensDestaque/ID20_B660M AORUS PRO.png",
+            "especificacoesTecnicas": {
+            "Marca": "GIGABYTE",
+            "Modelo": "B660M",
+            "Soquete": "Soquete AM3",
+            "Tecnologia da memória": "DDR4",
+            "Interface da placa de vídeo": "PCI Express",
+            "Entradas para memória": 1
+            }
+        },
+        {
+            "id": 21,
+            "nome": "Teclado Mecânico HyperX Alloy MKW100",
+            "categoria": "Periferico",
+            "preco": 239.99,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "HyperX",
+            "Modelo": "4P5E1AA#ABA",
+            "Switches": "Switches mecânicos ",
+            "Conector": "USB em metal dourado com cabo trançado",
+            "Iluminação": "Iluminação RGB",
+            "Peso": "1250 gramas"
+            }
+        },
+        {
+            "id": 22,
+            "nome": "Gabinete Rise Mode Glass 06X",
+            "categoria": "Periferico",
+            "preco": 169.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Rise Mode",
+            "Modelo": "GLASS 06X BLACK",
+            "Slots de Expansão": 7,
+            "Fans": "Suporte para 6 fans",
+            "Lateral": "Vidro Fumê",
+            "Frontal": "Vidro Temperado"
+            }
+        },
+        {
+            "id": 23,
+            "nome": "Mousepad Husky Black Avalanche",
+            "categoria": "Periferico",
+            "preco": 39.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Husky",
+            "Modelo": "MP-HAV-BK",
+            "Dimensões": "890 x 400 x 3 mm",
+            "Tecido": "microfibra de alta densidade",
+            "Base": "emborrachada e de aderência fixa",
+            "Resistente": "água e suor"
+            }
+        },
+        {
+            "id": 24,
+            "nome": "Pen Drive SanDisk Ultra Shift",
+            "categoria": "Periferico",
+            "preco": 24.99,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Sandisk",
+            "Modelo": "SDCZ410-032G-G46",
+            "Desempenho": "Velocidade de leitura: Até 100MB/s",
+            "Proteção": "Criptografia AES de 128 bits",
+            "Interface": "USB 3.0",
+            "Peso": "32 gramas"
+            }
+        },
+        {
+            "id": 25,
+            "nome": "Gabinete Rise Mode Galaxy Glass",
+            "categoria": "Periferico",
+            "preco": 449.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Rise Mode",
+            "Modelo": "RM-GA-GG-FW",
+            "Dimensões": "L 440mm x W 280mm x H 427mm",
+            "Slots de Expansão": 7,
+            "Fans": "Suporte para 10 fans",
+            "Vidro": "Vidro Temperado"
+            }
+        },
+        {
+            "id": 26,
+            "nome": "SSD 480 GB Kingston A400",
+            "categoria": "Hardware",
+            "preco": 169.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Kingston",
+            "Modelo": "SA400S37/480G",
+            "Formato": "2,5 pol",
+            "Capacidades": "480GB",
+            "NAND": "NAND",
+            "Performance de referência": "500MB/s para leitura e 450MB/s para gravação"
+            }
+        },
+        {
+            "id": 27,
+            "nome": "Fonte MSI MAG A650BN",
+            "categoria": "Hardware",
+            "preco": 300,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "MSI",
+            "Modelo": "306-7ZP2B22-CE0",
+            "Fator de Forma": "ATX",
+            "Potência Nominal": "650W",
+            "Tamanho da Ventoinha": "120 mm",
+            "Faixa de Tensão": "Bivolt 100-240 VCA"
+            }
+        },
+        {
+            "id": 28,
+            "nome": "Water Cooler Rise Mode",
+            "categoria": "Hardware",
+            "preco": 240,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Rise Mode",
+            "Modelo": "RM-WCB-04-ARGB",
+            "TDP": "180W",
+            "Tamanho do Fan": "2x 120x120x25mm",
+            "Tensão": "12v",
+            "Vida útil do FAN": "40000 Horas"
+            }
+        },
+        {
+            "id": 29,
+            "nome": "Memória Kingston Fury Beast",
+            "categoria": "Hardware",
+            "preco": 310,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Kingston",
+            "Modelo": "KF432C16BB1/16",
+            "Fator de forma": "DDR4",
+            "Velocidades": "3200 MHz",
+            "Latências": "CL16",
+            "Capacidades": "16GB"
+            }
+        },
+        {
+            "id": 30,
+            "nome": "Pasta Térmica Rise Silver Frost",
+            "categoria": "Hardware",
+            "preco": 0,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Rise",
+            "Modelo": "Frost ",
+            "SoquConteúdoete": "5g",
+            "Composição": "Silicone e Prata",
+            "Condutividade Térmica": "5,5 W / mK",
+            "Resistencia à Temperatura": "-50 ° C - 220 ° C"
+            }
+        },
+        {
+            "id": 31,
+            "nome": "Monitor Gamer Husky Storm 27",
+            "categoria": "Monitor",
+            "preco": 899.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Husky Gaming",
+            "Modelo": "MO-HST-27C",
+            "Tamanho da tela": 27,
+            "Proporção da tela": "16:9",
+            "Resolução máxima": "1080P (FullHD) - 1920x1080",
+            "Curvatura": "R1500"
+            }
+        },
+        {
+            "id": 32,
+            "nome": "Monitor LG UltraGear LG 34",
+            "categoria": "Monitor",
+            "preco": 2000,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "LG",
+            "Modelo": "34GP63A-B",
+            "Taxa de atualização": "160Hz",
+            "Tempo de Resposta": "1ms (MBR)",
+            "MaxxAudio": "(7Wx2)",
+            "DisplayPort": "2x HDMI"
+            }
+        },
+        {
+            "id": 33,
+            "nome": "Monitor HQ 19.5HQ-LED+",
+            "categoria": "Monitor",
+            "preco": 310,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "HQ",
+            "Modelo": "19.5HQ-LED+",
+            "Tamanho da Tela": "19.5",
+            "Contraste": "500.000:1",
+            "Tempo de Resposta": "2ms",
+            "Tipo da Tela": "Led"
+            }
+        },
+        {
+            "id": 34,
+            "nome": "Monitor LG Ultrawide 26",
+            "categoria": "Monitor",
+            "preco": 662.90,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "LG",
+            "Modelo": "26WQ500-B",
+            "Tamanho da Tela": "25,7Equot",
+            "Tipo de Tela": "IPS",
+            "Contraste": "3000:1",
+            "Taxa de atualização": "75 Hz"
+            }
+        },
+        {
+            "id": 35,
+            "nome": "Monitor Profissional LG 27",
+            "categoria": "Monitor",
+            "preco": 1799.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "LG",
+            "Modelo": "27UP650-W",
+            "Tela": "IPS de 27",
+            "Resolução Máxima": "3840 x 2160",
+            "Brilho": "400 cd/m²",
+            "Tempo de Resposta": "5ms (GtG em Faster)"
+            }
+        },
+        {
+            "id": 36,
+            "nome": "Nintendo Switch Oled",
+            "categoria": "VideoGame",
+            "preco": 2138.07,
+            "cor": "sim",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Nintendo",
+            "Modelo": "HBGSKAAA2",
+            "Tela": "7 Polegadas",
+            "Armazenamento": "64 GB de armazenamento interno",
+            "Garantia": "12 meses de garantia",
+            "Peso": "1460 gramas"
+            }
+        },
+        {
+            "id": 37,
+            "nome": "Volante Logitech G29",
+            "categoria": "VideoGame",
+            "preco": 1700,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Logitech",
+            "Modelo": "G29",
+            "Rotação": "900 graus de trava a trava",
+            "Altura": "270 mm",
+            "Largura": "260 mm",
+            "Comprimento": "278 mm"
+            }
+        },
+        {
+            "id": 38,
+            "nome": "Controle Nintendo Switch Pro",
+            "categoria": "VideoGame",
+            "preco": 399.90,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Nintendo",
+            "Modelo": "HBCAFSSK1",
+            "Conectividade": "Sem fio",
+            "Compatibilidade": "Nintendo Switch",
+            "Garantia": "12 meses de garantia",
+            "Peso": "226 gramas"
+            }
+        },
+        {
+            "id": 39,
+            "nome": "Xbox Series S",
+            "categoria": "VideoGame",
+            "preco": 2600,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Microsoft",
+            "Modelo": "Rrs-00006",
+            "CPU": "Zen 2 8X Cores 3,6 GHz ",
+            "GPU": "4 TFLOPS, 20 CUs @1.565 GHz",
+            "Memória": "GDDR6 de 10 GB e barramento de 128 bits",
+            "Resolução de jogos": "1440p"
+            }
+        },
+        {
+            "id": 40,
+            "nome": "Xbox Series X",
+            "categoria": "VideoGame",
+            "preco": 4600,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Microsoft",
+            "Modelo": "RRT-00057",
+            "Armazenamento ": " 1 TB",
+            "Conexões": "HDMI-in/out, Wi-Fi embutido, Blu-Ray",
+            "Voltagem": "Bivolt",
+            "Peso": "4452 gramas"
+            }
+        },
+        {
+            "id": 41,
+            "nome": "Notebook Lenovo Gaming 3i",
+            "categoria": "Computador",
+            "preco": 3700,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Lenovo",
+            "Modelo": "82MG0009BR",
+            "Memória": "8GB SO-DIMM DDR4-3200",
+            "Armazenamento": "512GB M.2 PCIe NVMe",
+            "Chipset": "Intel SoC Platform",
+            "Placa de Vídeo Dedicada": "NVIDIA GeForce GTX 1650 4GB"
+            }
+        },
+        {
+            "id": 42,
+            "nome": "Computador Fácil, Intel Core i3 10100F",
+            "categoria": "Computador",
+            "preco": 1649.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Fácil",
+            "Placa de Vídeo": "VGA 1GB DDR3 GT210 64BITS",
+            "Fonte": "REAL | 110/220V - BIVOLT",
+            "Sistema Operacional": "Linux (64 bits)",
+            "Dimensões do Gabinete": "Dimensões do Gabinete",
+            "Memória": "8GB 2666MHZ DDR4"
+            }
+        },
+        {
+            "id": 43,
+            "nome": "PC Gamer Fácil, Intel Core I7 3.4GHz",
+            "categoria": "Computador",
+            "preco": 2550,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Fácil",
+            "Modelo": "Pc Gamer Black i7",
+            "Tamanho": "120x120x25mm",
+            "Placa Mãe": "H61",
+            "Processador": "Intel Core I7",
+            "Memória": "16GB DDR4"
+            }
+        },
+        {
+            "id": 44,
+            "nome": "Pc Gamer Skill Stl-032 Win Intel 10ª",
+            "categoria": "Computador",
+            "preco": 3392.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Skill",
+            "Modelo": "Stl-032",
+            "processador": "intel core i5 10400f",
+            "Memória": "16gb DDR4",
+            "Frequência": "3200mhz",
+            "Armazenamento": "512gb"
+            }
+        },
+        {
+            "id": 45,
+            "nome": "PC Gamer Neologic AMD Ryzen 5 5500",
+            "categoria": "Computador",
+            "preco": 4991.88,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Neologic",
+            "Processador": "Amd Ryzen 5 5500, 3.6ghz",
+            "Placa Mãe": "A520m Am4 ",
+            "Placa de Vídeo": "Geforce Rtx 3060, 12gb Gddr6",
+            "Memória": "8gb Ddr4 Neologic 3200mhz",
+            "Ssd": "1tb M.2 Nvme"
+            }
+        },
+        {
+            "id": 46,
+            "nome": "Placa de Vídeo RX 6750 XT MECH",
+            "categoria": "Hardware",
+            "preco": 2049,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "MSI",
+            "Modelo": "Radeon RX 6750 XT",
+            "Arquitetura": "AMD RDNA 2",
+            "Processador gráfico": "AMD Radeon RX 6750 XT",
+            "Memória": "12 GB GDDR6",
+            "Clock base": "2250 MHz"
+            }
+        },
+        {
+            "id": 47,
+            "nome": "Placa de Vídeo RX 580",
+            "categoria": "Hardware",
+            "preco": 799.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Intel",
+            "Modelo": "RX 580 Phantom Gaming Elite",
+            "Memória": "8 GB GDDR5",
+            "Relógio central": "1345 MHz / 8000 MHz",
+            "DirectX": 12,
+            "OpenGL": "4,5"
+            }
+        },
+        {
+            "id": 48,
+            "nome": "Pen Drive 64GB Kingston",
+            "categoria": "Periferico",
+            "preco": 29.90,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Kingston ",
+            "Modelo": "DTXON/64GB",
+            "Capacidades": "64GB",
+            "Velocidade": "USB 3.2 Gen 1",
+            "Dimensões": "60,7 mm x 21 mm x 10,2 mm",
+            "Peso": "80 gramas"
+            }
+        },
+        {
+            "id": 49,
+            "nome": "Mousepad Gamer Husky Gaming Avalanche",
+            "categoria": "Periferico",
+            "preco": 39.90,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Husky",
+            "Modelo": "MP-HAV-BL",
+            "Dimensões": "900 x 3 x 400 mm",
+            "Resistente": "água e ao suor",
+            "Bordas": "costuradas de alta qualidade",
+            "Peso": "760 gramas"
+            }
+        },
+        {
+            "id": 50,
+            "nome": "Headset Gamer Rapoo VH700",
+            "categoria": "Periferico",
+            "preco": 99.99,
+            "cor": "não",
+            "imagem": "Imagem/Produtos/",
+            "especificacoesTecnicas": {
+            "Marca": "Rapoo",
+            "Modelo": "RA032",
+            "Frequência do Fone": "20~20000Hz",
+            "Compatibilidade": "MacOS, Windows, Linux",
+            "Sensibilidade": "103+-3dB",
+            "Comprimento do Cabo": "1,5m"
             }
         }
     ]
