@@ -128,7 +128,7 @@ div#menuMobile{
     width: 0vw;
     min-width: 0px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -254,8 +254,9 @@ button.button2{
     width: 100%;
     min-width: 280px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
+    bottom: 0;
     overflow: hidden;
     background-color: #123C56;
     z-index: 1;
@@ -361,7 +362,30 @@ div.carrinhoCheio > ul{
     width: 100%;
     height: calc(100% - 100px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
+#listaFavo{
+    height: 100%;
+}
+
+/* Barra de Rolagem nos navegadores */
+div.carrinhoCheio > ul::-webkit-scrollbar{
+    width: 5px;
+}
+div.carrinhoCheio > ul::-webkit-scrollbar-track {
+    background-color: #C1BABA; /* Cor do fundo da barra de rolagem */
+  }
+  div.carrinhoCheio > ul::-webkit-scrollbar-thumb {
+    background-color: var(--colorBlue); /* Cor do polegar da barra de rolagem */
+    border-radius: 5px;
+}
+
+/* Barra de rolagem no fire fox */
+div.carrinhoCheio > ul{
+    scrollbar-width: thin;
+    scrollbar-color: var(--colorBlue) #C1BABA;
+}
+
 div.carrinhoCheio > ul > li{
     width: 100%;
     height: 100px;
@@ -429,6 +453,7 @@ div.tituloQuantidade > div > button{
     border: none;
     border-radius: 3px 0px 0px 3px;
     background-color: var(--colorBlue);
+    transition: .3s;
     cursor: pointer;
 }
 .buttonMais{
@@ -465,6 +490,8 @@ span.iconFechar > img{
 }
 
 div.card > p{
+    display: flex;
+    align-items: center;
     height: 30px;
     font-size: 1.3em;
     font-weight: bolder;
@@ -473,11 +500,12 @@ div.card > p{
     right: 10px;
     bottom: 10px;
     overflow: hidden;
+    transition: .3s;
 }
 div.card > p > span{
     padding-right: 2px;
 }
-@media screen and (max-width: 310px){
+@media screen and (max-width: 365px){
     div.tituloQuantidade{
         width: 150px;
     }
@@ -490,8 +518,20 @@ div.card > p > span{
         height: 30px;
     }
     div.card > p{
-        font-size: 1.2em;
-        bottom: 8px;
+        font-size: 1em;
+        bottom: 10px;
+    }
+}
+@media screen and (max-width: 310px){
+    div.card > p{
+        font-size: .8em;
+    }
+    div.tituloQuantidade > div > button{
+        width: 25px;
+    }
+    div.tituloQuantidade > div > span{
+        width: 30px;
+        font-size: .9em;
     }
 }
 
@@ -518,6 +558,11 @@ div.finalizarCompra > button{
     border-radius: 5px;
     background-color: var(--colorBlue);
 }
+@media screen and (max-width: 310px){
+    div.finalizarCompra > button{
+        font-size: .9em;
+    }
+}
 div.finalizarCompra > p {
     font-size: 0.9em;
     font-weight: 600;
@@ -541,6 +586,13 @@ div.QuantFavo > div > button{
     width: 85%;
     font-size: 1.1em;
     border-radius: 5px;
+    transition: .3s;
+}
+@media screen and (max-width: 400px){
+    div.QuantFavo > div > button{
+        width: 70%;
+        font-size: 1em;
+    }
 }
 div.QuantFavo > div > button > span {
     display: flex;
@@ -689,7 +741,7 @@ div.QuantFavo > div > button > span > img{
     div.carrinhoConteudo{
         width: 0%;
         max-width: initial;
-        height: 100vh;
+        height: calc(100% - 70px);
         transition: 0.3s;
         background-color: white;
     }
