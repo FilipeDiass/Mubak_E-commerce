@@ -744,7 +744,7 @@
             "categoria": "Hardware",
             "preco": 300,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Hardware/D27/D27.png",
             "especificacoesTecnicas": {
             "Marca": "MSI",
             "Modelo": "306-7ZP2B22-CE0",
@@ -760,7 +760,7 @@
             "categoria": "Hardware",
             "preco": 240,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Hardware/D28/D28.png",
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
             "Modelo": "RM-WCB-04-ARGB",
@@ -776,7 +776,7 @@
             "categoria": "Hardware",
             "preco": 310,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Hardware/D29/D29.png",
             "especificacoesTecnicas": {
             "Marca": "Kingston",
             "Modelo": "KF432C16BB1/16",
@@ -792,7 +792,7 @@
             "categoria": "Hardware",
             "preco": 0,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Hardware/D30/D30.png",
             "especificacoesTecnicas": {
             "Marca": "Rise",
             "Modelo": "Frost ",
@@ -808,7 +808,7 @@
             "categoria": "Monitor",
             "preco": 899.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Monitor/D31/D31.png",
             "especificacoesTecnicas": {
             "Marca": "Husky Gaming",
             "Modelo": "MO-HST-27C",
@@ -824,7 +824,7 @@
             "categoria": "Monitor",
             "preco": 2000,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Monitor/D32/D32.png",
             "especificacoesTecnicas": {
             "Marca": "LG",
             "Modelo": "34GP63A-B",
@@ -840,7 +840,7 @@
             "categoria": "Monitor",
             "preco": 310,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Monitor/D33/D33.png",
             "especificacoesTecnicas": {
             "Marca": "HQ",
             "Modelo": "19.5HQ-LED+",
@@ -856,7 +856,7 @@
             "categoria": "Monitor",
             "preco": 662.90,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Monitor/D34/D34.png",
             "especificacoesTecnicas": {
             "Marca": "LG",
             "Modelo": "26WQ500-B",
@@ -872,7 +872,7 @@
             "categoria": "Monitor",
             "preco": 1799.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Monitor/D35/D35.png",
             "especificacoesTecnicas": {
             "Marca": "LG",
             "Modelo": "27UP650-W",
@@ -888,7 +888,7 @@
             "categoria": "VideoGame",
             "preco": 2138.07,
             "cor": "sim",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/VideoGame/D36/D36.png",
             "especificacoesTecnicas": {
             "Marca": "Nintendo",
             "Modelo": "HBGSKAAA2",
@@ -904,7 +904,7 @@
             "categoria": "VideoGame",
             "preco": 1700,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/VideoGame/D37/D37.png",
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "G29",
@@ -920,7 +920,7 @@
             "categoria": "VideoGame",
             "preco": 399.90,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/VideoGame/D38/D38.png",
             "especificacoesTecnicas": {
             "Marca": "Nintendo",
             "Modelo": "HBCAFSSK1",
@@ -936,7 +936,7 @@
             "categoria": "VideoGame",
             "preco": 2600,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/VideoGame/D39/D39.png",
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
             "Modelo": "Rrs-00006",
@@ -952,7 +952,7 @@
             "categoria": "VideoGame",
             "preco": 4600,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/VideoGame/D40/D40.png",
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
             "Modelo": "RRT-00057",
@@ -968,7 +968,7 @@
             "categoria": "Computador",
             "preco": 3700,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Computador/D41/D41.png",
             "especificacoesTecnicas": {
             "Marca": "Lenovo",
             "Modelo": "82MG0009BR",
@@ -984,7 +984,7 @@
             "categoria": "Computador",
             "preco": 1649.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Computador/D42/D42.png",
             "especificacoesTecnicas": {
             "Marca": "Fácil",
             "Placa de Vídeo": "VGA 1GB DDR3 GT210 64BITS",
@@ -1000,7 +1000,7 @@
             "categoria": "Computador",
             "preco": 2550,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Computador/D43/D43.png",
             "especificacoesTecnicas": {
             "Marca": "Fácil",
             "Modelo": "Pc Gamer Black i7",
@@ -1016,7 +1016,7 @@
             "categoria": "Computador",
             "preco": 3392.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Computador/D44/D44.png",
             "especificacoesTecnicas": {
             "Marca": "Skill",
             "Modelo": "Stl-032",
@@ -1032,7 +1032,7 @@
             "categoria": "Computador",
             "preco": 4991.88,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Computador/D45/D45.png",
             "especificacoesTecnicas": {
             "Marca": "Neologic",
             "Processador": "Amd Ryzen 5 5500, 3.6ghz",
@@ -1048,7 +1048,7 @@
             "categoria": "Hardware",
             "preco": 2049,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Hardware/D46/D46.png",
             "especificacoesTecnicas": {
             "Marca": "MSI",
             "Modelo": "Radeon RX 6750 XT",
@@ -1064,7 +1064,7 @@
             "categoria": "Hardware",
             "preco": 799.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Hardware/D47/D47.png",
             "especificacoesTecnicas": {
             "Marca": "Intel",
             "Modelo": "RX 580 Phantom Gaming Elite",
@@ -1080,7 +1080,7 @@
             "categoria": "Periferico",
             "preco": 29.90,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D48/D48.png",
             "especificacoesTecnicas": {
             "Marca": "Kingston ",
             "Modelo": "DTXON/64GB",
@@ -1096,7 +1096,7 @@
             "categoria": "Periferico",
             "preco": 39.90,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D49/D49.png",
             "especificacoesTecnicas": {
             "Marca": "Husky",
             "Modelo": "MP-HAV-BL",
@@ -1112,7 +1112,7 @@
             "categoria": "Periferico",
             "preco": 99.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D50/D50.png",
             "especificacoesTecnicas": {
             "Marca": "Rapoo",
             "Modelo": "RA032",
