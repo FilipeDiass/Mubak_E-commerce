@@ -648,7 +648,7 @@
             "categoria": "Periferico",
             "preco": 239.99,
             "cor": "sim",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D21/D21.png",
             "especificacoesTecnicas": {
             "Marca": "HyperX",
             "Modelo": "4P5E1AA#ABA",
@@ -664,7 +664,7 @@
             "categoria": "Periferico",
             "preco": 169.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D22/D22.png",
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
             "Modelo": "GLASS 06X BLACK",
@@ -680,7 +680,7 @@
             "categoria": "Periferico",
             "preco": 39.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D23/D23.png",
             "especificacoesTecnicas": {
             "Marca": "Husky",
             "Modelo": "MP-HAV-BK",
@@ -696,7 +696,7 @@
             "categoria": "Periferico",
             "preco": 24.99,
             "cor": "sim",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D24/D24.png",
             "especificacoesTecnicas": {
             "Marca": "Sandisk",
             "Modelo": "SDCZ410-032G-G46",
@@ -712,7 +712,7 @@
             "categoria": "Periferico",
             "preco": 449.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Periferico/D25/D25.png",
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
             "Modelo": "RM-GA-GG-FW",
@@ -728,7 +728,7 @@
             "categoria": "Hardware",
             "preco": 169.99,
             "cor": "não",
-            "imagem": "Imagem/Produtos/",
+            "imagem": "Imagem/Produtos/Hardware/D26/D26.png",
             "especificacoesTecnicas": {
             "Marca": "Kingston",
             "Modelo": "SA400S37/480G",
