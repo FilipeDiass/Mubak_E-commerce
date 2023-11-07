@@ -2,35 +2,41 @@ import pegaDados from "./pegaDados.js";
 import criaCorpoCard from "./card.js";
 import scrollCard from "./scroolCard.js";
 
-let dados = undefined
-export async function criaCardsDestaque() { 
+let produto = undefined
+export async function criaCards() { 
     return new Promise(async(resolve)=>{
-        dados = await pegaDados();
-        const produto = dados.itensDestaque
+        const dados = await pegaDados();
+        produto = dados.produtosDados
         embaralhaArray(produto)
-        //Adiciona Cards na aba Destaques
-        const containerCard = document.querySelector('.cardDestaque')
-        produto.forEach((prod)=>{
-            const cards = criaCorpoCard(prod)
-            containerCard.appendChild(cards)  
-        })
-        scrollCard()
-        resolve()
-    })    
-}
 
-export async function criaCardsEstoque(){
-    return new Promise(async(resolve)=>{
-        const temporario = await pegaDados();
-        const produto = temporario.itensEstoque
-        embaralhaArray(produto)
         //Adiciona Cards na aba Destaques
-        const containerCard = document.querySelectorAll('.cardEstoque')
+        const containerDestaque = document.querySelector('.campDestaque')
+        produto.forEach((prod)=>{
+            if(prod.id <= 20){
+                const cards = criaCorpoCard(prod)
+                cards.classList.add('cardDestaque')
+                cards.querySelector('.iconCart').classList.add('cartDestaque')
+                containerDestaque.appendChild(cards) 
+            }    
+        })
+
+        //Adiciona Cards na aba Estoque 
+        const containerEstoque = document.querySelectorAll('.campEstoque')
         produto.forEach((prod, i)=>{
             const cards = criaCorpoCard(prod)
+
+            //Dando classes apenas para os produto em estoque
+            cards.classList.add('cardEstoque')
+            cards.querySelector('.iconCart').classList.add('cartOriginal')
+            cards.querySelector('.iconCoracao').classList.add('coracaoOriginal')
+            cards.querySelector('.tituloCard').classList.add('tituloCardEstoque')
+
+            
+        
             const indice = i % 2 === 0? 0 : 1
-            containerCard[indice].appendChild(cards)  
+            containerEstoque[indice].appendChild(cards)
         })
+        
         scrollCard()
         resolve()
     })    
@@ -48,5 +54,5 @@ function embaralhaArray(array) {
 
 // Função para exporta os dados já embaralhados
 export function Produtos() {
-    return dados
+    return produto
 }

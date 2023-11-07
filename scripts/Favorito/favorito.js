@@ -1,5 +1,5 @@
 import criaListaFavo from "./cardFavo.js"
-import { carrinho } from "../Carrinho/Carrinho.js"
+import { carrinho, cardsAvulso } from "../Carrinho/Carrinho.js"
 
 // Array que guarda os Cards
 let arrayCard = []
@@ -159,6 +159,7 @@ function deFavoParaCart(event){
 
     const cardProduto = cardsProdutos[indiceFavo]
 
+    cardsAvulso(cardProduto)
     carrinho(cardProduto)
 }
 
@@ -189,7 +190,7 @@ function removeItemFavo(event){
 }
 
 export default function iniciaFavorito(){
-    const iconCoracao = document.querySelectorAll('.iconCoracao')
+    const iconCoracao = document.querySelectorAll('.coracaoOriginal')
     iconCoracao.forEach((el)=>{
         el.addEventListener('click', favorito)
         el.addEventListener('touchend', favorito)

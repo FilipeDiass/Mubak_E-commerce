@@ -3,8 +3,7 @@ import { Produtos } from "../Cards/insereCards.js"
 function ItemQuantidade(event){
     event.preventDefault()
     // Dados dos cards(json)
-    const produtoCard = Produtos()
-    const produto = produtoCard.itensDestaque
+    const produto = Produtos()
 
     // Descobre o indice do card na aba carrinho
     const listaCart = document.querySelector('#listaCart')
@@ -57,8 +56,7 @@ function adcionaPreco(produto, indiceProduto, maisMenos, spanNumber, indiceCart)
 
 export function totalProdutos(){
     // Dados dos cards(json)
-    const produtoCard = Produtos()
-    const produto = produtoCard.itensDestaque
+    const produto = Produtos()
 
     // Valor total dos produtos
     const listaCart = document.querySelector('#listaCart')

@@ -4,9 +4,12 @@ header{
     width: 100%;
     min-width: 280px;
     height: 140px;
+    position: fixed;
+    top: 0;
     padding: 12px 15px;
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 10%);
+    z-index: 2;
 }
 header > div#containerTop{
     display: flex;
