@@ -35,7 +35,7 @@
         {
             "id": 3,
             "nome": "Mouse Logitech G703 Lightspeed",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 120.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID3_G703 LIGHTSPEED.png",
@@ -51,7 +51,7 @@
         {
             "id": 4,
             "nome": "Teclado Redragon Kumara",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 89.99,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.png",
@@ -83,7 +83,7 @@
         {
             "id": 6,
             "nome": "PlayStation 5",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 4100.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID6_PS5.png",
@@ -115,7 +115,7 @@
         {
             "id": 8,
             "nome": "Controle Xbox Series",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 350.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID8_Controle Xbox.png",
@@ -131,7 +131,7 @@
         {
             "id": 9,
             "nome": "Headset Razer Blackshark V2",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 600.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID9_Blackshark V2.png",
@@ -227,7 +227,7 @@
         {
             "id": 15,
             "nome": "Teclado Logitech K380",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 189.90,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID15_Logitech K380.png",
@@ -243,7 +243,7 @@
         {
             "id": 16,
             "nome": "Mouse Redragon Titanoboa2",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 237.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID16_Redragon TITANOBOA2.png",
@@ -259,7 +259,7 @@
         {
             "id": 17,
             "nome": "Controle DualSense",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 439.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID17_DualSense.png",
@@ -275,7 +275,7 @@
         {
             "id": 18,
             "nome": "Headset Logitech G733",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 799.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID18_Logitech G733.png",
@@ -323,7 +323,7 @@
         {
             "id": 21,
             "nome": "Teclado Mecânico HyperX Alloy MKW100",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 239.99,
             "cor": "sim",
             "imagem": "Imagem/Produtos/Periferico/D21/D21.png",
@@ -339,7 +339,7 @@
         {
             "id": 22,
             "nome": "Gabinete Rise Mode Glass 06X",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 169.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D22/D22.png",
@@ -355,7 +355,7 @@
         {
             "id": 23,
             "nome": "Mousepad Husky Black Avalanche",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 39.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D23/D23.png",
@@ -371,7 +371,7 @@
         {
             "id": 24,
             "nome": "Pen Drive SanDisk Ultra Shift",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 24.99,
             "cor": "sim",
             "imagem": "Imagem/Produtos/Periferico/D24/D24.png",
@@ -387,7 +387,7 @@
         {
             "id": 25,
             "nome": "Gabinete Rise Mode Galaxy Glass",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 449.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D25/D25.png",
@@ -563,7 +563,7 @@
         {
             "id": 36,
             "nome": "Nintendo Switch Oled",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 2138.07,
             "cor": "sim",
             "imagem": "Imagem/Produtos/VideoGame/D36/D36.png",
@@ -579,7 +579,7 @@
         {
             "id": 37,
             "nome": "Volante Logitech G29",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 1700,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D37/D37.png",
@@ -595,7 +595,7 @@
         {
             "id": 38,
             "nome": "Controle Nintendo Switch Pro",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 399.90,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D38/D38.png",
@@ -611,7 +611,7 @@
         {
             "id": 39,
             "nome": "Xbox Series S",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 2600,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D39/D39.png",
@@ -627,7 +627,7 @@
         {
             "id": 40,
             "nome": "Xbox Series X",
-            "categoria": "VideoGame",
+            "categoria": "Video Game",
             "preco": 4600,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D40/D40.png",
@@ -755,7 +755,7 @@
         {
             "id": 48,
             "nome": "Pen Drive 64GB Kingston",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 29.90,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D48/D48.png",
@@ -771,7 +771,7 @@
         {
             "id": 49,
             "nome": "Mousepad Gamer Husky Gaming Avalanche",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 39.90,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D49/D49.png",
@@ -787,7 +787,7 @@
         {
             "id": 50,
             "nome": "Headset Gamer Rapoo VH700",
-            "categoria": "Periferico",
+            "categoria": "Periférico",
             "preco": 99.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D50/D50.png",
