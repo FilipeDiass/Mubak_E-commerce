@@ -75,6 +75,8 @@ export function carrinho(event){
 }
 
 function removeItemCart(event){
+    event.preventDefault()
+    
     const listaCart = document.querySelector('#listaCart')
     const cardCart = event.currentTarget.closest('.containerCardCarrinho')
 
