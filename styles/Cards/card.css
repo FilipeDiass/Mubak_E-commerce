@@ -66,6 +66,7 @@ div.screen{
     height: 45%;
     position: relative;
     background-color: #f0efef;
+    user-select: none;
 }
 div.screen > img{
     width: 70%;
@@ -110,6 +111,7 @@ div.avaliar{
 div.avaliar > img{
     width: 80px;
     height: 20px;
+    user-select: none;
 }
 div.avaliar > p{
     font-size: 0.8em;

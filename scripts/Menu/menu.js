@@ -52,43 +52,43 @@ export default function iniciarMenu(){
     // Inicializar Abrir/Fechar Menu Burguer
     const menuBurgue = document.querySelector('#menuBurgue')
     menuBurgue.addEventListener('click', Menu)
-    menuBurgue.addEventListener('touchstart', Menu)
+    menuBurgue.addEventListener('touchend', Menu)
 
     // Inicializar Abrir Menu Cart
     const abrirCart = document.querySelector('#abrirCart')
     abrirCart.addEventListener('click', menuOption)
-    abrirCart.addEventListener('touchstart', menuOption)
+    abrirCart.addEventListener('touchend', menuOption)
 
     // Inicializar Fechar Menu Cart
     const fecharCart = document.querySelector('#fecharCart')
     const voltaLoja = document.querySelector('#voltaLoja')
     fecharCart.addEventListener('click', menuOption)
-    fecharCart.addEventListener('touchstart', menuOption)
+    fecharCart.addEventListener('touchend', menuOption)
     voltaLoja.addEventListener('click', menuOption)
-    voltaLoja.addEventListener('touchstart', menuOption)
+    voltaLoja.addEventListener('touchend', menuOption)
 
     // Inicializar Abrir Menu Favo
     const abrirFavo = document.querySelector('#abrirFavo')
     abrirFavo   .addEventListener('click', menuOption)
-    abrirFavo.addEventListener('touchstart', menuOption)
+    abrirFavo.addEventListener('touchend', menuOption)
     // Inicializar Fechar Menu Favo
     const fecharFavo = document.querySelector('#fecharFavo')
     const voltaLojaFavo = document.querySelector('#voltaLojaFavo')
     fecharFavo.addEventListener('click', menuOption)
-    fecharFavo.addEventListener('touchstart', menuOption)
+    fecharFavo.addEventListener('touchend', menuOption)
     voltaLojaFavo.addEventListener('click', menuOption)
-    voltaLojaFavo.addEventListener('touchstart', menuOption)
+    voltaLojaFavo.addEventListener('touchend', menuOption)
 
     // Inicializar Opção Menu Burguer
     const meusPedidos = document.querySelector('#meusPedidos')
     meusPedidos.addEventListener('click', Menu)
-    meusPedidos.addEventListener('touchstart', Menu)
+    meusPedidos.addEventListener('touchend', Menu)
     meusPedidos.addEventListener('click', menuOption)
-    meusPedidos.addEventListener('touchstart', menuOption)
+    meusPedidos.addEventListener('touchend', menuOption)
 
     const meusFavoritos = document.querySelector('#meusFavoritos')
     meusFavoritos.addEventListener('click', Menu)
-    meusFavoritos.addEventListener('touchstart', Menu)
+    meusFavoritos.addEventListener('touchend', Menu)
     meusFavoritos.addEventListener('click', menuOption)
-    meusFavoritos.addEventListener('touchstart', menuOption)
+    meusFavoritos.addEventListener('touchend', menuOption)
 }

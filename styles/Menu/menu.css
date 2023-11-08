@@ -24,6 +24,7 @@ div#logo, div#logo > a, div#logo > a > img{
     display: block;
     width: 166px;
     height: 100%;
+    user-select: none;
 }
 
 nav#navegation{
@@ -50,6 +51,7 @@ div#campIcones > span{
 div#campIcones > span > img{
     width: 35px;
     height: 35px;
+    user-select: none;
 }
 span.Zindex{
     flex-direction: column;
@@ -121,6 +123,7 @@ div.pesquisa > span{
 div.pesquisa > span > img{
     width: 85%;
     height: 85%;
+    user-select: none;
 }
 
 div#menuMobile{
@@ -163,6 +166,7 @@ div#campUser > span{
 div#campUser > span > img{
     width: 40px;
     height: 40px;
+    user-select: none;
 }
 
 div#campUser > div{
@@ -214,6 +218,7 @@ li.listMenu > span{
     height: 30px;
     margin-right: 10px;
     margin-left: 5px;
+    user-select: none;
 }
 li.listMenu > p{
     font-family: var(--fontMain);
@@ -316,6 +321,9 @@ div.titulo > span > img{
     width: 40px;
     height: 40px;
 }
+#fecharCart, #fecharFavo{
+    user-select: none;
+}
 
 div.carrinhoConteudo{
     width: 100%;
@@ -413,6 +421,7 @@ div.img{
     height: 80px;
     border-radius: 5px;
     background-color: #f0efef;
+    user-select: none;
 }
 div.img > img{
     width: 70%;
@@ -461,10 +470,12 @@ div.tituloQuantidade > div > button{
 }
 .buttonMais{
     border-radius: 0px 3px 3px 0px !important;
+    user-select: none;
 }
 div.tituloQuantidade > div > button > img{
     width: 20px;
     height: 20px;
+    user-select: none ;
 }
 div.tituloQuantidade > div > span{
     display: flex;
@@ -490,6 +501,7 @@ span.iconFechar{
 span.iconFechar > img{
     width: 100%;
     height: 100%;
+    user-select: none;
 }
 
 div.card > p{
@@ -605,6 +617,7 @@ div.QuantFavo > div > button > span {
     height: 30px;
     margin-right: 5px;
     cursor: pointer;
+    user-select: none;
 }
 div.QuantFavo > div > button > span > img{
     width: 20px;
@@ -659,6 +672,7 @@ div.QuantFavo > div > button > span > img{
         padding-left: 10px;
         font-size: 1em;
         border: none;
+        outline: none;
         border-radius: 10px 0px 0px 10px;
         background-color: #C1BABA;
     }
@@ -675,6 +689,7 @@ div.QuantFavo > div > button > span > img{
     }
     .pesquisaPC > span > img{
         width: 30px;
+        user-select: none;
     }
     #campUserPC{
         display: flex !important;
@@ -687,7 +702,8 @@ div.QuantFavo > div > button > span > img{
     }
     #campUserPC > span{
         width: 40px;
-        height: 40px;
+        height: 40px; 
+        user-select: none;
     }
     #campUserPC > p {
         width: 110px;
