@@ -11,10 +11,16 @@ section.containerCards{
     border-radius: 5px;
     background-color: white;
 }
-section.containerCards > span{
+section.containerCards > span, section.sectionEstoque > span{
     display: none;
 }
-
+section.sectionEstoque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden !important;
+}
 div.campCards{
     display: flex;
     align-items: center;
@@ -146,10 +152,12 @@ div.preco > span{
         cursor: pointer;
         z-index: 1;
     }
-    section.containerCards:hover > span{
+    section.scrollCircle:hover > span{
         width: 40px;
         height: 40px;
         opacity: 100%;
+        border-radius: 50%;
+        background-color: white;
     }
     .circleLeft{
         left: 10px;
@@ -161,7 +169,33 @@ div.preco > span{
     div.campCards{
         width: 95%;
         height: 400px;
-        padding: 0px 15px;
+        position: relative;
+    }
+    section.sectionEstoque{
+        width: 100%;
+        position: relative;
+        overflow: hidden !important;
+    }
+    section.sectionEstoque >  div.campCards{
+        width: 95%;
+    }
+    section.sectionEstoque > span{
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        transition: 0.3s;
+        opacity: 10%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    section.sectionEstoque:hover > span{
+        width: 40px;
+        height: 40px;
+        opacity: 100%;
+        border-radius: 50%;
+        background-color: white;
     }
     div.campCards > div{
         width: 180px;

@@ -1,29 +1,46 @@
 import criaListaFavo from "./cardFavo.js"
-import { carrinho, cardsAvulso } from "../Carrinho/Carrinho.js"
+import { carrinho, cardsAvulsoCart } from "../Carrinho/Carrinho.js"
 
 // Array que guarda os Cards
 let arrayCard = []
 
 function favorito(event){
-    event.preventDefault()
+    if(event.currentTarget) event.preventDefault()
 
     // Adiciona e Verifica se o card está Favoritado
     const listaFavo = document.querySelector('#listaFavo')
-    const card = event.currentTarget.closest('.corpoCard')
+    let card = undefined
+    if(event.currentTarget){
+        card = event.currentTarget.closest('.corpoCard')
+        cardsAvulsoFavo(card)
+    }else{
+        card = event
+    }
+    
     const cardFavo = criaListaFavo(card)
 
     if(!arrayCard.includes(card)){
         arrayCard.push(card)
     }
-    
+
     card.classList.toggle('AdcionadoFavo')
     const verifica = card.classList.contains('AdcionadoFavo')
     if(verifica){
         listaFavo.appendChild(cardFavo)
-        event.currentTarget.querySelector('img').src = 'Imagem/Icones/CoracaoCheio.svg'
+        if(event.currentTarget){
+            event.currentTarget.querySelector('img').src = 'Imagem/Icones/CoracaoCheio.svg'
+        }else{
+            const iconeCoracao = event.querySelector('.coracaoOriginal')
+            iconeCoracao.querySelector('img').src = 'Imagem/Icones/CoracaoCheio.svg'
+        }
     }else{
-        event.currentTarget.querySelector('img').src = 'Imagem/Icones/CoracaoVazio.svg'
         listaFavo.removeChild(listaFavo.children[arrayCard.indexOf(card)])
+        if(event.currentTarget){
+            event.currentTarget.querySelector('img').src = 'Imagem/Icones/CoracaoVazio.svg'
+        }else{
+            const iconeCoracao = event.querySelector('.coracaoOriginal')
+            iconeCoracao.querySelector('img').src = 'Imagem/Icones/CoracaoVazio.svg'
+        }
         arrayCard = arrayCard.filter(el => el !== card)
     }
 
@@ -159,7 +176,7 @@ function deFavoParaCart(event){
 
     const cardProduto = cardsProdutos[indiceFavo]
 
-    cardsAvulso(cardProduto)
+    cardsAvulsoCart(cardProduto)
     carrinho(cardProduto)
 }
 
@@ -176,6 +193,21 @@ function removeItemFavo(event){
     arrayCard[indiceLista].classList.remove('AdcionadoFavo')
     arrayCard = arrayCard.filter((el, i) => i !== indiceLista)
 
+    // Substituindo icone de Coração da aba Destaque
+    const arrayDestaques = [...document.querySelectorAll('.cardDestaque')]
+    const nomeCardCart = cardFavo.querySelector('.textFavo').innerHTML
+
+    for(let i = 0; i < arrayDestaques.length; i++){
+        const nomeDestaque = arrayDestaques[i].querySelector('.tituloCard').innerHTML
+        const iconeDestaque = arrayDestaques[i].querySelector('.coraDestaque')
+        
+        if(nomeDestaque === nomeCardCart){
+            iconeDestaque.classList.remove('trocaIconFavo')
+            iconeDestaque.querySelector('img').src = 'Imagem/Icones/CoracaoVazio.svg'
+            break;
+        }
+    }
+
     //remove item da aba favorito
     listaFavo.removeChild(cardFavo)
     
@@ -189,10 +221,52 @@ function removeItemFavo(event){
     }
 }
 
+function cardsAvulsoFavo(event){
+    let nomeCard = undefined
+    let iconFavo = undefined
+    let arrayCards = []
+
+    if(event.currentTarget){
+        event.preventDefault()
+        const cardDestaque = event.currentTarget.closest('.cardDestaque')
+        nomeCard = cardDestaque.querySelector('.tituloCard').innerHTML
+        iconFavo = event.currentTarget
+        arrayCards = [...document.querySelectorAll('.cardEstoque')]
+    }else{
+        nomeCard = event.querySelector('.tituloCardEstoque').innerHTML 
+        arrayCards = [...document.querySelectorAll('.cardDestaque')]
+    }
+
+    const iconRemove = 'Imagem/Icones/CoracaoVazio.svg'
+    const iconAdd = 'Imagem/Icones/CoracaoCheio.svg'
+
+    for(let i = 0; i < arrayCards.length; i++){
+        const nomeArrayCards = arrayCards[i].querySelector('.tituloCard').innerHTML
+        if(nomeArrayCards === nomeCard){
+            if(event.currentTarget) favorito(arrayCards[i])
+            if(!event.currentTarget) iconFavo = arrayCards[i].querySelector('.coraDestaque')
+
+            iconFavo.classList.toggle('trocaIconFavo')
+            if(iconFavo.classList.contains('trocaIconFavo')){
+                iconFavo.querySelector('img').src = iconAdd
+            }else{
+                iconFavo.querySelector('img').src = iconRemove
+            }
+            break;
+        } 
+    }
+}
+
 export default function iniciaFavorito(){
     const iconCoracao = document.querySelectorAll('.coracaoOriginal')
     iconCoracao.forEach((el)=>{
         el.addEventListener('click', favorito)
         el.addEventListener('touchend', favorito)
+    })
+
+    const favoAvulso = document.querySelectorAll('.coraDestaque')
+    favoAvulso.forEach((el)=>{
+        el.addEventListener('click', cardsAvulsoFavo)
+        el.addEventListener('touchend', cardsAvulsoFavo)
     })
 }

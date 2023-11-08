@@ -15,6 +15,7 @@ export async function criaCards() {
             if(prod.id <= 20){
                 const cards = criaCorpoCard(prod)
                 cards.classList.add('cardDestaque')
+                cards.querySelector('.iconCoracao').classList.add('coraDestaque')
                 cards.querySelector('.iconCart').classList.add('cartDestaque')
                 containerDestaque.appendChild(cards) 
             }    

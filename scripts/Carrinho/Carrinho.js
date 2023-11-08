@@ -17,7 +17,7 @@ export function carrinho(event){
     let card = undefined
     if(event.currentTarget){
         card = event.currentTarget.closest('.corpoCard')
-        cardsAvulso(card)
+        cardsAvulsoCart(card)
     }else{
         card = event
     }
@@ -93,7 +93,7 @@ function removeItemCart(event){
         const iconeDestaque = arrayDestaques[i].querySelector('.cartDestaque')
         
         if(nomeDestaque === nomeCardCart){
-            iconeDestaque.classList.remove('trocaIcon')
+            iconeDestaque.classList.remove('trocaIconCart')
             iconeDestaque.querySelector('img').src = 'Imagem/Icones/add_shopping_cart.svg'
             break;
         }
@@ -122,7 +122,7 @@ function removeItemCart(event){
 }
 
 
-export function cardsAvulso(event){
+export function cardsAvulsoCart(event){
 
     let nomeCard = undefined
     let iconCart = undefined
@@ -152,8 +152,8 @@ export function cardsAvulso(event){
             iconCart = arrayCards[i].querySelector('.cartDestaque')
             } 
 
-            iconCart.classList.toggle('trocaIcon')
-            if(iconCart.classList.contains('trocaIcon')){
+            iconCart.classList.toggle('trocaIconCart')
+            if(iconCart.classList.contains('trocaIconCart')){
                 iconCart.querySelector('img').src = iconRemove
             }else{
                 iconCart.querySelector('img').src = iconAdd
@@ -173,7 +173,7 @@ export default function iniciaCarrinho(){
 
     const cartAvulso = document.querySelectorAll('.cartDestaque')
     cartAvulso.forEach(el=>{
-        el.addEventListener('click', cardsAvulso)
-        el.addEventListener('touchend', cardsAvulso)
+        el.addEventListener('click', cardsAvulsoCart)
+        el.addEventListener('touchend', cardsAvulsoCart)
     })
 }

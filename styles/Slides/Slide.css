@@ -5,6 +5,11 @@ main{
     margin: auto;
     margin-top: 100px;
 }
+@media screen and (max-width: 700px) {
+    main{
+        margin-top: 150px;
+    }
+}
 section#containerSlide{
     display: flex;
     align-items: center;
