@@ -13,10 +13,11 @@ function filtro(event){
     // Pega os Produtos do arquivo Json
     const produtos = Produtos()
 
-    // Pega todos os cards da aba estoque e filtra
+    // Pega todos os cards da aba estoque e filtra o json
     const [...cardEstoque] = document.querySelectorAll('.cardEstoque')
     const arrayFiltro = produtos.filter(el => el.categoria === button[indice].innerHTML)
-
+    
+    // Me da os Cards filtrados
     const filtroFinal = []
     for(let i = 0; i < arrayFiltro.length; i++){
         for(let j = 0; j < cardEstoque.length; j++){
@@ -27,15 +28,13 @@ function filtro(event){
             }
         }
     }
+    
+    // Filtra os cards
+    cardEstoque.forEach(el => el.style.display = 'none')
+    filtroFinal.forEach(el => el.style.display = 'block')
 
-    const containerEstoque = document.querySelectorAll('.campEstoque')
-    containerEstoque[0].innerHTML = ''
-    containerEstoque[1].innerHTML = ''
-    console.log(filtroFinal)
-    filtroFinal.forEach((el, i)=>{
-        const indice = i % 2 === 0? 0 : 1
-        containerEstoque[indice].appendChild(el)
-    })
+    // Volta todos o itens
+    if(filtroFinal.length === 0)cardEstoque.forEach(el => el.style.display = 'block')
 
 }
 

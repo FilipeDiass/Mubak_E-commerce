@@ -32,8 +32,6 @@ export async function criaCards() {
             cards.querySelector('.iconCoracao').classList.add('coracaoOriginal')
             cards.querySelector('.tituloCard').classList.add('tituloCardEstoque')
 
-            
-        
             const indice = i % 2 === 0? 0 : 1
             containerEstoque[indice].appendChild(cards)
         })
