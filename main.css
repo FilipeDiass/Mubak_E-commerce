@@ -5,6 +5,7 @@
 @import url(styles/Cards/card.css);
 @import url(styles/ProdEstoque/prodEstoque.css);
 @import url(styles/Footer/footer.css);
+@import url(styles/ProdutoInfo/produtoInfo.css);
 
 *{
     margin: 0;

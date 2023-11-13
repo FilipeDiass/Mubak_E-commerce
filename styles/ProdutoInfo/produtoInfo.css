@@ -1,0 +1,65 @@
+section.produtoInfo{
+    width: 95%;
+    height: 425px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+h1.pcInfoTitulo{
+    display: none;
+}
+
+div.tituloImagem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+h1.InfoTitulo{
+    color: #3d3d3d;
+    font-size: 1.3em;
+    font-family: var(--fontMain);
+    margin-bottom: 10px;
+}
+
+div.info-swiper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #0066FF;
+    z-index: 0 !important;
+}
+div.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+img.info-imgSlide{
+    width: 45%;
+    object-fit: cover;
+}
+div.info-swiper > div.swiper-pagination{
+    width: 70px !important;
+}
+
+section.fichaTecnica{
+    width: 95%;
+    height: 425px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.abrirFicha{
+    width: 30px;
+}

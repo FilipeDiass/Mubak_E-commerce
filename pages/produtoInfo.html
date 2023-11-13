@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto Info</title>
+    <link rel="stylesheet" href="../main.css">
+    <script defer type="module" src="../main.js"></script>
+</head>
+<body>
+   <header>
+        <div id="containerTop">
+           <div id="logo">
+                <a href="#"><img src="../Imagem/Logo/logo.svg" alt="Logo Mubak"></a>
+           </div>
+           <nav id="navegation">
+                <div class="pesquisaPC">
+                    <input type="text" placeholder="Pesquisar">
+                    <span><img src="../Imagem/Icones/lupa.svg" alt="Lupa"></span>
+                </div>
+                <div class="MQueryPC" id="campUserPC">
+                    <span><img src="../Imagem/Icones/circle-user-solid.svg" alt="Usuário"></span>
+                    <p>Cadastre-se ou faça Login</p>
+                </div>
+                <div id="campIcones">
+                    <span class="MQueryPC icon favo" id="abrirFavo"><img src="../Imagem/Icones/CoracaoVazio.svg" alt="Coração"></span>
+                    <span class="icon cart" id="abrirCart"><img src="../Imagem/Icones/shopping_cart.svg" alt="Carrinho de compras"></span>
+                    <span class="icon Zindex" id="menuBurgue"><span id="lineMenu"></span></span>
+                </div>
+           </nav>
+        </div>
+        <div class="pesquisa mobilePesquisa">
+            <div>
+                <input type="text" placeholder="Pesquisa">
+            </div>
+            <span><img src="../Imagem/Icones/lupa.svg" alt="Lupa"></span>
+        </div>
+        <div id="menuMobile">
+            <div id="campUser">
+                <span><img src="../Imagem/Icones/circle-user-solid.svg" alt="Usuário"></span>
+                <div>
+                    <p>Entre ou Cadastre-se</p>
+                    <p class="txtMenor">A melhor experiência em um so lugar</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li class="listMenu">
+                        <span><img src="../Imagem/Icones/house-user-solid.svg" alt="Minha conta"></span>
+                        <p>Minha Conta</p>
+                    </li>
+                    <li class="listMenu cart" id="meusPedidos">
+                        <span><img src="../Imagem/Icones/basket-shopping-solid.svg" alt="Meus Pedidos"></span>
+                        <p>Meus Pedidos</p>
+                    </li>
+                    <li class="listMenu favo" id="meusFavoritos">
+                        <span><img src="../Imagem/Icones/CoracaoVazio.svg" alt="Favoritos"></span>
+                        <p>Favoritos</p>
+                    </li>
+                    <li class="listMenu">
+                        <span><img src="../Imagem/Icones/headset-solid.svg" alt="Contato"></span>
+                        <p>Contate-nos</p>
+                    </li>         
+                </ul>
+            </nav>
+            <div id="loginCad">
+                <button>Login</button>
+                <button class="button2">Cadastre-se</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="containerCartFavo" id="containerCart">
+                <div class="titulo">
+                    <h2>CARRINHO</h2>
+                    <span id="fecharCart" class="cart"><img src="../Imagem/Icones/circle-xmark-regular.svg" alt="Fechar"></span>
+                </div>
+                <div class="carrinhoConteudo">
+                    <div class="carrinhoVazio">
+                        <p>O seu carrinho está vazio.</p>
+                        <button id="voltaLoja" class="cart">Voltar à loja</button>
+                    </div>
+                    <div class="carrinhoCheio">
+                        <ul id="listaCart">
+                        </ul>
+                        <div class="finalizarCompra">
+                            <button>Finalizar a compra - <span id="totalProduto">3.000</span></button>
+                            <p>Continue compra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="containerCartFavo" id="containerFavo">
+                <div class="titulo">
+                    <h2>FAVORITOS</h2>
+                    <span id="fecharFavo" class="favo"><img src="../Imagem/Icones/circle-xmark-regular.svg" alt="Fechar"></span>
+                </div>
+                <div class="carrinhoConteudo">
+                    <div class="carrinhoVazio" id="vazioFavo">
+                        <p>A sua lista está vazia.</p>
+                        <button id="voltaLojaFavo">Voltar à loja</button>
+                    </div>
+                    <div class="carrinhoCheio" id="cheioFavo">
+                        <ul id="listaFavo">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </header>
+   <main>
+        <section class="produtoInfo">
+            <h1 class="pcInfoTitulo"></h1>
+            <div class="tituloImagem">
+                <h1 class="InfoTitulo">Processador Intel Core I5-12400F</h1>
+                <div class="info-swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D46.png" alt=""></div>
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D_SUB/SUB1.png" alt=""></div>
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D_SUB/SUB2.png" alt=""></div>
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D_SUB/SUB3.png" alt=""></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination" ></div>
+                </div>
+            </div>
+            <div class="containerCorFavoCart">
+                <div class="cores">
+                    <p>Cor:<span>Não possui</span></p>
+                    <div class="containerCores">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="iconFavoCart">
+                    <div class="favo"><img src="" alt=""></div>
+                    <div class="cart"><img src="" alt=""></div>
+                </div>
+            </div>
+
+            <div class="containerCompra">
+                <div class="quantCompra">
+                    <div class="quantidade">
+                        <p>Quantidade</p>
+                        <div class="buttonQuant">
+                            <button id="menos"><img src="" alt=""></button>
+                            <span class="number">0</span>
+                            <button id="mais"><img src="" alt=""></button>
+                        </div>
+                        <div class="preco">
+                            <p>R$<span>1500</span></p>
+                        </div>
+                    </div>
+                    <div class="compra Agora">
+                        <p>COMPRE AGORA</p>
+                    </div>
+                </div>
+                <div class="pciconFavoCart">
+                    <div class="favo"><img src="" alt=""></div>
+                    <div class="cart"><img src="" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="fichaTecnica">
+            <div class="campTitulo">
+                <div class="mainTitulo">
+                    <span><img src="../Imagem/Icones/star-solid.svg" alt="Destaques"></span>
+                    <p>FICHA TÉCNICA</p>
+                </div>
+                 <div class="abrirFicha">
+                    <span><img src="../Imagem/Icones/star-solid.svg" alt="Destaques"></span>
+                </div>
+            </div>
+            <div class="campFicha">
+                <div>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h2></h2>
+                </div>
+            </div>
+        </section>
+        <section class="containerCards scrollCircle">
+            <span class="circleLeft"><img src="../Imagem/Icones/circle-chevron-left-solid.svg" alt=""></span>
+            <span class="circleRigth"><img src="../Imagem/Icones/circle-chevron-right-solid.svg" alt=""></span>
+            <div class="campTitulo">
+                <div class="mainTitulo">
+                    <span><img src="../Imagem/Icones/star-solid.svg" alt="Destaques"></span>
+                    <p>NOSSOS DESTAQUES</p>
+                </div>
+            </div>
+            <div class="campCards campDestaque">
+            </div>
+        </section>
+   </main>
+    <footer>
+        <div class= "firstFooter">
+            <div class="redes">
+                <p>ENCONTRE-NOS EM</p>
+                <div>
+                    <span><a href="#"><img src="../Imagem/Icones/facebook.svg" alt="Facebook"></a></span>
+                    <span><a href="#"><img src="../Imagem/Icones/instagram.svg" alt="Instagram"></a></span>
+                    <span><a href="#"><img src="../Imagem/Icones/x-twitter.svg" alt="X"></a></span>
+                    <span><a href="#"><img src="../Imagem/Icones/linkedin.svg" alt="Linkedin"></a></span>
+                </div>
+            </div>
+            <div class="cadastro">
+                <p>CADASTRE-SE PARA RECEBER NOTÍCIAS SOBRE MUBAK!</p>
+                <div>
+                    <input type="text" placeholder="Endereço do seu email">
+                    <span>Inscreva-se</span>
+                </div>
+            </div>
+        </div>
+        <div class="lastFooter">
+            <div>
+                <div class="listInstituicao">
+                    <span><a href="">Sobre nós</a></span>
+                    <span><a href="">Localização</a></span>
+                    <span><a href="">FAQs</a></span>
+                    <span><a href="">Notícias</a></span>
+                    <span><a href="">Carreira</a></span>
+                    <span><a href="">Contate-nos</a></span>
+                </div>
+                <div class="direitos">
+                    <p>© 2023 Todos os direitos reservados MUBAK!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../scripts/Swipe.js/swiper-bundle.min_10.3.1.js"></script>
+    <script>
+        const swiper = new Swiper('.info-swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+    });
+    </script>
+</body>
+</html>
