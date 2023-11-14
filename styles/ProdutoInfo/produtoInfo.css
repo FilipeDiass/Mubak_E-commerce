@@ -1,13 +1,18 @@
 section.produtoInfo{
     width: 95%;
-    height: 425px;
+    height: 470px;
     margin: auto;
     padding: 5px;
     border-radius: 5px;
     background-color: white;
+    overflow: hidden;
 }
 h1.pcInfoTitulo{
     display: none;
+    color: #3d3d3d;
+    font-size: 1.3em;
+    font-family: var(--fontMain);
+    margin-bottom: 10px;
 }
 
 div.tituloImagem{
@@ -31,8 +36,11 @@ div.info-swiper{
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    background-color: #0066FF;
+    background-color: #f0efef;
     z-index: 0 !important;
+}
+div.info-swiper > div.swiper-pagination{
+    width: 70px !important;
 }
 div.swiper-slide{
     display: flex;
@@ -43,23 +51,335 @@ div.swiper-slide{
 }
 img.info-imgSlide{
     width: 45%;
+    max-width: 171px;
+    max-height: 171px;
     object-fit: cover;
 }
-div.info-swiper > div.swiper-pagination{
-    width: 70px !important;
+
+div.containerCorFavoCart{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    /* background-color: tomato; */
 }
+div.cores{
+    width: 200px;
+    color: #3d3d3d;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--fontMain);
+}
+div.containerCores{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+}
+div.containerCores > span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid lightslategrey;
+    background-color: lightgray;
+    cursor: pointer;
+}
+#azul{
+    background-color: blue;
+}
+#amarelo{
+    background-color: yellow;
+}
+#branco{
+    background-color: rgb(255, 255, 255);
+}
+#preto{
+    background-color: rgb(0, 0, 0);
+}
+div.containerCores > span:hover{
+    border: 2px solid rgb(74, 84, 95);
+}
+
+div.iconFavoCart{
+    display: flex;
+    justify-content: flex-end;
+    width: 100px;
+    gap: 10px;
+}
+div.iconFavoCart > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F2CB05;
+}
+div.iconFavoCart > div > img{
+    width: 60%;
+}
+
+@media screen and (max-width: 360px){
+    section.produtoInfo{
+        height: 450px;
+    }
+    div.cores{
+        width: 150px;
+    }
+    div.containerCores{
+        height: 30px;
+    }
+    div.containerCores > span{
+        width: 30px;
+        height: 30px;
+    }
+
+    div.iconFavoCart > div{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+div.containerCompra{
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+}
+div.quantCompra{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+div.quantidade{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+div.campButtonsQuant > p{
+    color: #3d3d3d;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: var(--fontMain);
+}
+div.buttonQuant{
+    display: flex;
+    align-items: center;
+}
+div.buttonQuant > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: var(--fontMain);
+    background-color: #123C56;
+}
+div.buttonQuant > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: var(--colorBlue);
+    cursor: pointer;
+}
+div.buttonQuant > button > img{
+    width: 50%;
+}
+#menos{
+    border-radius: 5px 0px 0px 5px;
+}
+#mais{
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+div.campPreco{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+div.precoInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  120px;
+    min-width: 115px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: var(--fontMain);
+    background-color: #D9D9D9;
+}
+div.pciconFavoCart{
+    display: none;
+}
+
+@media screen and (min-width: 360px){
+    div.buttonQuant > button{
+        width: 50px;
+        height: 40px;
+    }
+    div.buttonQuant > span{
+        width: 60px;
+    }
+    div.campPreco{
+        width: 80%;
+    }
+    div.precoInfo{
+        width:  70%;
+    }
+}
+
+div.compraAgora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: var(--fontMain);
+    border-radius: 5px;
+    background-color: var(--colorBlue);
+    cursor: pointer;
+}
+
 
 section.fichaTecnica{
     width: 95%;
-    height: 425px;
+    height: 50px;
     margin: auto;
     margin-top: 10px;
     padding: 5px;
     border-radius: 5px;
     background-color: white;
 }
-
-
+div.campTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .abrirFicha{
     width: 30px;
+    cursor: pointer;
+}
+.abrirFicha > span > img{
+    transform: rotate(180deg);
+}
+
+div.info-swiper2{
+    display: none;
+}
+@media screen and (min-width: 701px){
+    .InfoTitulo, div.iconFavoCart{
+        display: none;
+    }
+    h1.pcInfoTitulo{ 
+        width: 100%;
+        height: 30px;
+        font-size: 1.7em;
+        text-align: center;
+        display: block;
+    }
+
+    section.produtoInfo{
+        display: flex;
+        padding: 15px;
+        gap: 15px;
+    }
+    div.tituloImagem{
+        width: 45%;
+        height: 100%;
+        min-height: 440px;
+    }
+    #containerInfoRigth{
+        width: 55%;
+    }
+    #containerInfoRigth > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        height: calc(100% - 40px);
+    }
+
+    div.containerCompra{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    div.quantCompra{
+        width: 100%;
+    }
+    div.pciconFavoCart{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 40;
+        gap: 9px;
+    }
+    div.pciconFavoCart > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #F2CB05;
+        cursor: pointer;
+    }
+    div.pciconFavoCart > div > img{
+        width: 60%;
+    }
+
+    div.info-swiper{
+        height: 65%;
+        position: relative;
+    }
+    div.info-swiper2{
+        display: block;
+        width: 100%;
+        height: 90px;
+    }
+    div.info-swiper2 > div.swiper-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 5px;
+    }
+    div.info-swiper2 > div.swiper-wrapper > div.swiper-slide{
+        width: 23% !important;
+        height: 75%;
+        background-color: #f0efef;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    section.produtoInfo{
+        height: 392px;
+    }
+
+    img.info-imgSlide {
+        width: 45%;
+        object-fit: cover;
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    section.fichaTecnica{
+        height: 60px;
+        margin-top: 20px;
+    }
 }

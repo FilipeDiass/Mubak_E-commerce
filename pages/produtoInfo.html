@@ -111,7 +111,6 @@
    </header>
    <main>
         <section class="produtoInfo">
-            <h1 class="pcInfoTitulo"></h1>
             <div class="tituloImagem">
                 <h1 class="InfoTitulo">Processador Intel Core I5-12400F</h1>
                 <div class="info-swiper">
@@ -126,54 +125,72 @@
                     <!-- If we need pagination -->
                     <div class="swiper-pagination" ></div>
                 </div>
-            </div>
-            <div class="containerCorFavoCart">
-                <div class="cores">
-                    <p>Cor:<span>Não possui</span></p>
-                    <div class="containerCores">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                <div class="info-swiper2">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D46.png" alt=""></div>
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D_SUB/SUB1.png" alt=""></div>
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D_SUB/SUB2.png" alt=""></div>
+                      <div class="swiper-slide"><img class="info-imgSlide" src="../Imagem/Produtos/Hardware/D46/D_SUB/SUB3.png" alt=""></div>
                     </div>
-                </div>
-                <div class="iconFavoCart">
-                    <div class="favo"><img src="" alt=""></div>
-                    <div class="cart"><img src="" alt=""></div>
                 </div>
             </div>
-
-            <div class="containerCompra">
-                <div class="quantCompra">
-                    <div class="quantidade">
-                        <p>Quantidade</p>
-                        <div class="buttonQuant">
-                            <button id="menos"><img src="" alt=""></button>
-                            <span class="number">0</span>
-                            <button id="mais"><img src="" alt=""></button>
+            <div id="containerInfoRigth">
+                <h1 class="pcInfoTitulo">Processador Intel Core I5-12400F</h1>
+                <div>
+                    <div class="containerCorFavoCart">
+                        <div class="cores">
+                            <p>Cor: <span>Não possui</span></p>
+                            <div class="containerCores">
+                                <span id="branco"></span>
+                                <span id="preto"></span>
+                                <span id="azul"></span>
+                                <span id="amarelo"></span>
+                            </div>
                         </div>
-                        <div class="preco">
-                            <p>R$<span>1500</span></p>
+                        <div class="iconFavoCart">
+                            <div class="favo"><img src="../Imagem/Icones/CoracaoVazio.svg" alt="Favoritos"></div>
+                            <div class="cart"><img src="../Imagem/Icones/add_shopping_cart.svg" alt="Carrinho"></div>
                         </div>
                     </div>
-                    <div class="compra Agora">
-                        <p>COMPRE AGORA</p>
+                    <div class="containerCompra">
+                        <div class="quantCompra">
+                            <div class="quantidade">
+                                <div class="campButtonsQuant">
+                                    <p>Quantidade</p>
+                                    <div class="buttonQuant">
+                                        <button id="menos"><img src="../Imagem/Icones/minus-solid.svg" alt="menos"></button>
+                                        <span class="number">0</span>
+                                        <button id="mais"><img src="../Imagem/Icones/plus-solid.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="campPreco">
+                                    <div class="precoInfo">
+                                        <p>R$<span>1500</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="compraAgora">
+                                <p>COMPRE AGORA</p>
+                            </div>
+                        </div>
+                        <div class="pciconFavoCart">
+                            <div class="favo"><img src="../Imagem/Icones/CoracaoVazio.svg" alt="Favoritos"></div>
+                            <div class="cart"><img src="../Imagem/Icones/add_shopping_cart.svg" alt="Carrinho"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="pciconFavoCart">
-                    <div class="favo"><img src="" alt=""></div>
-                    <div class="cart"><img src="" alt=""></div>
                 </div>
             </div>
         </section>
         <section class="fichaTecnica">
             <div class="campTitulo">
                 <div class="mainTitulo">
-                    <span><img src="../Imagem/Icones/star-solid.svg" alt="Destaques"></span>
+                    <span><img src="../Imagem/Icones/rectangle-list-regular.svg" alt="Destaques"></span>
                     <p>FICHA TÉCNICA</p>
                 </div>
                  <div class="abrirFicha">
-                    <span><img src="../Imagem/Icones/star-solid.svg" alt="Destaques"></span>
+                    <span><img src="../Imagem/Icones/chevron-up-solid.svg" alt="Destaques"></span>
                 </div>
             </div>
             <div class="campFicha">
@@ -247,7 +264,15 @@
     </footer>
     <script src="../scripts/Swipe.js/swiper-bundle.min_10.3.1.js"></script>
     <script>
-        const swiper = new Swiper('.info-swiper', {
+       
+
+    const swiper2 = new Swiper('.info-swiper2', {
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+    })
+
+    const swiper = new Swiper('.info-swiper', {
         // Optional parameters
         direction: 'horizontal',
         loop: true,
@@ -256,6 +281,10 @@
         pagination: {
             el: '.swiper-pagination',
             clickable: true
+        },
+
+        thumbs: {
+        swiper: swiper2,
         },
     });
     </script>
