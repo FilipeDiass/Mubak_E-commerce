@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto Info</title>
     <link rel="stylesheet" href="../main.css">
-    <script defer type="module" src="../main.js"></script>
+    <script defer type="module" src="../scripts/ProdutoInfo/produtoInfo.js"></script>
 </head>
 <body>
    <header>
@@ -263,30 +263,5 @@
         </div>
     </footer>
     <script src="../scripts/Swipe.js/swiper-bundle.min_10.3.1.js"></script>
-    <script>
-       
-
-    const swiper2 = new Swiper('.info-swiper2', {
-        slidesPerView: 4,
-        freeMode: true,
-        watchSlidesProgress: true,
-    })
-
-    const swiper = new Swiper('.info-swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true
-        },
-
-        thumbs: {
-        swiper: swiper2,
-        },
-    });
-    </script>
 </body>
 </html>

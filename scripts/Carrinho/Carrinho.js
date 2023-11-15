@@ -8,7 +8,10 @@ import { verificaItemCart } from "../Favorito/favorito.js"
 let arrayCard = []
 
 export function carrinho(event){
-    if(event.currentTarget) event.preventDefault()
+    if(event.currentTarget){
+        event.preventDefault()
+        event.stopPropagation();
+    }
 
     // Dados dos cards(json)
     const produto = Produtos()
@@ -132,6 +135,7 @@ export function cardsAvulsoCart(event){
 
     if(event.currentTarget){
         event.preventDefault()
+        event.stopPropagation()
         const cardDestaque = event.currentTarget.closest('.cardDestaque')
         nomeCard = cardDestaque.querySelector('.tituloCard').innerHTML
         iconCart = event.currentTarget

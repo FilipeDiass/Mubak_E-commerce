@@ -5,7 +5,10 @@ import { carrinho, cardsAvulsoCart } from "../Carrinho/Carrinho.js"
 let arrayCard = []
 
 function favorito(event){
-    if(event.currentTarget) event.preventDefault()
+    if(event.currentTarget){
+        event.preventDefault()
+        event.stopPropagation()
+    } 
 
     // Adiciona e Verifica se o card está Favoritado
     const listaFavo = document.querySelector('#listaFavo')
@@ -228,6 +231,7 @@ function cardsAvulsoFavo(event){
 
     if(event.currentTarget){
         event.preventDefault()
+        event.stopPropagation()
         const cardDestaque = event.currentTarget.closest('.cardDestaque')
         nomeCard = cardDestaque.querySelector('.tituloCard').innerHTML
         iconFavo = event.currentTarget
