@@ -17,7 +17,6 @@ export default function recebeDadosInfo(){
     voltar.addEventListener('click', (event)=>{
         window.history.back()
     })
-    console.log(voltar)
 }
 
 

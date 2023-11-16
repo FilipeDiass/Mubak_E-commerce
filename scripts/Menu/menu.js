@@ -49,6 +49,19 @@ function menuOption(event){
 }
 
 export default function iniciarMenu(){
+    window.addEventListener('resize', ()=>{
+        const campMobile = document.querySelector('#menuMobile')
+        const campIcones = document.querySelector('#campIcones')
+        const body = document.querySelector('body')
+        if(window.innerWidth > 700){
+            campMobile.classList.remove('ativo')
+            campIcones.classList.remove('anima')
+            campMobile.style.visibility = 'hidden'
+            menuBurgue.style.zIndex = '0'
+            body.style.overflow = 'auto'
+        }
+    });
+
     // Inicializar Abrir/Fechar Menu Burguer
     const menuBurgue = document.querySelector('#menuBurgue')
     menuBurgue.addEventListener('click', Menu)
