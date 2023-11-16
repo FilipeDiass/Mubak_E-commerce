@@ -51,6 +51,7 @@ function preco(objeto){
     })
 
     function buttonQuant(event){
+        event.preventDefault()
         const preco = Number(objeto.preco)
         if(event.currentTarget === buttonInfo[0]){
             if(numeroQuant.innerHTML > 1){
@@ -91,6 +92,19 @@ function preco(objeto){
 
 function cores(objeto){
     const nomeCor = document.querySelector('#nomeCor')
+    const buttonCor = document.querySelectorAll('.buttonCor')
+    buttonCor.forEach(el =>{
+        if(objeto.cor === 'não'){
+            el.style.background = 'rgb(74, 84, 95)'
+            nomeCor.innerHTML = 'Não possui'
+        }else{
+            el.addEventListener('click', produtoCor)
+            el.addEventListener('touchend', produtoCor)
+        }
+    })
 
-
+    function produtoCor(event){
+        event.preventDefault()
+        nomeCor.innerHTML = event.target.id
+    }
 }
