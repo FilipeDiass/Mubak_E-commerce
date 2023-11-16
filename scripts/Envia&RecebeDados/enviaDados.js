@@ -11,7 +11,7 @@ function nameCard(){
     const cards = document.querySelectorAll('.corpoCard')
     cards.forEach(el => {
         el.addEventListener('click', pegaNome)
-        el.addEventListener('touchend', pegaNome)
+      
     })
 
     function pegaNome(event){

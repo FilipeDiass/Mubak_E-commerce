@@ -53,9 +53,9 @@
             "imagem": "Imagem/Produtos/itensDestaque/ID3_G703 LIGHTSPEED.png",
             "subImagem": {
                 "sub1": "Imagem/Produtos/Periferico/D03/D_SUB/ID3_Sub1.png",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub2": "Imagem/Produtos/Periferico/D03/D_SUB/ID3_Sub2.png",
+                "sub3": "Imagem/Produtos/Periferico/D03/D_SUB/ID3_Sub3.png",
+                "sub4": "Imagem/Produtos/Periferico/D03/D_SUB/ID3_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
@@ -74,10 +74,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D04/D_SUB/ID4_Sub1.png",
+                "sub2": "Imagem/Produtos/Periferico/D04/D_SUB/ID4_Sub2.png",
+                "sub3": "Imagem/Produtos/Periferico/D04/D_SUB/ID4_Sub3.png",
+                "sub4": "Imagem/Produtos/Periferico/D04/D_SUB/ID4_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Redragon",
@@ -96,10 +96,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID5_Odyssey G5.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Monitor/D05/D_SUB/ID5_Sub1.png",
+                "sub2": "Imagem/Produtos/Monitor/D05/D_SUB/ID5_Sub2.png",
+                "sub3": "Imagem/Produtos/Monitor/D05/D_SUB/ID5_Sub3.png",
+                "sub4": "Imagem/Produtos/Monitor/D05/D_SUB/ID5_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Samsung",
@@ -118,10 +118,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID6_PS5.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D06/D_SUB/ID6_Sub1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D06/D_SUB/ID6_Sub2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D06/D_SUB/ID6_Sub3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D06/D_SUB/ID6_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Sony",
@@ -140,10 +140,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID7_PC GAMER RYZEN 7.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D07/D_SUB/ID7_Sub1.png",
+                "sub2": "Imagem/Produtos/Computador/D07/D_SUB/ID7_Sub2.png",
+                "sub3": "Imagem/Produtos/Computador/D07/D_SUB/ID7_Sub3.png",
+                "sub4": "Imagem/Produtos/Computador/D07/D_SUB/ID7_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "AMD",
@@ -162,10 +162,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID8_Controle Xbox.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D08/D_SUB/ID8_Sub1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D08/D_SUB/ID8_Sub2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D08/D_SUB/ID8_Sub3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D08/D_SUB/ID8_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
@@ -184,10 +184,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID9_Blackshark V2.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D09/D_SUB/ID9_Sub1.png",
+                "sub2": "Imagem/Produtos/Periferico/D09/D_SUB/ID9_Sub2.png",
+                "sub3": "Imagem/Produtos/Periferico/D09/D_SUB/ID9_Sub3.png",
+                "sub4": "Imagem/Produtos/Periferico/D09/D_SUB/ID9_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Razer",
@@ -206,10 +206,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID10_B550M AORUS Elite.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D10/D_SUB/ID10_Sub1.png",
+                "sub2": "Imagem/Produtos/Hardware/D10/D_SUB/ID10_Sub2.png",
+                "sub3": "Imagem/Produtos/Hardware/D10/D_SUB/ID10_Sub3.png",
+                "sub4": "Imagem/Produtos/Hardware/D10/D_SUB/ID10_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
@@ -228,10 +228,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID11_Acer Nitro 5.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D11/D_SUB/ID11_Sub1.png",
+                "sub2": "Imagem/Produtos/Computador/D11/D_SUB/ID11_Sub2.png",
+                "sub3": "Imagem/Produtos/Computador/D11/D_SUB/ID11_Sub3.png",
+                "sub4": "Imagem/Produtos/Computador/D11/D_SUB/ID11_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Acer",
@@ -250,10 +250,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID12_PC FPS Headshot.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D12/D_SUB/ID12_Sub1.png",
+                "sub2": "Imagem/Produtos/Computador/D12/D_SUB/ID12_Sub2.png",
+                "sub3": "Imagem/Produtos/Computador/D12/D_SUB/ID12_Sub3.png",
+                "sub4": "Imagem/Produtos/Computador/D12/D_SUB/ID12_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Intel",
@@ -272,10 +272,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID13_Intel Core I5-12400F.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D13/D_SUB/ID13_Sub1.png",
+                "sub2": "Imagem/Produtos/Hardware/D13/D_SUB/ID13_Sub2.png",
+                "sub3": "Imagem/Produtos/Hardware/D13/D_SUB/ID13_Sub3.png",
+                "sub4": "Imagem/Produtos/Hardware/D13/D_SUB/ID13_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Intel",
@@ -294,10 +294,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID14_RTX 4060.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D14/D_SUB/ID14_Sub1.png",
+                "sub2": "Imagem/Produtos/Hardware/D14/D_SUB/ID14_Sub2.png",
+                "sub3": "Imagem/Produtos/Hardware/D14/D_SUB/ID14_Sub3.png",
+                "sub4": "Imagem/Produtos/Hardware/D14/D_SUB/ID14_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "MSI",
@@ -316,10 +316,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID15_Logitech K380.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D15/D_SUB/ID15_Sub1.png",
+                "sub2": "Imagem/Produtos/Periferico/D15/D_SUB/ID15_Sub2.png",
+                "sub3": "Imagem/Produtos/Periferico/D15/D_SUB/ID15_Sub3.png",
+                "sub4": "Imagem/Produtos/Periferico/D15/D_SUB/ID15_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
@@ -338,10 +338,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID16_Redragon TITANOBOA2.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D16/D_SUB/ID16_Sub1.png",
+                "sub2": "Imagem/Produtos/Periferico/D16/D_SUB/ID16_Sub2.png",
+                "sub3": "Imagem/Produtos/Periferico/D16/D_SUB/ID16_Sub3.png",
+                "sub4": "Imagem/Produtos/Periferico/D16/D_SUB/ID16_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Redragon",
@@ -360,10 +360,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID17_DualSense.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D17/D_SUB/ID17_Sub1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D17/D_SUB/ID17_Sub2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D17/D_SUB/ID17_Sub3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D17/D_SUB/ID17_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Sony",
@@ -382,10 +382,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID18_Logitech G733.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D18/D_SUB/ID18_Sub1.png",
+                "sub2": "Imagem/Produtos/Periferico/D18/D_SUB/ID18_Sub2.png",
+                "sub3": "Imagem/Produtos/Periferico/D18/D_SUB/ID18_Sub3.png",
+                "sub4": "Imagem/Produtos/Periferico/D18/D_SUB/ID18_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
@@ -404,10 +404,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID19_Ryzen 7 5700G.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D19/D_SUB/ID19_Sub1.png",
+                "sub2": "Imagem/Produtos/Hardware/D19/D_SUB/ID19_Sub2.png",
+                "sub3": "Imagem/Produtos/Hardware/D19/D_SUB/ID19_Sub3.png",
+                "sub4": "Imagem/Produtos/Hardware/D19/D_SUB/ID19_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "AMD",
@@ -426,10 +426,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID20_B660M AORUS PRO.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D20/D_SUB/ID20_Sub1.png",
+                "sub2": "Imagem/Produtos/Hardware/D20/D_SUB/ID20_Sub2.png",
+                "sub3": "Imagem/Produtos/Hardware/D20/D_SUB/ID20_Sub3.png",
+                "sub4": "Imagem/Produtos/Hardware/D20/D_SUB/ID20_Sub4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
@@ -448,10 +448,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/Periferico/D21/D21.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D21/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D21/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D21/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D21/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "HyperX",
@@ -470,10 +470,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D22/D22.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D22/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D22/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D22/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D22/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
@@ -492,10 +492,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D23/D23.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D23/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D23/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D23/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D23/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Husky",
@@ -514,10 +514,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/Periferico/D24/D24.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D24/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D24/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D24/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D24/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Sandisk",
@@ -536,10 +536,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D25/D25.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D25/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D25/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D25/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D25/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
@@ -558,10 +558,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D26/D26.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D26/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Hardware/D26/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Hardware/D26/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Hardware/D26/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Kingston",
@@ -580,10 +580,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D27/D27.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D27/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Hardware/D27/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Hardware/D27/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Hardware/D27/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "MSI",
@@ -602,10 +602,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D28/D28.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D28/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Hardware/D28/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Hardware/D28/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Hardware/D28/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
@@ -624,10 +624,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D29/D29.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D29/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Hardware/D29/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Hardware/D29/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Hardware/D29/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Kingston",
@@ -646,10 +646,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D30/D30.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D30/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Hardware/D30/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Hardware/D30/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Hardware/D30/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Rise",
@@ -668,10 +668,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D31/D31.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Monitor/D31/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Monitor/D31/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Monitor/D31/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Monitor/D31/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Husky Gaming",
@@ -690,10 +690,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D32/D32.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Monitor/D32/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Monitor/D32/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Monitor/D32/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Monitor/D32/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "LG",
@@ -712,10 +712,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D33/D33.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Monitor/D33/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Monitor/D33/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Monitor/D33/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Monitor/D33/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "HQ",
@@ -734,10 +734,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D34/D34.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Monitor/D34/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Monitor/D34/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Monitor/D34/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Monitor/D34/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "LG",
@@ -756,10 +756,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D35/D35.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Monitor/D35/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Monitor/D35/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Monitor/D35/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Monitor/D35/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "LG",
@@ -778,10 +778,10 @@
             "cor": "sim",
             "imagem": "Imagem/Produtos/VideoGame/D36/D36.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D36/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D36/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D36/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D36/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Nintendo",
@@ -800,10 +800,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D37/D37.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D37/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D37/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D37/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D37/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
@@ -822,10 +822,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D38/D38.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D38/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D38/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D38/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D38/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Nintendo",
@@ -844,10 +844,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D39/D39.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D39/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D39/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D39/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D39/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
@@ -866,10 +866,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D40/D40.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/VideoGame/D40/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/VideoGame/D40/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/VideoGame/D40/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/VideoGame/D40/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
@@ -888,10 +888,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D41/D41.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D41/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Computador/D41/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Computador/D41/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Computador/D41/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Lenovo",
@@ -910,10 +910,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D42/D42.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D42/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Computador/D42/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Computador/D42/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Computador/D42/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Fácil",
@@ -932,10 +932,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D43/D43.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D43/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Computador/D43/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Computador/D43/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Computador/D43/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Fácil",
@@ -954,10 +954,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D44/D44.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D44/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Computador/D44/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Computador/D44/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Computador/D44/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Skill",
@@ -976,10 +976,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D45/D45.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Computador/D45/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Computador/D45/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Computador/D45/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Computador/D45/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Neologic",
@@ -998,10 +998,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D46/D46.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D46/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Hardware/D46/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Hardware/D46/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Hardware/D46/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "MSI",
@@ -1020,10 +1020,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D47/D47.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Hardware/D47/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Hardware/D47/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Hardware/D47/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Hardware/D47/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Intel",
@@ -1042,10 +1042,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D48/D48.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D48/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D48/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D48/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D48/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Kingston ",
@@ -1064,10 +1064,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D49/D49.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D49/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D49/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D49/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D49/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Husky",
@@ -1086,10 +1086,10 @@
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D50/D50.png",
             "subImagem": {
-                "sub1": "",
-                "sub2": "",
-                "sub3": "",
-                "sub4": ""
+                "sub1": "Imagem/Produtos/Periferico/D50/D_SUB/SUB1.png",
+                "sub2": "Imagem/Produtos/Periferico/D50/D_SUB/SUB2.png",
+                "sub3": "Imagem/Produtos/Periferico/D50/D_SUB/SUB3.png",
+                "sub4": "Imagem/Produtos/Periferico/D50/D_SUB/SUB4.png"
             },
             "especificacoesTecnicas": {
             "Marca": "Rapoo",

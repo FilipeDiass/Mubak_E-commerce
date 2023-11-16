@@ -9,7 +9,8 @@ export default function recebeDadosInfo(){
     // Recebe o objeto do produto que deve ser colocado na página
     const objetoProduto = produto.find(el => el.nome === nomeCard)
     colocaProduto(objetoProduto)
-    console.log(objetoProduto)
+    preco(objetoProduto)
+    cores(objetoProduto)
 }
 
 
@@ -18,13 +19,78 @@ function colocaProduto(objeto){
 
     tituloProduto.innerHTML = objeto.nome
 
-    //imagens
+    // Insere Imagem produto
     const imgSlide = document.querySelectorAll('.imgSlide')
-    imgSlide.forEach(el => {
-        
-    })
-    const arrayImg = [objeto.imagem, objeto.imagem, objeto.imagem, objeto.imagem]
-    
+    const imgThumb = document.querySelectorAll('.imgThumb')
+    const arrayImg = [objeto.imagem, objeto.subImagem.sub1, objeto.subImagem.sub2, objeto.subImagem.sub3]
+    imgSlide.forEach((el, i) => {
+        // Imagem principal
+        el.src = '../' + arrayImg[i]
 
-    console.log(imgSlide)
+        // Imagem secundaria
+        imgThumb[i].src = '../' + arrayImg[i]
+    })
+}
+
+function preco(objeto){
+    const numeroQuant = document.querySelector('.number')
+    const buttonInfo = document.querySelectorAll('.buttonInfo')
+
+    const PrecoProduto = document.querySelector('#PrecoProduto')
+    const converte = objeto.preco.toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+    })
+    PrecoProduto.innerHTML = converte
+
+    buttonInfo.forEach(el =>{
+        el.addEventListener('click', buttonQuant)
+        el.addEventListener('touchend', buttonQuant)
+    })
+
+    function buttonQuant(event){
+        const preco = Number(objeto.preco)
+        if(event.currentTarget === buttonInfo[0]){
+            if(numeroQuant.innerHTML > 1){
+                numeroQuant.innerHTML --
+                
+                // Fazendo a multiplicação do preço do produto e convertendo
+                const total = preco * numeroQuant.innerHTML
+
+                const converteTotal = total.toLocaleString('pt-BR', {
+                    style: 'currency',
+                    currency: 'BRL',
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                })
+                PrecoProduto.innerHTML = converteTotal
+            }
+        }else if(event.currentTarget === buttonInfo[1]){
+            if(numeroQuant.innerHTML < 10){
+                numeroQuant.innerHTML ++
+
+                 // Fazendo a multiplicação do preço do produto e convertendo
+                const total = preco * numeroQuant.innerHTML
+
+                const converteTotal = total.toLocaleString('pt-BR', {
+                    style: 'currency',
+                    currency: 'BRL',
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                })
+                PrecoProduto.innerHTML = converteTotal
+            }else{
+                alert('Você atingiu o maximo de produtos.')
+            }
+        }
+    }
+    
+}
+
+function cores(objeto){
+    const nomeCor = document.querySelector('#nomeCor')
+
+
 }
