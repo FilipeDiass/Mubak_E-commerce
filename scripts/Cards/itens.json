@@ -7,6 +7,12 @@
             "preco": 3700.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID1_RTX 3060TI.png",
+            "subImagem": {
+                "sub1": "Imagem/Produtos/Hardware/D01/D_SUB/ID1_Sub1.png",
+                "sub2": "Imagem/Produtos/Hardware/D01/D_SUB/ID1_Sub2.png",
+                "sub3": "Imagem/Produtos/Hardware/D01/D_SUB/ID1_Sub3.png",
+                "sub4": "Imagem/Produtos/Hardware/D01/D_SUB/ID1_Sub4.png"
+            },
             "especificacoesTecnicas": {
             "Marca": "COLORFUL",
             "Modelo": "RTX 3060TI",
@@ -23,6 +29,12 @@
             "preco": 1300.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID2_TUF Gaming.png",
+            "subImagem": {
+                "sub1": "Imagem/Produtos/Monitor/D02/D_SUB/ID2_Sub1.png",
+                "sub2": "Imagem/Produtos/Monitor/D02/D_SUB/ID2_Sub2.png",
+                "sub3": "Imagem/Produtos/Monitor/D02/D_SUB/ID2_Sub3.png",
+                "sub4": "Imagem/Produtos/Monitor/D02/D_SUB/ID2_Sub4.png"
+            },
             "especificacoesTecnicas": {
             "Marca": "ASUS",
             "Modelo": "VG279Q1A",
@@ -39,6 +51,12 @@
             "preco": 120.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID3_G703 LIGHTSPEED.png",
+            "subImagem": {
+                "sub1": "Imagem/Produtos/Periferico/D03/D_SUB/ID3_Sub1.png",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "G703 LIGHTSPEED",
@@ -55,6 +73,12 @@
             "preco": 89.99,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID4_Redragon Kumara.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Redragon",
             "Modelo": "Kumara",
@@ -71,6 +95,12 @@
             "preco": 3200.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID5_Odyssey G5.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Samsung",
             "Modelo": "Odyssey G5",
@@ -87,6 +117,12 @@
             "preco": 4100.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID6_PS5.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Sony",
             "Modelo": "PlayStation 5",
@@ -103,6 +139,12 @@
             "preco": 2300.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID7_PC GAMER RYZEN 7.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "AMD",
             "Modelo": "Ryzen 7 5700G",
@@ -119,6 +161,12 @@
             "preco": 350.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID8_Controle Xbox.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
             "Modelo": "Xbox Series",
@@ -135,6 +183,12 @@
             "preco": 600.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID9_Blackshark V2.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Razer",
             "Modelo": "RZ.AU.BK.04.RT",
@@ -151,6 +205,12 @@
             "preco": 870.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID10_B550M AORUS Elite.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
             "Modelo": "B550M",
@@ -167,6 +227,12 @@
             "preco": 4380.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID11_Acer Nitro 5.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Acer",
             "Modelo": "AN515-57-520Y",
@@ -183,6 +249,12 @@
             "preco": 7099.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID12_PC FPS Headshot.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Intel",
             "Modelo": "IT-FPS134F36",
@@ -199,6 +271,12 @@
             "preco": 1100.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID13_Intel Core I5-12400F.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Intel",
             "Modelo": "BX8071512400F",
@@ -215,6 +293,12 @@
             "preco": 2335.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID14_RTX 4060.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "MSI",
             "Modelo": "V516-004R",
@@ -231,6 +315,12 @@
             "preco": 189.90,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID15_Logitech K380.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "503020540100",
@@ -247,6 +337,12 @@
             "preco": 237.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID16_Redragon TITANOBOA2.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Redragon",
             "Modelo": "6950376705419",
@@ -263,6 +359,12 @@
             "preco": 439.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID17_DualSense.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Sony",
             "Modelo": "DualSense",
@@ -279,6 +381,12 @@
             "preco": 799.00,
             "cor": "sim",
             "imagem": "Imagem/Produtos/itensDestaque/ID18_Logitech G733.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "981-000863",
@@ -295,6 +403,12 @@
             "preco": 1180.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID19_Ryzen 7 5700G.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "AMD",
             "Modelo": "5700G",
@@ -311,6 +425,12 @@
             "preco": 1179.00,
             "cor": "não",
             "imagem": "Imagem/Produtos/itensDestaque/ID20_B660M AORUS PRO.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "GIGABYTE",
             "Modelo": "B660M",
@@ -327,6 +447,12 @@
             "preco": 239.99,
             "cor": "sim",
             "imagem": "Imagem/Produtos/Periferico/D21/D21.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "HyperX",
             "Modelo": "4P5E1AA#ABA",
@@ -343,6 +469,12 @@
             "preco": 169.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D22/D22.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
             "Modelo": "GLASS 06X BLACK",
@@ -359,6 +491,12 @@
             "preco": 39.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D23/D23.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Husky",
             "Modelo": "MP-HAV-BK",
@@ -375,6 +513,12 @@
             "preco": 24.99,
             "cor": "sim",
             "imagem": "Imagem/Produtos/Periferico/D24/D24.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Sandisk",
             "Modelo": "SDCZ410-032G-G46",
@@ -391,6 +535,12 @@
             "preco": 449.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D25/D25.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
             "Modelo": "RM-GA-GG-FW",
@@ -407,6 +557,12 @@
             "preco": 169.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D26/D26.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Kingston",
             "Modelo": "SA400S37/480G",
@@ -423,6 +579,12 @@
             "preco": 300,
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D27/D27.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "MSI",
             "Modelo": "306-7ZP2B22-CE0",
@@ -439,6 +601,12 @@
             "preco": 240,
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D28/D28.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Rise Mode",
             "Modelo": "RM-WCB-04-ARGB",
@@ -455,6 +623,12 @@
             "preco": 310,
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D29/D29.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Kingston",
             "Modelo": "KF432C16BB1/16",
@@ -471,6 +645,12 @@
             "preco": 14.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D30/D30.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Rise",
             "Modelo": "Frost ",
@@ -487,6 +667,12 @@
             "preco": 899.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D31/D31.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Husky Gaming",
             "Modelo": "MO-HST-27C",
@@ -503,6 +689,12 @@
             "preco": 2000,
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D32/D32.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "LG",
             "Modelo": "34GP63A-B",
@@ -519,6 +711,12 @@
             "preco": 310,
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D33/D33.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "HQ",
             "Modelo": "19.5HQ-LED+",
@@ -535,6 +733,12 @@
             "preco": 662.90,
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D34/D34.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "LG",
             "Modelo": "26WQ500-B",
@@ -551,6 +755,12 @@
             "preco": 1799.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Monitor/D35/D35.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "LG",
             "Modelo": "27UP650-W",
@@ -567,6 +777,12 @@
             "preco": 2138.07,
             "cor": "sim",
             "imagem": "Imagem/Produtos/VideoGame/D36/D36.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Nintendo",
             "Modelo": "HBGSKAAA2",
@@ -583,6 +799,12 @@
             "preco": 1700,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D37/D37.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Logitech",
             "Modelo": "G29",
@@ -599,6 +821,12 @@
             "preco": 399.90,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D38/D38.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Nintendo",
             "Modelo": "HBCAFSSK1",
@@ -615,6 +843,12 @@
             "preco": 2600,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D39/D39.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
             "Modelo": "Rrs-00006",
@@ -631,6 +865,12 @@
             "preco": 4600,
             "cor": "não",
             "imagem": "Imagem/Produtos/VideoGame/D40/D40.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Microsoft",
             "Modelo": "RRT-00057",
@@ -647,6 +887,12 @@
             "preco": 3700,
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D41/D41.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Lenovo",
             "Modelo": "82MG0009BR",
@@ -663,6 +909,12 @@
             "preco": 1649.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D42/D42.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Fácil",
             "Placa de Vídeo": "VGA 1GB DDR3 GT210 64BITS",
@@ -679,6 +931,12 @@
             "preco": 2550,
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D43/D43.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Fácil",
             "Modelo": "Pc Gamer Black i7",
@@ -695,6 +953,12 @@
             "preco": 3392.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D44/D44.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Skill",
             "Modelo": "Stl-032",
@@ -711,6 +975,12 @@
             "preco": 4991.88,
             "cor": "não",
             "imagem": "Imagem/Produtos/Computador/D45/D45.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Neologic",
             "Processador": "Amd Ryzen 5 5500, 3.6ghz",
@@ -727,6 +997,12 @@
             "preco": 2049,
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D46/D46.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "MSI",
             "Modelo": "Radeon RX 6750 XT",
@@ -743,6 +1019,12 @@
             "preco": 799.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Hardware/D47/D47.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Intel",
             "Modelo": "RX 580 Phantom Gaming Elite",
@@ -759,6 +1041,12 @@
             "preco": 29.90,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D48/D48.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Kingston ",
             "Modelo": "DTXON/64GB",
@@ -775,6 +1063,12 @@
             "preco": 39.90,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D49/D49.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Husky",
             "Modelo": "MP-HAV-BL",
@@ -791,6 +1085,12 @@
             "preco": 99.99,
             "cor": "não",
             "imagem": "Imagem/Produtos/Periferico/D50/D50.png",
+            "subImagem": {
+                "sub1": "",
+                "sub2": "",
+                "sub3": "",
+                "sub4": ""
+            },
             "especificacoesTecnicas": {
             "Marca": "Rapoo",
             "Modelo": "RA032",
