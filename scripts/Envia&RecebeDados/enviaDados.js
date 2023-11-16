@@ -17,6 +17,6 @@ function nameCard(){
     function pegaNome(event){
         const nome = event.currentTarget.querySelector('.tituloCard').innerHTML
         localStorage.setItem('nomeCard', nome)
-        window.location.href = '../../pages/produtoInfo.html'
+        window.location.href = 'pages/produtoInfo.html'
     }
 }
