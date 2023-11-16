@@ -299,6 +299,31 @@ div.campFicha > div{
 div.campFicha > div > p{
     color: #3d3d3d;
 }
+section.infoCss{
+    margin-bottom: 10px;
+}
+
+div.voltar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: 50px;
+    margin: auto;
+  
+}
+div.voltar > button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+    font-family: var(--fontMain);
+    background-color: var(--colorBlue);
+    cursor: pointer;
+}
 
 div.info-swiper2{
     display: none;

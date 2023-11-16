@@ -11,6 +11,13 @@ export default function recebeDadosInfo(){
     colocaProduto(objetoProduto)
     preco(objetoProduto)
     cores(objetoProduto)
+
+    // Button Voltar
+    const voltar = document.querySelector('.voltar > button')
+    voltar.addEventListener('click', (event)=>{
+        window.history.back()
+    })
+    console.log(voltar)
 }
 
 
