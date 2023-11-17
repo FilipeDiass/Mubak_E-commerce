@@ -30,12 +30,6 @@ export function carrinho(event){
     if(!arrayCard.includes(card)){
         arrayCard.push(card)
     }
-    
-    // //Cria um array com os icones e descobre o indice deles
-    // const iconCart = [...document.querySelectorAll('.original')]
-    // const indiceProduto = produto.findIndex(el => el.nome === card.querySelector('.tituloCardEstoque').innerHTML)
-
-    // console.log([...document.querySelectorAll('.original')])
 
     card.classList.toggle('AdcionadoCart')
     const verifica = card.classList.contains('AdcionadoCart')
@@ -73,7 +67,6 @@ export function carrinho(event){
     //chama a função iniciaItemQuantidade
     iniciaItemQuantidade()
 
-    
     verificaItemCart()
 }
 

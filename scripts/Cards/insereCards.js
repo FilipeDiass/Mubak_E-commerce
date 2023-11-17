@@ -42,7 +42,7 @@ export async function criaCards() {
 }
 
 // Função para embaralhar um array
-function embaralhaArray(array) {
+export function embaralhaArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         // Número aleatório
         const j = Math.floor(Math.random() * (i + 1));

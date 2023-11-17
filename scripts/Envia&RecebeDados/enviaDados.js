@@ -7,11 +7,11 @@ export default function enviaDados(){
     nameCard()
 }
 
+// Envia o nome do card e acessa a pagina ProdutoInfo
 function nameCard(){
     const cards = document.querySelectorAll('.corpoCard')
     cards.forEach(el => {
         el.addEventListener('click', pegaNome)
-      
     })
 
     function pegaNome(event){

@@ -2,6 +2,9 @@ import SlideProdutoInfo from "./slideProdutoInfo.js"
 import iniciarMenu from "../Menu/menu.js"
 import recebeDadosInfo from "../Envia&RecebeDados/recebeDadosInfo.js"
 import fichaTecnica from "./fichaTecnica.js"
+import cardDestaque from "./cardDestaque.js"
+import iniciaCartInfo from "./iconCartInfo.js"
+
 
 // Slides dos Produtos
 SlideProdutoInfo()
@@ -14,3 +17,10 @@ recebeDadosInfo()
 
 // Inia a aba de Ficha Técnica
 fichaTecnica()
+
+// Cria CardDestques
+cardDestaque()
+
+// Icones Cart e Favo
+iniciaCartInfo()
+
