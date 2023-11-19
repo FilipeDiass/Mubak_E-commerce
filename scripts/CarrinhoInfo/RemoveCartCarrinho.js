@@ -20,23 +20,37 @@ function removeCart(event){
     const cartAdd = '../Imagem/Icones/add_shopping_cart.svg'
     const cartRemove = '../Imagem/Icones/remove_shopping_cart.svg'
 
-    // Pegando nome do produto, retirando a classe/icone
+    // Pegando nome do produto para saber qual elemento tirar as propiedades(Icone e Class)
     const nomeCart = cardCart.querySelector('.textCart').innerHTML
 
     let arrayCart = []
     iconCards.forEach(el=>{
         if(el === iconPrincipal){
             const nome = document.querySelector('.InfoTitulo').innerHTML
-            arrayCart.push(nome)
+            if(nome === nomeCart) arrayCart.push(el)
         }else{
             const nome = el.closest('.cardDestaque').querySelector('.tituloCard').innerHTML
-            arrayCart.push(nome)
+            if(nome === nomeCart) arrayCart.push(el)
         }
     })
 
-    // Filtrando os nomes para saber o card que foi clicado e retirar as propiedades(Icone e Class)
-    const nomeProdutos = arrayCart.filter(el=> el === nomeCart)
-    console.log(nomeProdutos)
+    // Retirando as propiedades(Icone e Class)
+    arrayCart.forEach(el=>{
+        el.classList.remove('clicou')
+        el.querySelector('img').src = cartAdd
+    })
 
-    // listaCart.removeChild(cardCart)
+    listaCart.removeChild(cardCart)
+
+    // Verifica se tem item no carrinho
+    const carrinhoVazio = document.querySelector('.carrinhoVazio')
+    const carrinhoCheio = document.querySelector('.carrinhoCheio')
+
+    if(listaCart.childElementCount > 0){
+        carrinhoVazio.style.display = 'none'
+        carrinhoCheio.style.display = 'block'
+    }else{
+        carrinhoVazio.style.display = 'flex'
+        carrinhoCheio.style.display = 'none'
+    }
 }
