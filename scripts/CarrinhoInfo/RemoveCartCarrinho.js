@@ -8,6 +8,7 @@ export default function RemoveCartCarrinho(produto){
 
 function removeCart(event){
     event.preventDefault()
+    
     // Referente a lista de cards e os cards
     const listaCart = document.querySelector('#listaCart') 
     const cardCart = event.currentTarget.closest('.containerCardCarrinho') 
@@ -15,7 +16,7 @@ function removeCart(event){
     // Referente aos icones(iconCart) dos cards que estão na lista
     const iconCards = [...document.querySelectorAll('.clicou')]
     const iconPrincipal = iconCards.find(el => el.classList.contains('cartPrincipal'))
-
+    const iconPrincipal2 = iconCards.find(el => el.classList.contains('cartPrincipal2'))
     // Tirando as classes e mudando o icone
     const cartAdd = '../Imagem/Icones/add_shopping_cart.svg'
     const cartRemove = '../Imagem/Icones/remove_shopping_cart.svg'
@@ -26,6 +27,9 @@ function removeCart(event){
     let arrayCart = []
     iconCards.forEach(el=>{
         if(el === iconPrincipal){
+            const nome = document.querySelector('.InfoTitulo').innerHTML
+            if(nome === nomeCart) arrayCart.push(el)
+        }else if(el === iconPrincipal2){
             const nome = document.querySelector('.InfoTitulo').innerHTML
             if(nome === nomeCart) arrayCart.push(el)
         }else{

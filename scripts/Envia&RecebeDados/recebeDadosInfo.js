@@ -22,8 +22,10 @@ export default function recebeDadosInfo(){
 
 function colocaProduto(objeto){
     const tituloProduto = document.querySelector('.InfoTitulo')
-
+    const tituloProdutoPC = document.querySelector('.pcInfoTitulo')
+    
     tituloProduto.innerHTML = objeto.nome
+    tituloProdutoPC.innerHTML = objeto.nome
 
     // Insere Imagem produto
     const imgSlide = document.querySelectorAll('.imgSlide')

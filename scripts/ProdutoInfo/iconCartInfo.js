@@ -36,10 +36,24 @@ function iconCartInfo(event){
             const iconeCarrinho = document.querySelector('.cartPrincipal')
             iconeCarrinho.classList.toggle('clicou')
             iconeCarrinho.querySelector('img').src = cartImg.src
+            const iconeCarrinho2 = document.querySelector('.cartPrincipal2')
+            iconeCarrinho2.classList.toggle('clicou')
+            iconeCarrinho2.querySelector('img').src = cartImg.src
         }
     }
 
-    
+    //Cart Duplo
+    const cartDuplo = document.querySelectorAll('.cartDuplo')
+    if(cartDuplo[0] === event.currentTarget){
+        cartDuplo[1].classList.toggle('clicou')
+        const verificaClass = cartDuplo[1].classList.contains('clicou')
+        cartDuplo[1].querySelector('img').src = verificaClass? cartRemove : cartAdd
+    }else if(cartDuplo[1] === event.currentTarget){
+        cartDuplo[0].classList.toggle('clicou')
+        const verificaClass = cartDuplo[1].classList.contains('clicou')
+        cartDuplo[0].querySelector('img').src = verificaClass? cartRemove : cartAdd
+    }
+
     // pega o objeto
     const produtoObjeto = objetoProduto(nomeProduto)
     carrinhoInfo(produtoObjeto)
@@ -56,7 +70,7 @@ export default function iniciaCartInfo(){
     })
 }
 
-function objetoProduto(nomeProduto){
+export function objetoProduto(nomeProduto){
     const produtoString = localStorage.getItem('dados')
     const produto = JSON.parse(produtoString)
 

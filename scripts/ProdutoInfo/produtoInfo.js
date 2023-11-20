@@ -4,7 +4,7 @@ import recebeDadosInfo from "../Envia&RecebeDados/recebeDadosInfo.js"
 import fichaTecnica from "./fichaTecnica.js"
 import cardDestaque from "./cardDestaque.js"
 import iniciaCartInfo from "./iconCartInfo.js"
-
+import iniciaFavoInfo from "../FavoritoInfo/favoritoInfo.js"
 
 // Slides dos Produtos
 SlideProdutoInfo()
@@ -23,4 +23,5 @@ cardDestaque()
 
 // Icones Cart e Favo
 iniciaCartInfo()
+iniciaFavoInfo()
 

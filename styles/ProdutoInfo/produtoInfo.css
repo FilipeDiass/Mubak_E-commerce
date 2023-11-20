@@ -448,3 +448,7 @@ div.swiper-slide-thumb-active{
         div.precoInfo{font-size: 1em;}
     }
 }
+
+img.imgSlide{
+    height: auto;
+}
