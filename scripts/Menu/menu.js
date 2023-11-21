@@ -11,7 +11,7 @@ function Menu(event){
     if(chaveMenu === true){
         campMobile.style.visibility = 'visible'
         menuBurgue.style.zIndex = '10'
-        if(window.innerWidth > 700) body.style.overflow = 'hidden'
+        body.style.overflow = 'hidden'
     }else{
         campMobile.style.visibility = 'hidden'
         menuBurgue.style.zIndex = '0'
@@ -30,7 +30,7 @@ function menuOption(event){
         const chaveMenu = containerCart.classList.contains('active')
         if(chaveMenu === true){
             containerCart.style.visibility = 'visible'
-            if(window.innerWidth > 700) body.style.overflow = 'hidden'
+            body.style.overflow = 'hidden'
         }else{
             containerCart.style.visibility = 'hidden'
             body.style.overflow = 'auto'
@@ -40,7 +40,7 @@ function menuOption(event){
         const chaveMenu = containerFavo.classList.contains('active')
         if(chaveMenu === true){
             containerFavo.style.visibility = 'visible'
-            if(window.innerWidth > 700) body.style.overflow = 'hidden'
+            body.style.overflow = 'hidden'
         }else{
             containerFavo.style.visibility = 'hidden'
             body.style.overflow = 'auto'
