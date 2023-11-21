@@ -67,7 +67,10 @@ function favoritoInfo(event){
     // Aciona o botão de adcionar cards na aba favoritos
     iniciaAdcionaCart()
 
+    // Verifica se o item está na aba carrinho
     verificaAdc()
+
+    // Incrementa o preço dos produtos 
 }
 
 export default function iniciaFavoInfo(){
@@ -78,13 +81,38 @@ export default function iniciaFavoInfo(){
     })
 }
 
-function verificaAdc(){
+export function verificaAdc(){
     const listaFavo = document.querySelector("#listaFavo")
     const listaCart = document.querySelector("#listaCart")
 
-    const cardFavo = listaFavo.children
-    const cardCart = listaCart.children
+    const iconRemove = '../Imagem/Icones/remove_shopping_cart-white.svg'
+    const iconAdd = '../Imagem/Icones/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg'
 
-    console.log(cardFavo)
-    console.log(cardCart)
+    const cardFavo = [...listaFavo.children]
+    const cardCart = [...listaCart.children]
+
+    for(let i = 0; i < cardFavo.length; i++){
+        const cardF = cardFavo[i].querySelector('.textFavo').innerHTML
+
+        const imgCart = cardFavo[i].querySelector('.imgCart')
+        const button = cardFavo[i].querySelector('.adiciona')
+        const txtButton = cardFavo[i].querySelector('.adiciona > p')
+
+        button.classList.remove('foiParaCart')
+        imgCart.src = iconAdd
+        txtButton.innerHTML = 'Adicionar'
+        for(let j = 0; j < cardCart.length; j++){
+            const cardC = cardCart[j].querySelector('.textCart').innerHTML
+            if(cardF === cardC){
+                const imgCart = cardFavo[i].querySelector('.imgCart')
+                const button = cardFavo[i].querySelector('.adiciona')
+                const txtButton = cardFavo[i].querySelector('.adiciona > p')
+
+                button.classList.add('foiParaCart')
+                imgCart.src = iconRemove
+                txtButton.innerHTML = 'Remover'
+                break;
+            }
+        }
+    }
 }

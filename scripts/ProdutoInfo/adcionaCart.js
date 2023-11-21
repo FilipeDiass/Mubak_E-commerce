@@ -1,6 +1,8 @@
 import { objetoProduto } from "./iconCartInfo.js";
 import carrinhoInfo from "../CarrinhoInfo/carrinhoInfo.js";
 import RemoveCartCarrinho from "../CarrinhoInfo/RemoveCartCarrinho.js";
+import IniciaPrecoQuant from "../CarrinhoInfo/IniciaPrecoQuant.js";
+import { precoTotal } from "../CarrinhoInfo/IniciaPrecoQuant.js";
 
 export default function iniciaAdcionaCart(prodAdiciona){
     const adiciona = document.querySelectorAll('.adiciona')
@@ -47,34 +49,59 @@ function adicionaCart(event){
         const nomeCard = el.querySelector('.tituloCard').innerHTML
         return nomeCard === produto.nome
     })
+    
 
     const txtPrincipal = document.querySelector('.pcInfoTitulo').innerHTML
-    const nomeCard = card.querySelector('.tituloCard').innerHTML
+
+    let nomeCard = undefined
+    if(card === undefined){
+        nomeCard = produto.nome
+    }else{
+        nomeCard = card.querySelector('.tituloCard').innerHTML
+    }
 
     const cartAdd = '../Imagem/Icones/add_shopping_cart.svg'
     const cartRemove = '../Imagem/Icones/remove_shopping_cart.svg'
 
     if(txtPrincipal === nomeCard){
-        const iconCard = card.querySelector('.cartDestaque')
+        if(card === undefined){
+            iconPrincipais[0].classList.toggle('clicou')
+            iconPrincipais[1].classList.toggle('clicou')
 
-        // Adicionando as classes
-        iconCard.classList.toggle('clicou')
-        iconPrincipais[0].classList.toggle('clicou')
-        iconPrincipais[1].classList.toggle('clicou')
+            const imgCardP1 = iconPrincipais[0].querySelector('img')
+            const imgCardP2 = iconPrincipais[1].querySelector('img')
 
-        // Mudando os icones
-        const imgcard = iconCard.querySelector('img')
-        const imgCardP1 = iconPrincipais[0].querySelector('img')
-        const imgCardP2 = iconPrincipais[1].querySelector('img')
-        const verifica = iconCard.classList.contains('clicou')
-        if(verifica){
-            imgcard.src = cartRemove
-            imgCardP1.src = cartRemove
-            imgCardP2.src = cartRemove
+            const verifica = iconPrincipais[0].classList.contains('clicou')
+
+            if(verifica){
+                imgCardP1.src = cartRemove
+                imgCardP2.src = cartRemove
+            }else{
+                imgCardP1.src = cartAdd
+                imgCardP2.src = cartAdd
+            }
         }else{
-            imgcard.src = cartAdd
-            imgCardP1.src = cartAdd
-            imgCardP2.src = cartAdd
+            const iconCard = card.querySelector('.cartDestaque')
+
+            // Adicionando as classes
+            iconCard.classList.toggle('clicou')
+            iconPrincipais[0].classList.toggle('clicou')
+            iconPrincipais[1].classList.toggle('clicou')
+
+            // Mudando os icones
+            const imgcard = iconCard.querySelector('img')
+            const imgCardP1 = iconPrincipais[0].querySelector('img')
+            const imgCardP2 = iconPrincipais[1].querySelector('img')
+            const verifica = iconCard.classList.contains('clicou')
+            if(verifica){
+                imgcard.src = cartRemove
+                imgCardP1.src = cartRemove
+                imgCardP2.src = cartRemove
+            }else{
+                imgcard.src = cartAdd
+                imgCardP1.src = cartAdd
+                imgCardP2.src = cartAdd
+            }
         }
     }else{
         const iconCard = card.querySelector('.cartDestaque')
@@ -93,4 +120,8 @@ function adicionaCart(event){
 
     // Remove do Carrinho
     RemoveCartCarrinho()
+
+    IniciaPrecoQuant()
+
+    precoTotal()
 }

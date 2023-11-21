@@ -1,5 +1,8 @@
 import carrinhoInfo from "../CarrinhoInfo/carrinhoInfo.js"
 import RemoveCartCarrinho from "../CarrinhoInfo/RemoveCartCarrinho.js"
+import { verificaAdc } from "../FavoritoInfo/favoritoInfo.js"
+import IniciaPrecoQuant from "../CarrinhoInfo/IniciaPrecoQuant.js"
+import { precoTotal } from "../CarrinhoInfo/IniciaPrecoQuant.js"
 
 function iconCartInfo(event){
     event.preventDefault()
@@ -60,6 +63,12 @@ function iconCartInfo(event){
 
     // Remove cartCarrinho
     RemoveCartCarrinho(produtoObjeto)
+
+    verificaAdc()
+
+    IniciaPrecoQuant()
+
+    precoTotal()
 }
 
 export default function iniciaCartInfo(){

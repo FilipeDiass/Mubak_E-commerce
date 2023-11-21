@@ -39,11 +39,14 @@ export default function cardCarrinhoInfo(Produto){
     divQuanTitulo.classList.add('tituloQuantidade')
     divQuanTitulo.classList.add('QuantCart')
     buttonMenos.classList.add('buttonMenos')
+    buttonMenos.classList.add('maisMenos')
+    buttonMais.classList.add('maisMenos')
     spanNumber.classList.add('spanNumber')
     buttonMais.classList.add('buttonMais')
     spanIconFechar.classList.add('iconFechar')
     spanIconFechar.classList.add('iconFecharCart')
     titulo.classList.add('textCart')
+    preco.classList.add('precoProduto')
     
     const converteTotal = Produto.preco.toLocaleString('pt-BR', {
         style: 'currency',

@@ -1,6 +1,7 @@
 import { embaralhaArray } from "../Cards/insereCards.js";
 import criaCardDestaque from "./criaCardDestaque.js";
 import scrollCard from "../Cards/scroolCard.js";
+import { nameCard } from "../Envia&RecebeDados/enviaDados.js";
 
 export default function cardDestaque(){
     const produtoString = localStorage.getItem('dados')
@@ -20,6 +21,7 @@ export default function cardDestaque(){
         }    
 
         scrollCard()
+        nameCard('./produtoInfo.html')
     })
 
 }

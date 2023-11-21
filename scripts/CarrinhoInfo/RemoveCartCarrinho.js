@@ -1,3 +1,6 @@
+import { verificaAdc } from "../FavoritoInfo/favoritoInfo.js"
+import { precoTotal } from "./IniciaPrecoQuant.js"
+
 export default function RemoveCartCarrinho(produto){
     const iconRemoveCart = document.querySelectorAll('.iconFecharCart')
     iconRemoveCart.forEach(el=>{
@@ -57,4 +60,7 @@ function removeCart(event){
         carrinhoVazio.style.display = 'flex'
         carrinhoCheio.style.display = 'none'
     }
+
+    verificaAdc()
+    precoTotal()
 }

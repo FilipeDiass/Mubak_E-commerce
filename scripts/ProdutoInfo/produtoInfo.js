@@ -5,6 +5,7 @@ import fichaTecnica from "./fichaTecnica.js"
 import cardDestaque from "./cardDestaque.js"
 import iniciaCartInfo from "./iconCartInfo.js"
 import iniciaFavoInfo from "../FavoritoInfo/favoritoInfo.js"
+import IniciaPrecoQuant from "../CarrinhoInfo/IniciaPrecoQuant.js"
 
 // Slides dos Produtos
 SlideProdutoInfo()
@@ -24,4 +25,6 @@ cardDestaque()
 // Icones Cart e Favo
 iniciaCartInfo()
 iniciaFavoInfo()
+
+IniciaPrecoQuant()
 

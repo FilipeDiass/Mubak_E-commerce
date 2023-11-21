@@ -449,6 +449,6 @@ div.swiper-slide-thumb-active{
     }
 }
 
-img.imgSlide{
+div.info-swiper img.imgSlide{
     height: auto;
 }
