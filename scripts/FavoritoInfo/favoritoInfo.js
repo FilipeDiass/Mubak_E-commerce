@@ -5,6 +5,7 @@ import iniciaAdcionaCart from "../ProdutoInfo/adcionaCart.js"
 
 function favoritoInfo(event){
     event.preventDefault()
+    event.stopPropagation()
 
     const iconeFavo = event.currentTarget
     const iconeImg = iconeFavo.querySelector('img')

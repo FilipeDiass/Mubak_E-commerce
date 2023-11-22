@@ -6,6 +6,7 @@ import { precoTotal } from "../CarrinhoInfo/IniciaPrecoQuant.js"
 
 function iconCartInfo(event){
     event.preventDefault()
+    event.stopPropagation()
     
     const cartAdd = '../Imagem/Icones/add_shopping_cart.svg'
     const cartRemove = '../Imagem/Icones/remove_shopping_cart.svg'
